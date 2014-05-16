@@ -2544,10 +2544,11 @@ footer.entry-meta {
  */
 
 .site-footer {
-	background-color: #e8e5ce;
-	color: #686758;
+	background-color: #000;
+	color: #fff;
 	font-size: 14px;
 	text-align: center;
+	width:100% !important;
 }
 
 .site-footer .widget-area,
@@ -3190,7 +3191,8 @@ footer.entry-meta {
 
 
 #global {
-	width: 960px;
+	width: 80%;
+	border:1px solid black;
 	margin:0 auto;
 }
 .seance_offerte {
@@ -3228,11 +3230,11 @@ footer.entry-meta {
 	background-color:#000;
 	margin: 0 auto;
 	margin-top:30px;
+width: 79%;
 }
 
 #prefooter_cadres {
 display:block;
-width:500px;
 margin:0 auto;
 }
 .cadre_prefooter_un, .cadre_prefooter_deux, .cadre_prefooter_trois, .cadre_prefooter_quatre {
@@ -3244,7 +3246,7 @@ margin:0 auto;
 }
 
 .cadre_prefooter_un {
-	margin-left:165px;background-color: violet;
+	background-color: violet;
 }
 
 .cadre_prefooter_deux {background-color: yellow;}
@@ -3260,6 +3262,8 @@ margin:0 auto;
 	background-color:#000;
 	margin: 0 auto;
 	margin-top:30px;
+
+width: 79%;
 }
 
 #footer_cadres {
@@ -3276,7 +3280,7 @@ margin:0 auto;
 }
 
 .cadre_footer_un {
-	margin-left:165px;background-color: violet;
+	background-color: violet;
 }
 
 .cadre_footer_deux {background-color: yellow;}
