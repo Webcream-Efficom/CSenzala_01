@@ -3287,4 +3287,19 @@ margin:0 auto;
 .cadre_footer_trois {background-color: #fff;}
 .cadre_footer_quatre {background-color: cyan;}
 
+/***** FIN DE LA HOME PAGE ****/
+
+
+/***** PAGE MÉDIA *****/
+
+#bloc_media {
+	margin-bottom:60px;
+	margin: 0 auto;
+	margin-top:30px;
+	width: 80%;
+}
+
+.img_media {
+	margin-bottom: 14px;
+}
 
