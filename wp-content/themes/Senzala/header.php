@@ -45,7 +45,7 @@
 					
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 					
-					<img src="" style="float:right;margin-top:-40px;margin-right:150px;" />
+					
 					<?php get_search_form(); ?>
 				</nav><!-- #site-navigation -->
 			</div><!-- #navbar -->
