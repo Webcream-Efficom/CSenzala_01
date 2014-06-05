@@ -114,7 +114,7 @@ body {
 }
 
 a {
-	color: #FDB92D;
+	color: #ca3c08;
 	text-decoration: none;
 }
 
@@ -128,7 +128,7 @@ a:focus {
 
 a:active,
 a:hover {
-	color: #FDB92D;
+	color: #ea9629;
 	outline: 0;
 }
 
@@ -158,11 +158,8 @@ h2 {
 }
 
 h3 {
-	font-size: 18px;
+	font-size: 22px;
 	margin: 22px 0;
-	font-family:Arial;
-	text-transform:uppercase;
-	color:#FDB92D;
 }
 
 h4 {
@@ -2547,10 +2544,11 @@ footer.entry-meta {
  */
 
 .site-footer {
-	background-color: none;
-	color: #F9BB07;
+	background-color: #000;
+	color: #fff;
 	font-size: 14px;
 	text-align: center;
+	width:100% !important;
 }
 
 .site-footer .widget-area,
@@ -2559,7 +2557,7 @@ footer.entry-meta {
 }
 
 .site-footer a {
-	color: #FDB92D;
+	color: #686758;
 }
 
 .site-footer .sidebar-container {
@@ -3191,135 +3189,40 @@ footer.entry-meta {
 
 /************* HOME PAGE ******************/
 
-/************* HEADER ******************/
-
-.motif_header{
-	background-image:url(images/headers/motif_ceinture_blanc_header.png)
-}
-/************* FIN HEADER ******************/
 
 #global {
-	width: 960px;
+	width: 80%;
+	border:1px solid black;
 	margin:0 auto;
 }
-
-/************* SÉANCE OFFERTE ******************/
 .seance_offerte {
-	background-image:url(images/seance_offerte.jpg);
+	background:red;
 	float:left;
 	height:336px;
-	width:600px;
-	display:inline-block;
+	width:600px;display:inline-block;
 	margin-right:14px;
 }
-
-/* LIEN CLIQUABLE */
-a.lien_seance_offerte{
-	display:block;
-	height:336px;
-	width:600px;
-	background:url(images/seance_offerte.jpg) no-repeat;
-}
-
-/* IMAGES RETINA AFFICHER GRACE AUX MEDIA QUERRIES */
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
- only screen and (-moz-min-device-pixel-ratio: 1.5),
- only screen and (-o-min-device-pixel-ratio: 3/2),
- only screen and (min-device-pixel-ratio: 1.5) {
-   .seance_offerte {
-	background-image:url(images/seance_offerte2x.jpg);
-   }
- }
-/************* FIN SÉANCE OFFERTE ******************/
-
-/************* PROFESSIONNELS ******************/
 .professionnels {
-	background-image:url(images/professionnels.jpg);
+	background:blue;
 	float:left;
 	width:346px;
-	height:136px;
-	display:inline-block;
+	height:136px;display:inline-block;
 	margin-bottom:14px;
 }
-
-/* LIEN CLIQUABLE */
-a.lien_professionnels{
-	display:block;
-	width:346px;
-	height:136px;
-	background-image:url(images/professionnels.jpg);
-}
-
-/* IMAGES RETINA AFFICHER GRACE AUX MEDIA QUERRIES */
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
- only screen and (-moz-min-device-pixel-ratio: 1.5),
- only screen and (-o-min-device-pixel-ratio: 3/2),
- only screen and (min-device-pixel-ratio: 1.5) {
-.professionnels {
-	background-image:url(images/professionnels2x.jpg);
-   }
- }
-/************* FIN PROFESSIONNELS ******************/
-
-/************* ADHESION ******************/
 .adhesion{
-	background-image:url(images/adhesion.jpg);
+	background:green;
 	float:left;
 	width:166px;
 	height:186px;display:inline-block;
 	margin-right:14px;
 }
-
-/* LIEN CLIQUABLE */
-a.lien_adhesion{
-	display:block;
-	width:166px;
-	height:186px;
-	background-image:url(images/adhesion.jpg);
-}
-
-/* IMAGES RETINA AFFICHER GRACE AUX MEDIA QUERRIES */
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
- only screen and (-moz-min-device-pixel-ratio: 1.5),
- only screen and (-o-min-device-pixel-ratio: 3/2),
- only screen and (min-device-pixel-ratio: 1.5) {
-.adhesion{
-	background-image:url(images/adhesion2x.jpg);
-   }
- }
-/************* FIN ADHESION ******************/
-
-
-/************* PRATIQUE ******************/
 .pratique {
-	background-image:url(images/ou_pratiquer.jpg);
+	background:orange;
 	float:left;
 	width:166px;
-	height:186px;
-	display:inline-block;
+	height:186px;display:inline-block;
 }
 
-/* LIEN CLIQUABLE */
-a.lien_ou_pratiquer{
-	display:block;
-	width:166px;
-	height:186px;
-	background-image:url(images/ou_pratiquer.jpg);
-}
-
-/* IMAGES RETINA AFFICHER GRACE AUX MEDIA QUERRIES */
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
- only screen and (-moz-min-device-pixel-ratio: 1.5),
- only screen and (-o-min-device-pixel-ratio: 3/2),
- only screen and (min-device-pixel-ratio: 1.5) {
-.pratique {
-	background-image:url(images/ou_pratiquerx2.jpg);
-   }
- }
-/************* FIN PROFESSIONNELS ******************/
-
-
-/************* PRE FOOTER ******************/
 
 .prefooter {
 	height:194px;
@@ -3327,201 +3230,40 @@ a.lien_ou_pratiquer{
 	background-color:#000;
 	margin: 0 auto;
 	margin-top:30px;
-}
-
-/************* PRE FOOTER TITLE ******************/
-
-.prefooter_title {
-	color:#000;
-	background-color:#F9BB07;
-	padding:8px;
-	text-transform:uppercase;
-	font-family:Arial, sans-serif;
-	font-size:15px;
-}
-
-a.lien_prefooter_groupo_senzala{
-	display:block;
-	width:229px;
-	height:160px;
-	background:url(pre_footer_grupo_senzala.jpg) no-repeat;
+width: 79%;
 }
 
 #prefooter_cadres {
 display:block;
-width:500px;
 margin:0 auto;
 }
-.cadre_prefooter_groupo_senzala, .cadre_prefooter_galerie, .cadre_prefooter_newsletter, .cadre_prefooter_contact {
-	height:190px;
+.cadre_prefooter_un, .cadre_prefooter_deux, .cadre_prefooter_trois, .cadre_prefooter_quatre {
+	height:194px;
 	width:229px;
 	margin-left: 14px;
 	float:left;
 	display:inline-block;
 }
 
-/************* PRE FOOTER GROUPO SENZALA ******************/
-
-.cadre_prefooter_groupo_senzala {
-	margin-left:165px;
-	background-image:url(images/pre_footer/pre_footer_grupo_senzala.jpg);
+.cadre_prefooter_un {
+	background-color: violet;
 }
 
-/* LIEN CLIQUABLE */
-a.lien_prefooter_groupo_senzala{
-	display:block;
-	width:229px;
-	height:160px;
-	background:url(pre_footer_grupo_senzala.jpg) no-repeat;
-}
-
-/* HOVER */
-.cadre_prefooter_groupo_senzala:hover{
-	background-image:url(images/pre_footer/pre_footer_grupo_senzala_hover.jpg);
-}
-
-/* IMAGES RETINA AFFICHER GRACE AUX MEDIA QUERRIES */
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
- only screen and (-moz-min-device-pixel-ratio: 1.5),
- only screen and (-o-min-device-pixel-ratio: 3/2),
- only screen and (min-device-pixel-ratio: 1.5) {
-   .cadre_prefooter_groupo_senzala {
-     background-image: url(images/pre_footer/pre_footer_grupo_senzala2x.jpg);
-   }
-   
-   .cadre_prefooter_groupo_senzala:hover{
-	background-image:url(images/pre_footer/pre_footer_grupo_senzala2x_hover.jpg);
-	}
- }
-
-/************* PRE FOOTER GALERIE ******************/
-
-.cadre_prefooter_galerie {
-	background-image:url(images/pre_footer/pre_footer_galerie.jpg);
-}
-
-/* LIEN CLIQUABLE */
-a.lien_prefooter_galerie{
-	display:block;
-	width:229px;
-	height:160px;
-	background:url(pre_footer_galerie.jpg) no-repeat;
-}
-
-/* HOVER */
-.cadre_prefooter_galerie:hover{
-	background-image:url(images/pre_footer/pre_footer_galerie_hover.jpg);
-}
-
-/* IMAGES RETINA AFFICHER GRACE AUX MEDIA QUERRIES */
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
- only screen and (-moz-min-device-pixel-ratio: 1.5),
- only screen and (-o-min-device-pixel-ratio: 3/2),
- only screen and (min-device-pixel-ratio: 1.5) {
-   .cadre_prefooter_galerie {
-     background-image: url(images/pre_footer/pre_footer_galerie2x.jpg);
-   }
-   
-   .cadre_prefooter_galerie:hover{
-	background-image:url(images/pre_footer/pre_footer_grupo_senzala2x_hover.jpg);
-	}
- }
-
-/************* PRE FOOTER NEWSLETTER ******************/
-
-.cadre_prefooter_newsletter {
-	background-image:url(images/pre_footer/pre_footer_newsletter.jpg);
-}
-
-/* LIEN CLIQUABLE */
-a.lien_prefooter_newsletter{
-	display:block;
-	width:229px;
-	height:160px;
-	background:url(pre_footer_newsletter.jpg) no-repeat;
-}
-
-/* HOVER */
-.cadre_prefooter_newsletter:hover{
-	background-image:url(images/pre_footer/pre_footer_newsletter_hover.jpg);
-}
-
-/* IMAGES RETINA AFFICHER GRACE AUX MEDIA QUERRIES */
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
- only screen and (-moz-min-device-pixel-ratio: 1.5),
- only screen and (-o-min-device-pixel-ratio: 3/2),
- only screen and (min-device-pixel-ratio: 1.5) {
-   .cadre_prefooter_galerie {
-     background-image: url(images/pre_footer/pre_footer_galerie2x.jpg);
-   }
-   
-   .cadre_prefooter_galerie:hover{
-	background-image:url(images/pre_footer/pre_footer_grupo_senzala2x_hover.jpg);
-	}
- }
-
-/************* PRE FOOTER CONTACT******************/
-
-.cadre_prefooter_contact {
-	background-image:url(images/pre_footer/pre_footer_contact.jpg);
-}
-
-/* LIEN CLIQUABLE */
-a.lien_prefooter_contact{
-	display:block;
-	width:229px;
-	height:160px;
-	background:url(pre_footer_contact.jpg) no-repeat;
-}
-
-/* HOVER */
-.cadre_prefooter_contact:hover{
-	background-image:url(images/pre_footer/pre_footer_contact_hover.jpg);
-}
-
-/* IMAGES RETINA AFFICHER GRACE AUX MEDIA QUERRIES */
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
- only screen and (-moz-min-device-pixel-ratio: 1.5),
- only screen and (-o-min-device-pixel-ratio: 3/2),
- only screen and (min-device-pixel-ratio: 1.5) {
-   .cadre_prefooter_contact {
-     background-image: url(images/pre_footer/pre_footer_contact2x.jpg);
-   }
-   
-   .cadre_prefooter_galerie:hover{
-	background-image:url(images/pre_footer/pre_footer_contact2x_hover.jpg);
-	}
- }
+.cadre_prefooter_deux {background-color: yellow;}
+.cadre_prefooter_trois {background-color: #fff;}
+.cadre_prefooter_quatre {background-color: cyan;}
 
 
-/************* FIN PRE FOOTER ******************/
 
 
-/************* FOOTER ******************/
 .footer_bandeau {
 	height:194px;
 	margin-bottom:60px;
 	background-color:#000;
 	margin: 0 auto;
 	margin-top:30px;
-}
 
-footer h2{
-	margin-top:0px;
-	margin-left:40px;
-	font-family:Arial;
-	font-weight:400;
-	text-transform:uppercase;
-	font-size:15px;
-	text-align:left;
-	color:#FDB92D;
-}
-
-footer ul{
-	text-align:left;
-	font-size:12px;
-	list-style:none;
-	text-transform:uppercase;
+width: 79%;
 }
 
 #footer_cadres {
@@ -3529,55 +3271,20 @@ display:block;
 width:500px;
 margin:0 auto;
 }
-.cadre_footer_info_utiles, .cadre_footer_groupo_senzala, .cadre_footer_pages, .cadre_footer_connect{
-	height:120px;
+.cadre_footer_un, .cadre_footer_deux, .cadre_footer_trois, .cadre_footer_quatre {
+	height:194px;
 	width:229px;
 	margin-left: 14px;
 	float:left;
 	display:inline-block;
-	border-right:solid 1px #FDB92D;
 }
 
-.cadre_footer_info_utiles {
-	margin-left:165px;
+.cadre_footer_un {
+	background-color: violet;
 }
 
-.cadre_footer_groupo_senzala {}
-.cadre_footer_pages {}
-.cadre_footer_connect {border:none;}
-
-#footer_copyright .footer_copyright{
-	display:inline;
-}
-
-.footer_copyright{
-	margin-right:50px;
-	margin-left:10px;
-}
-
-#footer_copyright a{
-	margin-left:10px;
-	margin-right:10px;
-	margin-bottom:10px;
-	text-transform:uppercase;
-}
-
-/************* MOTIF CEINTURE BLANC ******************/
-.motif_ceinture{
-	margin:0px auto 10px auto ;
-	height:15px;
-	width:730px;
-	background-image:url(images/motif_ceinture_blanc_footer.png)
-}
-
-/* IMAGES RETINA AFFICHER GRACE AUX MEDIA QUERRIES */
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
- only screen and (-moz-min-device-pixel-ratio: 1.5),
- only screen and (-o-min-device-pixel-ratio: 3/2),
- only screen and (min-device-pixel-ratio: 1.5) {
-.motif_ceinture{
-	background-image:url(images/motif_ceinture_blanc_footerx2.png)
-   }
- }
+.cadre_footer_deux {background-color: yellow;}
+.cadre_footer_trois {background-color: #fff;}
+.cadre_footer_quatre {background-color: cyan;}
 
 
