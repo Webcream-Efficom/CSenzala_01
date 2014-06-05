@@ -12,9 +12,9 @@
 
 		</div><!-- #main -->
 		<div class="prefooter">
-				<div class="cadre_prefooter_groupo_senzala">
+				<div class="cadre_prefooter_grupo_senzala">
 					<div class="prefooter_title">Grupo Senzala</div>
-                    <a href="#" class="lien_prefooter_groupo_senzala"></a>
+                    <a href="#" class="lien_prefooter_grupo_senzala"></a>
 				</div>
 
 				<div class="cadre_prefooter_galerie">
@@ -47,35 +47,35 @@
 				<div class="cadre_footer_info_utiles">
                 	<h2>Info utiles</h2>
                     <ul>
-						<li><a href="#">Tarifs</a></li>
-                    	<li><a href="#">Inscription</a></li>
-                    	<li><a href="#">Où pratiquer</a></li>
-                    	<li><a href="#">Informations</a></li>
+						<li><a href="/CSenzala_01/?page_id=28">Tarifs</a></li>
+                    	<li><a href="/CSenzala_01/?page_id=30">Inscription</a></li>
+                    	<li><a href="/CSenzala_01/?page_id=24">Où pratiquer</a></li>
+                    	<li><a href="/CSenzala_01/?page_id=71">Informations</a></li>
                     </ul>
 				</div>
 
-				<div class="cadre_footer_groupo_senzala">
+				<div class="cadre_footer_grupo_senzala">
                 	<h2>Grupo Senzala</h2>
                     <ul>
-						<li><a href="#">Le Groupe Senzala</a></li>
-                    	<li><a href="#">Grade 78</a></li>
-                    	<li><a href="#">Musique</a></li>
-                    	<li><a href="#">L'Éducation des jeunes</a></li>
+						<li><a href="/CSenzala_01/?page_id=49">Le Groupe Senzala</a></li>
+                    	<li><a href="/CSenzala_01/?page_id=36">Grade 78</a></li>
+                    	<li><a href="/CSenzala_01/?page_id=34">Musique</a></li>
+                    	<li><a href="/CSenzala_01/?page_id=68">L'Éducation des jeunes</a></li>
                     </ul>
 				</div>
 
 				<div class="cadre_footer_pages">
-                	<h2>Pages</h2>
+                	<h2>Contenu</h2>
                     <ul>
-						<li><a href="#">Contact</a></li>
-                    	<li><a href="#">Newsletter</a></li>
-                    	<li><a href="#">Galerie</a></li>
-                    	<li><a href="#">Actualités</a></li>
+						<li><a href="/CSenzala_01/?page_id=73">Contact</a></li>
+                    	<li><a href="/CSenzala_01/?page_id=75">Newsletter</a></li>
+                    	<li><a href="/CSenzala_01/?page_id=7">Média</a></li>
+                    	<li><a href="/CSenzala_01/?cat=3">Actualités</a></li>
                     </ul>
 				</div>
 
 				<div class="cadre_footer_connect">
-                	<h2>Connect</h2>
+                	<h2>Social</h2>
                     <ul>
 						<li><a href="#">Facebook</a></li>
                     	<li><a href="#">Youtube</a></li>
@@ -89,11 +89,11 @@
                      <div id="footer_copyright">
                 		<p class="footer_copyright">©2014 CAPOEIRA SENZALA</p>
                 		<a href="#">Suivez-nous</a>|
-                		<a href="#">Contact</a>|
-                		<a href="#">FAQ</a>|
-                		<a href="#">Lexique</a>|
-                		<a href="#">Partenaires</a>|
-                		<a href="#">Mentions Légales</a>
+                		<a href="/CSenzala_01/?page_id=73">Contact</a>|
+                		<a href="/CSenzala_01/?page_id=86">FAQ</a>|
+                		<a href="/CSenzala_01/?page_id=88">Lexique</a>|
+                		<a href="/CSenzala_01/?page_id=90">Partenaires</a>|
+                		<a href="/CSenzala_01/?page_id=92">Mentions Légales</a>
                     </div>
 
 </footer><!-- #colophon -->
@@ -101,3 +101,4 @@
 
 	<?php wp_footer(); ?>
 </body>
+</html>
