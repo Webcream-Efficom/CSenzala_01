@@ -16,21 +16,21 @@
 
 				<div class="cadre_prefooter_histoire">
 					<div class="prefooter_title">Histoire</div>
-                    <a href="#" class="lien_prefooter_histoire"></a>
+                    <a href="/CSenzala_01/?page_id=100" class="lien_prefooter_histoire"></a>
 				</div>
 				<div class="cadre_prefooter_grupo_senzala">
 					<div class="prefooter_title">Grupo Senzala</div>
-                    <a href="#" class="lien_prefooter_grupo_senzala"></a>
+                    <a href="/CSenzala_01/?page_id=49" class="lien_prefooter_grupo_senzala"></a>
 				</div>
 
 				<div class="cadre_prefooter_galerie">
 					<div class="prefooter_title">Galerie</div>
-                    <a href="#" class="lien_prefooter_galerie"></a>
+                    <a href="/CSenzala_01/?page_id=7" class="lien_prefooter_galerie"></a>
 				</div>
 
 				<div class="cadre_prefooter_contact">
 					<div class="prefooter_title">Contact</div>
-                    <a href="#" class="lien_prefooter_contact"></a>
+                    <a href="/CSenzala_01/?page_id=73" class="lien_prefooter_contact"></a>
 				</div>
 
 			</div>
