@@ -925,7 +925,8 @@ ul.nav-menu ul a:hover,
 .nav-menu ul ul a:hover,
 ul.nav-menu ul a:focus,
 .nav-menu ul ul a:focus {
-	background-color: #000;
+	background-color: #F9BB07;
+	color: #000;
 }
 
 ul.nav-menu li:hover > ul,
@@ -3353,9 +3354,9 @@ a.lien_prefooter_grupo_senzala{
 #prefooter_cadres {
 display:block;
 width:500px;
-margin:0 auto;
+margin:0px auto;
 }
-.cadre_prefooter_grupo_senzala, .cadre_prefooter_galerie, .cadre_prefooter_newsletter, .cadre_prefooter_contact {
+.cadre_prefooter_grupo_senzala, .cadre_prefooter_galerie, .cadre_prefooter_histoire, .cadre_prefooter_contact {
 	height:190px;
 	width:229px;
 	margin-left: 14px;
@@ -3363,25 +3364,25 @@ margin:0 auto;
 	display:inline-block;
 }
 
-/************* PRE FOOTER GRUPO SENZALA ******************/
+/************* PRE FOOTER HISTOIRE DE LA CAPOIERA ******************/
 
-.cadre_prefooter_grupo_senzala {
+.cadre_prefooter_histoire {
 	margin-left:165px;
-	background-image:url(images/pre_footer/pre_footer_grupo_senzala2x.jpg);
+	background:url(images/pre_footer/pre_footer_histoire2x.jpg);
 	background-size: 229px 190px;
 }
 
 /* LIEN CLIQUABLE */
-a.lien_prefooter_grupo_senzala{
+a.lien_prefooter_histoire{
 	display:block;
 	width:229px;
 	height:160px;
-	background:url(pre_footer_grupo_senzala2x.jpg) no-repeat;
+	background:url(pre_footer_histoire2x.jpg) no-repeat;
 }
 
 /* HOVER */
-.cadre_prefooter_grupo_senzala:hover{
-	background-image:url(images/pre_footer/pre_footer_grupo_senzala2x_hover.jpg);
+.cadre_prefooter_histoire:hover{
+	background-image:url(images/pre_footer/pre_footer_histoire2x_hover.jpg);
 	background-size: 229px 190px;
 }
 
@@ -3406,24 +3407,24 @@ a.lien_prefooter_galerie{
 	background-size: 229px 190px;
 }
 
-/************* PRE FOOTER NEWSLETTER ******************/
+/************* PRE FOOTER GRUPO SENZALA ******************/
 
-.cadre_prefooter_newsletter {
-	background-image:url(images/pre_footer/pre_footer_newsletter2x.jpg);
+.cadre_prefooter_grupo_senzala {
+	background-image:url(images/pre_footer/pre_footer_grupo_senzala2x.jpg);
 	background-size: 229px 190px;
 }
 
 /* LIEN CLIQUABLE */
-a.lien_prefooter_newsletter{
+a.lien_prefooter_grupo_senzala{
 	display:block;
 	width:229px;
 	height:160px;
-	background:url(pre_footer_newsletter2x.jpg) no-repeat;
+	background:url(pre_footer_grupo_senzala2x.jpg) no-repeat;
 }
 
 /* HOVER */
-.cadre_prefooter_newsletter:hover{
-	background-image:url(images/pre_footer/pre_footer_newsletter2x_hover.jpg);
+.cadre_prefooter_grupo_senzala:hover{
+	background-image:url(images/pre_footer/pre_footer_grupo_senzala2x_hover.jpg);
 	background-size: 229px 190px;
 }
 
@@ -3454,9 +3455,8 @@ a.lien_prefooter_contact{
 /************* FOOTER ******************/
 .footer_bandeau {
 	height:194px;
-	margin-bottom:60px;
+	margin-bottom:0px;
 	background-color:#000;
-	margin: 0 auto;
 	margin-top:30px;
 }
 
@@ -3481,7 +3481,7 @@ footer ul{
 #footer_cadres {
 display:block;
 width:500px;
-margin:0 auto;
+margin:90px auto;
 }
 .cadre_footer_info_utiles, .cadre_footer_grupo_senzala, .cadre_footer_pages, .cadre_footer_connect{
 	height:120px;
@@ -3507,6 +3507,7 @@ margin:0 auto;
 .footer_copyright{
 	margin-right:50px;
 	margin-left:10px;
+	padding: 25px;
 }
 
 #footer_copyright a{
@@ -3516,9 +3517,14 @@ margin:0 auto;
 	text-transform:uppercase;
 }
 
+#footer_copyright img{
+	margin-left: 25px;
+}
+
+
 /************* MOTIF CEINTURE BLANC ******************/
 .motif_ceinture{
-	margin:0px auto 10px auto ;
+	margin:0px auto 25px auto ;
 	height:15px;
 	width:730px;
 	background-image:url(images/motif_ceinture_blanc_footer2x.png);

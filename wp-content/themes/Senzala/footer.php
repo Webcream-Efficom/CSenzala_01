@@ -10,8 +10,14 @@
  */
 ?>
 
+
 		</div><!-- #main -->
 		<div class="prefooter">
+
+				<div class="cadre_prefooter_histoire">
+					<div class="prefooter_title">Histoire</div>
+                    <a href="#" class="lien_prefooter_histoire"></a>
+				</div>
 				<div class="cadre_prefooter_grupo_senzala">
 					<div class="prefooter_title">Grupo Senzala</div>
                     <a href="#" class="lien_prefooter_grupo_senzala"></a>
@@ -20,11 +26,6 @@
 				<div class="cadre_prefooter_galerie">
 					<div class="prefooter_title">Galerie</div>
                     <a href="#" class="lien_prefooter_galerie"></a>
-				</div>
-
-				<div class="cadre_prefooter_newsletter">
-					<div class="prefooter_title">Newsletter</div>
-                    <a href="#" class="lien_prefooter_newsletter"></a>
 				</div>
 
 				<div class="cadre_prefooter_contact">
@@ -94,6 +95,7 @@
                 		<a href="/CSenzala_01/?page_id=88">Lexique</a>|
                 		<a href="/CSenzala_01/?page_id=90">Partenaires</a>|
                 		<a href="/CSenzala_01/?page_id=92">Mentions Légales</a>
+                		<a href="<?php echo home_url( '/' );?>"><img src="wp-content/themes/Senzala/images/logo_footer.png" widht="30px" height="30px"></a>
                     </div>
 
 </footer><!-- #colophon -->
