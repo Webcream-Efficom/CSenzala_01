@@ -30,6 +30,8 @@
 	<?php wp_head(); ?>
 	<!-- Favicon Aigle Senzala -->
 	<link rel="icon" type="image/png" href="wp-content/themes/Senzala/images/favicon.png"/>
+	<!-- Icon Touch Apple -->
+	<link rel="apple-touch-icon" href="wp-content/themes/Senzala/images/favicon_iphone.png" />
 	<!-- Google Font - LATO -->
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 </head>
