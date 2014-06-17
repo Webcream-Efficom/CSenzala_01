@@ -28,19 +28,19 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
-	<link rel="icon" type="image/png" href="wp-content/themes/Senzala/images/favicon.png"/><!-- Favicon Aigle Senzala --> 
+	<link rel="icon" type="image/png" href="wp-content/themes/Senzala/images/favicon.png"/><!-- Favicon Aigle Senzala -->
 </head>
 
 <body <?php body_class(); ?>>
 	<div id="page" class="hfeed site">
 		<header id="masthead" class="site-header" role="banner">
 
-<!-- Début logo -->			
+<!-- Début logo -->
 				<div id="logo">
                     <a href="<?php echo home_url( '/' );?>"><img class="logo_senzala" src="<?php echo home_url( 'wp-content/themes/Senzala/images/headers/logo.png' ); ?>" title="Senzala 78" alt="Senzala 78" /></a>
                 </div>
 <!-- Fin logo -->
-	
+
 <div class="motif_header"></div>
 
 			<div id="navbar" class="navbar">
