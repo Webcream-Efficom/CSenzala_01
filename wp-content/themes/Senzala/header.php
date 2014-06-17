@@ -28,7 +28,10 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
-	<link rel="icon" type="image/png" href="wp-content/themes/Senzala/images/favicon.png"/><!-- Favicon Aigle Senzala -->
+	<!-- Favicon Aigle Senzala -->
+	<link rel="icon" type="image/png" href="wp-content/themes/Senzala/images/favicon.png"/>
+	<!-- Google Font - LATO -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 </head>
 
 <body <?php body_class(); ?>>

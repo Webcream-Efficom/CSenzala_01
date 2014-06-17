@@ -1,5 +1,5 @@
 /*
-Theme Name: Twenty Thirteen
+Theme Name: Twenty Thirteen/Senzala
 Theme URI: http://wordpress.org/themes/twentythirteen
 Author: the WordPress team
 Author URI: http://wordpress.org/
@@ -103,7 +103,7 @@ button,
 input,
 select,
 textarea {
-	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+	font-family: 'Lato', Arial, Helvetica, sans-serif, "Source Sans Pro";
 }
 
 body {
@@ -143,7 +143,7 @@ h4,
 h5,
 h6 {
 	clear: both;
-	font-family: Arial,Helvetica,Verdana,sans-serif;
+	font-family: 'Lato',Arial,Helvetica,Verdana,sans-serif;
 	line-height: 1.3;
 }
 
@@ -152,7 +152,7 @@ h1 {
 	margin: 33px 0;
 	color:#F9BB07;
 	text-transform: uppercase;
-	font-family: Arial black;
+	font-weight: 900;
 }
 
 h2 {
@@ -160,29 +160,35 @@ h2 {
 	margin: 25px 0;
 	color: #777777;
 	text-transform: uppercase;
+	font-weight: 900;
 }
 
 h3 {
 	font-size: 18px;
 	margin: 22px 0;
-	font-family:Arial;
+	font-family:'Lato', Arial;
 	text-transform:uppercase;
 	color:#F2F2F2;
+	font-weight: 900;
 }
 
 h4 {
 	font-size: 17px;
 	margin: 25px 0;
+	font-weight: 700;
 }
 
 h5 {
 	font-size: 16px;
 	margin: 30px 0;
+	font-weight: 700;
+	font-style: italic;
 }
 
 h6 {
 	font-size: 15px;
 	margin: 36px 0;
+	font-style: italic;
 }
 
 address {
@@ -211,6 +217,9 @@ mark {
 p {
 	margin: 0 0 24px;
 	font-size: 15px;
+	color: #FFF;
+    font-weight: 300;
+    font-family:'Lato',Arial;
 }
 
 code,
@@ -260,6 +269,8 @@ blockquote {
 	font-style: italic;
 	font-weight: 300;
 	margin: 24px 40px;
+	font-weight: 300;
+	font-family: 'Lato',Arial;
 }
 
 blockquote blockquote {
@@ -271,6 +282,7 @@ blockquote small {
 	font-size: 14px;
 	font-weight: normal;
 	text-transform: uppercase;
+	font-family: 'Lato',Arial;
 }
 
 blockquote em,
@@ -325,6 +337,9 @@ ul {
 
 ul {
 	list-style-type: square;
+	color: #FFF;
+    font-weight: 300;
+    font-family:'Lato',Arial;
 }
 
 nav ul,
@@ -607,6 +622,9 @@ input[type="reset"] {
 	display: inline-block;
 	padding: 11px 24px 10px;
 	text-decoration: none;
+	font-weight: 700;
+    font-family:'Lato',Arial;
+    text-transform: uppercase;
 }
 
 button:hover,
@@ -753,6 +771,7 @@ img.alignnone {
 	font-style: italic;
 	font-weight: 300;
 	margin: 0 0 24px;
+	font-family: 'Lato';
 }
 
 div.wp-caption.alignright img[class*="wp-image-"] {
@@ -849,7 +868,7 @@ img.wp-smiley,
 }
 
 .site-description {
-	font: 300 italic 24px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 24px 'Lato', Arial, "Source Sans Pro", Helvetica, sans-serif;
 	margin: 0;
 }
 
@@ -3346,8 +3365,9 @@ a.lien_ou_pratiquer{
 	background-color:#F9BB07;
 	padding:8px;
 	text-transform:uppercase;
-	font-family:Arial, sans-serif;
+	font-family: 'Lato',Arial, sans-serif;
 	font-size:15px;
+	font-weight: 700;
 }
 
 a.lien_prefooter_grupo_senzala{
@@ -3466,16 +3486,17 @@ a.lien_prefooter_contact{
 	margin-top:30px;
 }
 
+/*Non Actif*/
 footer h2{
 	margin-top:0px;
 	margin-left:40px;
-	font-family:Arial;
-	font-weight:400;
+	font-family: 'Lato',Arial;
 	text-transform:uppercase;
 	font-size:15px;
 	text-align:left;
 	color:#FDB92D;
 }
+
 
 footer ul{
 	text-align:left;
@@ -3483,6 +3504,7 @@ footer ul{
 	list-style:none;
 	text-transform:uppercase;
 }
+/*Non Actif*/
 
 #footer_cadres {
 display:block;
@@ -3521,6 +3543,7 @@ margin:90px auto;
 	margin-right:10px;
 	margin-bottom:10px;
 	text-transform:uppercase;
+	font-family: 'Lato',Arial;
 }
 
 #footer_copyright img{
@@ -3549,7 +3572,7 @@ margin:90px auto;
 }
 
 .titre_picto {
-	font-family: "Arial";
+	font-family: 'Lato', Arial;
 	font-size: 22px;
 	text-transform: uppercase;
 	font-weight: bold;
