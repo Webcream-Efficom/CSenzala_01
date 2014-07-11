@@ -110,7 +110,7 @@ body {
 	color: #FFF;
 	line-height: 1.5;
 	margin: 0;
-	background-color: #000;
+	background-color: #13191C;
 }
 
 a {
@@ -715,6 +715,7 @@ iframe,
 object,
 video {
 	max-width: 100%;
+	border: none;
 }
 
 /* Override the Twitter embed fixed width. */
@@ -1165,12 +1166,13 @@ ul.nav-menu .focus > ul,
 
 .entry-content a,
 .comment-content a {
-	color: #bc360a;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #F9BB07;
 }
 
 .entry-content a:hover,
 .comment-content a:hover {
-	color: #ea9629;
+	text-decoration: underline;
 }
 
 .entry-content blockquote {
@@ -3247,9 +3249,9 @@ footer.entry-meta {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	width: 960px;
-	height: 100px;
-
+	height: 100%;
 }
+
 /************* FIN HEADER ******************/
 
 #global {
@@ -3259,7 +3261,7 @@ footer.entry-meta {
 
 /************* SÉANCE OFFERTE ******************/
 .seance_offerte {
-	background-image:url(images/seance_offerte2x.jpg);
+	background-image:url(images/home_page/seance_offerte2x.jpg);
 	background-size: 600px 336px;
 	float:left;
 	width:600px;
@@ -3268,43 +3270,90 @@ footer.entry-meta {
 	margin-right:14px;
 }
 
-/* LIEN CLIQUABLE */
-a.lien_seance_offerte{
-	display:block;
-	width:600px;
-	height:336px;
-	background:url(images/seance_offerte2x.jpg) no-repeat;
-	background-size: 600px 336px;
+.seance_offerte_div {
+	background-color: rgba(105, 105, 105, 0.5);; 
+	margin: 20px 340px 30px 20px;
+    font-family: 'Lato',Arial, sans-serif;
+    padding: 15px 0px 15px 25px;
+    width: 299px;
+    height: 177px;	
+}
+.seance_offerte_div p {
+    color: #F9BB07;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
 
+.seance_offerte_div a {	
+	font-size: 18px;
+}
+
+.seance_offerte_p_1{
+	font-size: 48px;
+	text-transform: uppercase;
+    margin: 0px 0px 0px 0px;
+	font-weight: 100;
+    padding: 0px 0px 0px 0px;
+    line-height: 1.1;
+}
+
+.seance_offerte_p_2{
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 400;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    line-height: 1.1;
+}
+
+.seance_offerte_p_3{
+	font-size: 42px;
+	text-transform: uppercase;
+	font-weight: 700;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    line-height: 1.1;
 }
 
 /************* FIN SÉANCE OFFERTE ******************/
 
 /************* PROFESSIONNELS ******************/
 .professionnels {
-	background-image:url(images/professionnels2x.jpg);
+	background-image:url(images/home_page/professionnels2x.png);
 	background-size: 346px 136px;
 	float:left;
 	width:346px;
 	height:136px;
 	display:inline-block;
 	margin-bottom:14px;
+	opacity: 0.7;
+	text-align: center;
 }
 
-/* LIEN CLIQUABLE */
-a.lien_professionnels{
-	display:block;
-	width:346px;
-	height:136px;
-	background-image:url(images/professionnels2x.jpg);
-	background-size: 346px 136px;
+.professionnels:hover {
+	opacity: 1.0;
+	text-decoration: none;
+}
+
+.professionnels a:hover {
+	opacity: 1.0;
+	text-decoration: none;
+}
+
+.professionnels p {
+	color: #f9bb07;
+	font-size: 26px;
+    font-family: 'Lato',Arial, sans-serif;
+	text-transform: uppercase;
+	line-height: 0.3;
+	font-weight: bold;
 }
 
 /************* FIN PROFESSIONNELS ******************/
 
 /************* ADHESION ******************/
 .adhesion{
-	background-image:url(images/adhesion2x.jpg);
+	background-image:url(images/home_page/adhesion2x.jpg);
 	background-size: 166px 186px;
 	float:left;
 	width:166px;
@@ -3313,36 +3362,95 @@ a.lien_professionnels{
 	margin-right:14px;
 }
 
-/* LIEN CLIQUABLE */
-a.lien_adhesion{
-	display:block;
-	width:166px;
-	height:186px;
-	background-image:url(images/adhesion2x.jpg);
-	background-size: 166px 186px;
+.adhesion p {
+	color: #f9bb07;
+    font-family: 'Lato',Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.adhesion_p_1{
+	padding: 0px 0px 0px 10px;
+	font-size: 18px;
+	line-height: 0.1;
+}
+
+.adhesion_p_2{
+	font-size: 26px;
+	padding-left: 10px;
+	line-height: 0.1;
+}
+
+.adhesion_txt:hover {
+	opacity: 1.0;
+	text-decoration: none;
+}
+
+.adhesion_txt {
+	opacity: 0.7;
+}
+
+.adhesion  a {
+	opacity: 0.7;
+}
+
+.adhesion  a:hover {
+	opacity: 1.0;
+	text-decoration: none;
 }
 
 /************* FIN ADHESION ******************/
 
 
-/************* OÙ PRATIQUÉ ******************/
+/************* OÙ PRATIQUER ******************/
 .pratique {
-	background-image:url(images/ou_pratiquer2x.jpg);
+	background-image:url(images/home_page/ou_pratiquer2x.jpg);
 	background-size: 166px 186px;
 	float:left;
 	width:166px;
 	height:186px;
-	display:inline-block;
 }
 
-/* LIEN CLIQUABLE */
-a.lien_ou_pratiquer{
-	display:block;
-	width:166px;
-	height:186px;
-	background-image:url(images/ou_pratiquer2x.jpg);
-	background-size: 166px 186px;
+.pratique_txt:hover {
+	opacity: 1.0;
+	text-decoration: none;
+}
 
+.pratique_txt {
+	margin-top: 45px;
+	opacity: 0.7;
+}
+
+.pratique p {
+	margin-top: 43px;
+	color: #f9bb07;
+    font-family: 'Lato',Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.pratique_p_1{
+	font-size: 63px;
+	line-height: 0.1;
+	text-align: center;
+}
+
+.pratique_p_2{
+	text-align: center;
+	font-size: 24px;
+	line-height: 0.1;
+}
+
+.pratique img{
+	margin-right: 8px;
+	margin-top: 13px;
+	padding-bottom: 0px;
+	float: right;
+}
+
+.pratique a:hover {
+	opacity: 1.0;
+	text-decoration: none;
 }
 
 /************* FIN OÙ PRATIQUÉ ******************/
@@ -3350,129 +3458,186 @@ a.lien_ou_pratiquer{
 
 /************* DÉBUT PRE FOOTER ******************/
 
-.prefooter {
-	height:194px;
-	margin-bottom:60px;
-	background-color:#000;
-	margin: 0 auto;
-	margin-top:30px;
+/*Alignement footer*/
+
+#colophon{
+	width: 960px;
+    margin: auto;
 }
 
-/************* PRE FOOTER TITLE ******************/
+/*Fin alignement footer*/
 
-.prefooter_title {
-	color:#000;
-	background-color:#F9BB07;
-	padding:8px;
-	text-transform:uppercase;
-	font-family: 'Lato',Arial, sans-serif;
-	font-size:15px;
-	font-weight: 700;
+.tableau_prefooter {
+    margin: 10px auto 0px auto;
+    padding: 0;
+    list-style: none;
+    display: block;
+    width: 100%;
+}
+ 
+.tableau_prefooter:after,
+.tableau_prefooter:before {
+    content: '';
+    display: inline-block;
+}
+ 
+.ctableau_prefooter:after {
+    clear: both;
+    background-color: #F9BB07;
+}
+ 
+.tableau_prefooter li {
+    width: 229px;
+    height: 190px;
+    display: inline-table;
+    margin: 10px 8px 20px 0px;
+    text-align: left;
 }
 
-a.lien_prefooter_grupo_senzala{
-	display:block;
-	width:229px;
-	height:160px;
-	background:url(pre_footer_grupo_senzala.jpg) no-repeat;
+.tableau_prefooter li:first-child{
+	margin-left: 0px;
 }
 
-#prefooter_cadres {
-display:block;
-width:500px;
-margin:0px auto;
-}
-.cadre_prefooter_grupo_senzala, .cadre_prefooter_galerie, .cadre_prefooter_histoire, .cadre_prefooter_contact {
-	height:190px;
-	width:229px;
-	margin-left: 14px;
-	float:left;
-	display:inline-block;
+.tableau_prefooter li:last-child{
+	margin-right: 0px;
 }
 
-/************* PRE FOOTER HISTOIRE DE LA CAPOIERA ******************/
 
-.cadre_prefooter_histoire {
-	margin-left:165px;
-	background:url(images/pre_footer/pre_footer_histoire2x.jpg);
-	background-size: 229px 190px;
+.pre_footer_block {
+    width: 229px;
+    height: 190px;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
 }
 
-/* LIEN CLIQUABLE */
-a.lien_prefooter_histoire{
-	display:block;
-	width:229px;
-	height:160px;
-	background:url(pre_footer_histoire2x.jpg) no-repeat;
+/*Section La Capoeira*/
+
+.pre_footer_capoeira { 
+    background-image: url(images/pre_footer/pre_footer_la_capoeira2x.png);
+    background-size: 229px 190px ;
+    background-color: #F9BB07;
+    margin-left: 8px;
 }
 
-/* HOVER */
-.cadre_prefooter_histoire:hover{
-	background-image:url(images/pre_footer/pre_footer_histoire2x_hover.jpg);
-	background-size: 229px 190px;
+/*Fin Section La Capoeira*/
+
+
+/*Section Grupo Senzala*/
+
+.pre_footer_grupo_senzala { 
+    background-image: url(images/pre_footer/pre_footer_grupo_senzala2x.png);
+    background-size: 229px 190px ;
+    background-color: #F9BB07;
 }
 
-/************* PRE FOOTER GALERIE ******************/
+/*Fin Section La Capoeira*/
 
-.cadre_prefooter_galerie {
-	background-image:url(images/pre_footer/pre_footer_galerie2x.jpg);
-	background-size: 229px 190px;
+/*Section Gallerie*/
+
+.pre_footer_gallerie { 
+    background-image: url(images/pre_footer/pre_footer_gallerie2x.png);
+    background-size: 229px 190px ;
+    background-color: #F9BB07;
 }
 
-/* LIEN CLIQUABLE */
-a.lien_prefooter_galerie{
-	display:block;
-	width:229px;
-	height:160px;
-	background:url(pre_footer_galerie2x.jpg) no-repeat;
+/*Fin Section Gallerie*/
+
+/*Section Contact*/
+
+.pre_footer_contact { 
+    background-image: url(images/pre_footer/pre_footer_contact2x.png);
+    background-size: 229px 190px ;
+    background-color: #F9BB07;
 }
 
-/* HOVER */
-.cadre_prefooter_galerie:hover{
-	background-image:url(images/pre_footer/pre_footer_galerie2x_hover.jpg);
-	background-size: 229px 190px;
+/*Fin Section Contact*/
+
+/*Styles pour titre h3 */
+
+.pre_footer_info h3 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin:0px 0px;
+    height: 20px;
+    width: 100%;
+    padding:7px 10px;
+    font-family: 'Lato',Arial, sans-serif;
+    font-size:15px;
+    font-weight: 700;
 }
 
-/************* PRE FOOTER GRUPO SENZALA ******************/
+/* Styles pour titre h3 */
 
-.cadre_prefooter_grupo_senzala {
-	background-image:url(images/pre_footer/pre_footer_grupo_senzala2x.jpg);
-	background-size: 229px 190px;
+/*Styles pour titre h3 hover*/
+
+.pre_footer_block:hover .pre_footer_info h3 {
+    opacity: 0;
 }
 
-/* LIEN CLIQUABLE */
-a.lien_prefooter_grupo_senzala{
-	display:block;
-	width:229px;
-	height:160px;
-	background:url(pre_footer_grupo_senzala2x.jpg) no-repeat;
+/*Fin Styles pour titre h3 hover*/
+
+.pre_footer_info p {
+    color: #fff;
+    padding: 1px 5px 1px 0px;
+    margin: 0 20px;
+    font-size: 12px;
+    opacity: 0;
 }
 
-/* HOVER */
-.cadre_prefooter_grupo_senzala:hover{
-	background-image:url(images/pre_footer/pre_footer_grupo_senzala2x_hover.jpg);
-	background-size: 229px 190px;
+.pre_footer_info p img {
+    margin: 0 0px;
 }
 
-/************* PRE FOOTER CONTACT******************/
+.pre_footer_info:hover {background-color: #F9BB07;}
 
-.cadre_prefooter_contact {
-	background-image:url(images/pre_footer/pre_footer_contact2x.jpg);
-	background-size: 229px 190px;
+.pre_footer_info .title {
+    color: #13191C;
+    padding: 0px 0px;
+    margin: 0 18px;
+    font-size: 22px;
+    border-bottom: 3px solid #13191C;
+    font-family: 'Lato',Arial, sans-serif;
+    text-transform: uppercase;
+    background-color: #F9BB07;
+    font-weight: bold;
 }
 
-/* LIEN CLIQUABLE */
-a.lien_prefooter_contact{
-	display:block;
-	width:229px;
-	height:160px;
-	background:url(pre_footer_contact2x.jpg) no-repeat;
+.pre_footer_info p a {
+    color: #13191C;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-top: 0px;
+    font-family: 'Lato',Arial, sans-serif;
+    text-decoration: none;
+    background-color: #F9BB07;
 }
 
-/* HOVER */
-.cadre_prefooter_contact:hover{
-	background-image:url(images/pre_footer/pre_footer_contact2x_hover.jpg);
-	background-size: 229px 190px;
+.liens_hover{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: auto;
+    padding-bottom: 100px;
+    background-size: 229px 190px ;
+
+}
+ 
+.pre_footer_info p a:hover {
+    text-decoration: underline;
+    color: #13191C;
+}
+.pre_footer_block:hover .pre_footer_info {
+    transform: scale(1);
+    background-color: #F9BB07;
+    opacity: 1;
+}
+
+.pre_footer_block:hover .pre_footer_info p {
+    opacity: 1;
 }
 
 /************* FIN PRE FOOTER ******************/
@@ -3486,47 +3651,7 @@ a.lien_prefooter_contact{
 	margin-top:30px;
 }
 
-/*Non Actif*/
-footer h2{
-	margin-top:0px;
-	margin-left:40px;
-	font-family: 'Lato',Arial;
-	text-transform:uppercase;
-	font-size:15px;
-	text-align:left;
-	color:#FDB92D;
-}
 
-
-footer ul{
-	text-align:left;
-	font-size:12px;
-	list-style:none;
-	text-transform:uppercase;
-}
-/*Non Actif*/
-
-#footer_cadres {
-display:block;
-width:500px;
-margin:90px auto;
-}
-.cadre_footer_info_utiles, .cadre_footer_grupo_senzala, .cadre_footer_pages, .cadre_footer_connect{
-	height:120px;
-	width:229px;
-	margin-left: 14px;
-	float:left;
-	display:inline-block;
-	border-right:solid 1px #FDB92D;
-}
-
-.cadre_footer_info_utiles {
-	margin-left:165px;
-}
-
-.cadre_footer_grupo_senzala {}
-.cadre_footer_pages {}
-.cadre_footer_connect {border:none;}
 
 #footer_copyright .footer_copyright{
 	display:inline;
@@ -3547,9 +3672,18 @@ margin:90px auto;
 }
 
 #footer_copyright img{
-	margin-left: 25px;
+	margin-left: 10px;
 }
 
+#footer_copyright a:hover{
+	text-decoration: underline;
+}
+
+.footer_copyright{color: #FDB92D; font-size: 10px;opacity: 0.6;}
+#footer_copyright a{color: #FDB92D; font-size: 10px;opacity: 1;}
+
+
+.cadre_footer_connect li{margin-bottom: 5px;}
 
 /************* MOTIF CEINTURE BLANC ******************/
 .motif_ceinture{
@@ -3588,9 +3722,10 @@ margin:90px auto;
 	float: left;
 }
 
+
 /************* VIDÉOS ******************/
 .videos {
-	background-image:url(images/galerie_videos2x.jpg);
+	background-image:url(images/galerie_videos2x_hover.jpg);
 	background-size: 960px 166px;
 	float:left;
 	height:166px;
@@ -3606,21 +3741,21 @@ a.lien_videos{
 	display:block;
 	height:166px;
 	width:960px;
-	background:url(images/galerie_videos2x.jpg) no-repeat;
+	background:url(images/galerie_videos2x_hover.jpg) no-repeat;
 	background-size: 960px 166px;
 	margin-bottom: 14px;
 }
 
 /* HOVER */
 .videos:hover{
-	background-image:url(images/galerie_videos2x_hover.jpg);
+	background-image:url(images/galerie_videos2x.jpg);
 	background-size: 960px 166px;
 }
 /************* FIN VIDÉOS ******************/
 
 /************* PHOTOS ******************/
 .photos {
-	background-image:url(images/galerie_photos2x.jpg);
+	background-image:url(images/galerie_photos2x_hover.jpg);
 	background-size: 960px 166px;
 	float:left;
 	height:166px;
@@ -3635,21 +3770,21 @@ a.lien_photos{
 	display:block;
 	height:166px;
 	width:960px;
-	background:url(images/galerie_photos2x.jpg) no-repeat;
+	background:url(images/galerie_photos2x_hover.jpg) no-repeat;
 	background-size: 960px 166px;
 	margin-bottom: 14px;
 }
 
 /* HOVER */
 .photos:hover{
-	background-image:url(images/galerie_photos2x_hover.jpg);
+	background-image:url(images/galerie_photos2x.jpg);
 	background-size: 960px 166px;
 }
 /************* FIN PHOTOS ******************/
 
 /************* MUSIQUE ******************/
 .musique {
-	background-image:url(images/galerie_musique2x.jpg);
+	background-image:url(images/galerie_musique2x_hover.jpg);
 	background-size: 960px 166px;
 	float:left;
 	height:166px;
@@ -3664,21 +3799,21 @@ a.lien_musique{
 	display:block;
 	height:166px;
 	width:960px;
-	background:url(images/galerie_musique2x.jpg) no-repeat;
+	background:url(images/galerie_musique2x_hover.jpg) no-repeat;
 	background-size: 960px 166px;
 	margin-bottom: 14px;
 }
 
 /* HOVER */
 .musique:hover{
-	background-image:url(images/galerie_musique2x_hover.jpg);
+	background-image:url(images/galerie_musique2x.jpg);
 	background-size: 960px 166px;
 }
 /************* FIN MUSIQUE ******************/
 
 /************* PRESSE ******************/
 .presse {
-	background-image:url(images/galerie_presse2x.jpg);
+	background-image:url(images/galerie_presse2x_hover.jpg);
 	background-size: 960px 166px;
 	float:left;
 	height:166px;
@@ -3692,13 +3827,13 @@ a.lien_presse{
 	display:block;
 	height:166px;
 	width:960px;
-	background:url(images/galerie_presse2x.jpg) no-repeat;
+	background:url(images/galerie_presse2x_hover.jpg) no-repeat;
 	background-size: 960px 166px;
 }
 
 /* HOVER */
 .presse:hover{
-	background-image:url(images/galerie_presse2x_hover.jpg);
+	background-image:url(images/galerie_presse2x.jpg);
 	background-size: 960px 166px;
 }
 /************* FIN PRESSE ******************/
@@ -3737,3 +3872,70 @@ background-color:red;}
 
 /**** FIN PAGE TYPE***/
 
+/******PAGES FIXES*******/
+
+/*Page Press*/
+.wrap_presse{
+    display: inline-flex;
+    margin-top: 63px;
+}
+
+
+.wrap_presse_texte{
+    width: 40%;
+    display: inline-block;
+}
+
+.wrap_presse_video{
+    width: 40%;
+    display: inline-block;
+}
+
+
+.titre_presse {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #F9BB07;
+    line-height: 1em;
+}
+
+.texte_presse {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFF;
+    line-height: 1.5em;
+}
+
+
+.media-press{
+    width: 50%;
+    display: inline-block;
+}
+
+.bg-vid-center{
+    background-image: url(images/images-pages/fond_videos.png);
+    width: 565px;
+    height: 300px;
+    background-size: 565px 300px;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-vid-right{
+    background-image: url(images/images-pages/fond_videos.png);
+    width: 565px;
+    height: 300px;
+    background-size: 565px 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.vid-press{
+    padding-top: 30px;
+}
+
+/*Fin page Press*/
