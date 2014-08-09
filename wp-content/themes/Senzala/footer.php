@@ -46,7 +46,7 @@
         	</li>
 
         	<li>
-            	<div class="pre_footer_block pre_footer_gallerie">
+            	<div class="pre_footer_block pre_footer_galerie">
                 	<div class="pre_footer_info">
                     	<h3>Galerie</h3>
                     	<p><img src="http://localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/pre_footer/galerie.svg" style="width:30px"></p>

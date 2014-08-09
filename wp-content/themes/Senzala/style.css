@@ -3223,7 +3223,7 @@ footer.entry-meta {
 #kp_maps {
 }
 
-.kp_maps_css {
+.kp_maps_pratiquer {
   width: 100%;
   height: 350px;
 }
@@ -3510,7 +3510,6 @@ footer.entry-meta {
 	margin-right: 0px;
 }
 
-
 .pre_footer_block {
     width: 229px;
     height: 190px;
@@ -3522,7 +3521,7 @@ footer.entry-meta {
 /*Section La Capoeira*/
 
 .pre_footer_capoeira { 
-    background-image: url(images/pre_footer/pre_footer_la_capoeira2x.png);
+    background-image: url(images/pre_footer/pre_footer_la_capoeira.png);
     background-size: 229px 190px ;
     background-color: #F9BB07;
 }
@@ -3533,7 +3532,7 @@ footer.entry-meta {
 /*Section Grupo Senzala*/
 
 .pre_footer_grupo_senzala { 
-    background-image: url(images/pre_footer/pre_footer_grupo_senzala2x.png);
+    background-image: url(images/pre_footer/pre_footer_grupo_senzala.png);
     background-size: 229px 190px ;
     background-color: #F9BB07;
 }
@@ -3542,8 +3541,8 @@ footer.entry-meta {
 
 /*Section Gallerie*/
 
-.pre_footer_gallerie { 
-    background-image: url(images/pre_footer/pre_footer_gallerie2x.png);
+.pre_footer_galerie { 
+    background-image: url(images/pre_footer/pre_footer_galerie.png);
     background-size: 229px 190px ;
     background-color: #F9BB07;
 }
@@ -3553,7 +3552,7 @@ footer.entry-meta {
 /*Section Contact*/
 
 .pre_footer_contact { 
-    background-image: url(images/pre_footer/pre_footer_contact2x.png);
+    background-image: url(images/pre_footer/pre_footer_contact.png);
     background-size: 229px 190px ;
     background-color: #F9BB07;
 }
@@ -3563,7 +3562,7 @@ footer.entry-meta {
 /*Styles pour titre h3 */
 
 .pre_footer_info h3 {
-    color: #000;
+    color: #13191C;
     text-transform: uppercase;
     font-size: 28px;
     margin:0px 0px;
@@ -3597,7 +3596,9 @@ footer.entry-meta {
     margin: 0 0px;
 }
 
-.pre_footer_info:hover {background-color: #F9BB07;}
+.pre_footer_info:hover {
+	background-color: #F9BB07;
+}
 
 .pre_footer_info .title_prefooter {
     color: #13191C;
@@ -3605,7 +3606,7 @@ footer.entry-meta {
     margin: 0 18px;
     font-size: 22px;
     border-bottom: 3px solid #13191C;
-    font-family: 'Lato',Arial, sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
     text-transform: uppercase;
     background-color: #F9BB07;
     font-weight: bold;
@@ -3619,7 +3620,7 @@ footer.entry-meta {
     font-size: 12px;
     letter-spacing: 1px;
     padding-top: 0px;
-    font-family: 'Lato',Arial, sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
     text-decoration: none;
     background-color: #F9BB07;
 }
@@ -3661,7 +3662,7 @@ footer.entry-meta {
 	padding: 25px;
 }
 
-#footer_copyright_container a{
+#footer_copyright_container a {
 	margin-left:10px;
 	margin-right:10px;
 	margin-bottom:10px;
@@ -3669,21 +3670,32 @@ footer.entry-meta {
 	font-family: 'Lato', Arial;
 }
 
-#footer_copyright_container img{
+#footer_copyright_container img {
 	margin-left: 10px;
 }
 
-#footer_copyright_container a:hover{
+#footer_copyright_container a:hover {
 	text-decoration: underline;
 }
 
-.footer_copyright{color: #FDB92D; font-size: 10px;opacity: 0.6;}
-#footer_copyright_container a{color: #FDB92D; font-size: 10px;opacity: 1;}
+.footer_copyright {
+	color: #FDB92D;
+	font-size: 10px;
+	opacity: 0.6;
+}
 
+#footer_copyright_container a {
+	color: #FDB92D;
+	font-size: 10px;
+	opacity: 1;
+}
 
-.cadre_footer_connect li{margin-bottom: 5px;}
+.cadre_footer_connect li {
+	margin-bottom: 5px;
+}
 
-/************* MOTIF CEINTURE BLANC ******************/
+/************* MOTIF CEINTURE BLANC (En Home Page) ******************/
+
 .motif_ceinture{
 	margin:0px auto 25px auto;
 	height:15px;
@@ -3692,9 +3704,7 @@ footer.entry-meta {
 	background-size: 730px 15px;
 }
 
-
-
-/*********************** PAGE MÉDIA/GALERIE/TYPE ******************************/
+/*********************** PAGE MÉDIA/GALERIE//TYPE ******************************/
 
 /**** PAGE TYPE ****/
 
@@ -3723,6 +3733,7 @@ footer.entry-meta {
 #global_page {
 	width: 80%;
 	margin:0 auto;
+	background-color: red;
 }
 
 .bloc_titre {
@@ -3745,8 +3756,8 @@ footer.entry-meta {
 
 /**** FIN PAGE TYPE***/
 
-
-/************* Bloc Média/Galerie VIDÉOS ******************/
+/**** PAGE GALERIE ****/
+/************* Bloc Galerie VIDÉOS ******************/
 .videos {
 	background-image:url(images/images-pages/galerie/galerie_videos2x_hover.jpg);
 	background-size: 960px 166px;
@@ -3775,7 +3786,7 @@ a.lien_videos{
 }
 /************* FIN VIDÉOS ******************/
 
-/************* Bloc Média/Galerie PHOTOS ******************/
+/************* Bloc Galerie PHOTOS ******************/
 .photos {
 	background-image:url(images/images-pages/galerie/galerie_photos2x_hover.jpg);
 	background-size: 960px 166px;
@@ -3801,7 +3812,7 @@ a.lien_photos{
 }
 /************* FIN PHOTOS ******************/
 
-/************* Bloc Média/Galerie MUSIQUE ******************/
+/************* Bloc Galerie MUSIQUE ******************/
 .musique {
 	background-image:url(images/images-pages/galerie/galerie_musique2x_hover.jpg);
 	background-size: 960px 166px;
@@ -3829,7 +3840,7 @@ a.lien_musique{
 }
 /************* FIN MUSIQUE ******************/
 
-/************* Bloc Média/Galerie PRESSE ******************/
+/************* Bloc Galerie PRESSE ******************/
 .presse {
 	background-image:url(images/images-pages/galerie/galerie_presse2x_hover.jpg);
 	background-size: 960px 166px;
@@ -3855,7 +3866,7 @@ a.lien_presse{
 	background-size: 960px 166px;
 }
 /************* FIN PRESSE ******************/
-/********************** FIN PAGE MÉDIA/GALERIE/TYPE******************************/
+/**** FIN de la PAGE GALERIE ****/
 
 
 /******PAGES FIXES*******/
@@ -3944,7 +3955,6 @@ p.texte_chanson_refrain{
     line-height: 100%;
 }
 
-
 .titre_musique {
     font-size: 20px;
     text-transform: uppercase;
@@ -3965,7 +3975,7 @@ p.texte_chanson_refrain{
 /************FIN DE MUSIQUE***************/
 
 
-/********************Page Press********************************************/
+/******************** Page Presse *****************************/
 .wrap_presse{
     display: inline-flex;
     margin-top: 63px;
@@ -3982,7 +3992,6 @@ p.texte_chanson_refrain{
     display: inline-block;
 }
 
-
 .titre_presse {
     font-size: 20px;
     text-transform: uppercase;
@@ -3998,7 +4007,6 @@ p.texte_chanson_refrain{
     color: #FFF;
     line-height: 1.5em;
 }
-
 
 .media-press{
     width: 40%;
@@ -4034,15 +4042,14 @@ p.texte_chanson_refrain{
 	padding-top: 3px;
 }
 
-/********************Fin page Press************************/
+/******************** Fin page Presse ************************/
 
-/*******PAGE PHOTOS******/
+/******* PAGE PHOTOS ******/
 
 .wrap_photos{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
 
 .bg_photos{
     background-image: url(images/images-pages/galerie-photos/fond_photos.svg);
@@ -4095,7 +4102,6 @@ p.texte_chanson_refrain{
 * Includes: jquery.ui.core.css, jquery.ui.accordion.css, jquery.ui.theme.css
 * To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Arial%2Csans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=0px&bgColorHeader=%2313191C&bgTextureHeader=flat&bgImgOpacityHeader=100&borderColorHeader=%2313191C&fcHeader=%23F9BB07&iconColorHeader=%23866a11&bgColorContent=%2313191C&bgTextureContent=flat&bgImgOpacityContent=100&borderColorContent=%2313191C&fcContent=%23ffffff&iconColorContent=%23866a11&bgColorDefault=%2313191C&bgTextureDefault=flat&bgImgOpacityDefault=100&borderColorDefault=%2313191C&fcDefault=%23F9BB07&iconColorDefault=%23866a11&bgColorHover=%2313191C&bgTextureHover=flat&bgImgOpacityHover=100&borderColorHover=%2313191C&fcHover=%23F9BB07&iconColorHover=%23F9BB07&bgColorActive=%2313191C&bgTextureActive=flat&bgImgOpacityActive=100&borderColorActive=%2313191C&fcActive=%23F9BB07&iconColorActive=%23F9BB07&bgColorHighlight=%2313191C&bgTextureHighlight=flat&bgImgOpacityHighlight=100&borderColorHighlight=%23F9BB07&fcHighlight=%23ffffff&iconColorHighlight=%23F9BB07&bgColorError=%23F9BB07&bgTextureError=flat&bgImgOpacityError=100&borderColorError=%2313191C&fcError=%2313191C&iconColorError=%23cd0a0a&bgColorOverlay=%23aaaaaa&bgTextureOverlay=flat&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=%23aaaaaa&bgTextureShadow=flat&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=0px&offsetTopShadow=0px&offsetLeftShadow=0px&cornerRadiusShadow=0px
 * Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
-
 
 /* Layout helpers
 ----------------------------------*/
@@ -4291,7 +4297,6 @@ a.inscription:hover, a.inscription:visited, a.inscription:focus, a.inscription:a
     height: 50px;
 }
 
-
 .titrage_jaune{
     color: #F9BB07;
 }
@@ -4308,17 +4313,13 @@ a.inscription:hover, a.inscription:visited, a.inscription:focus, a.inscription:a
     color: #F9BB07;
 }
 
-
 .picto_fleche{
     width: 15px;
     height: 15px;
     margin-right: 5px;
 }
 
-
 /* -------- Fin de la partie css que j'ai rajoutée ----------------- */
-
-
 
 
 /* Interaction states
