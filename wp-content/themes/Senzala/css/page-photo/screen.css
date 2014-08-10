@@ -39,6 +39,11 @@ section:first-of-type{border-top:none}
 	padding-top: 3px;
 }
 
+.example-image-presse-2{ /* taille de la vignette dans la page Presse (image de chatou magazine)*/
+	width: 58%;
+	padding-top: 3px;
+}
+
 /* fin code pour lightbox */
 
 
