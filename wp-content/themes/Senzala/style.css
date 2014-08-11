@@ -1918,11 +1918,11 @@ footer.entry-meta {
 }
 
 .navigation a {
-	color: #bc360a;
+	/*color: #bc360a;*/
 }
 
 .navigation a:hover {
-	color: #ea9629;
+	/*color: #ea9629;*/
 	text-decoration: none;
 }
 
@@ -3251,7 +3251,7 @@ footer.entry-meta {
 	display: block;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	width: 75%;
+	width: 960px;
 }
 
 /************* FIN HEADER ******************/
@@ -3273,12 +3273,12 @@ footer.entry-meta {
 }
 
 .seance_offerte_div {
-	background-color: rgba(105, 105, 105, 0.5);; 
+	background-color: rgba(105, 105, 105, 0.5);;
 	margin: 20px 340px 30px 20px;
     font-family: 'Lato', Arial, sans-serif;
     padding: 15px 0px 15px 25px;
     width: 299px;
-    height: 177px;	
+    height: 177px;
 }
 .seance_offerte_div p {
     color: #F9BB07;
@@ -3286,7 +3286,7 @@ footer.entry-meta {
     padding: 0px 0px 0px 0px;
 }
 
-.seance_offerte_div a {	
+.seance_offerte_div a {
 	font-size: 18px;
 }
 
@@ -3482,18 +3482,18 @@ footer.entry-meta {
     display: block;
     width: 100%;
 }
- 
+
 .tableau_prefooter:after,
 .tableau_prefooter:before {
     content: '';
     display: inline-block;
 }
- 
+
 .ctableau_prefooter:after {
     clear: both;
     background-color: #F9BB07;
 }
- 
+
 .tableau_prefooter li {
     width: 229px;
     height: 190px;
@@ -3520,7 +3520,7 @@ footer.entry-meta {
 
 /*Section La Capoeira*/
 
-.pre_footer_capoeira { 
+.pre_footer_capoeira {
     background-image: url(images/pre_footer/pre_footer_la_capoeira.png);
     background-size: 229px 190px ;
     background-color: #F9BB07;
@@ -3531,7 +3531,7 @@ footer.entry-meta {
 
 /*Section Grupo Senzala*/
 
-.pre_footer_grupo_senzala { 
+.pre_footer_grupo_senzala {
     background-image: url(images/pre_footer/pre_footer_grupo_senzala.png);
     background-size: 229px 190px ;
     background-color: #F9BB07;
@@ -3541,7 +3541,7 @@ footer.entry-meta {
 
 /*Section Gallerie*/
 
-.pre_footer_galerie { 
+.pre_footer_galerie {
     background-image: url(images/pre_footer/pre_footer_galerie.png);
     background-size: 229px 190px ;
     background-color: #F9BB07;
@@ -3551,7 +3551,7 @@ footer.entry-meta {
 
 /*Section Contact*/
 
-.pre_footer_contact { 
+.pre_footer_contact {
     background-image: url(images/pre_footer/pre_footer_contact.png);
     background-size: 229px 190px ;
     background-color: #F9BB07;
@@ -3633,7 +3633,7 @@ footer.entry-meta {
     background-size: 229px 190px ;
 
 }
- 
+
 .pre_footer_info p a:hover {
     text-decoration: underline;
     color: #13191C;
@@ -3939,7 +3939,6 @@ p.texte_chanson{
     font-size: 0.9em;
     margin-left: 25px;
     margin-top: 25px;
-    font-weight: bold;
     font-weight: 400;
     line-height: 100%;
 }
