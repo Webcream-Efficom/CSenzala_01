@@ -21,6 +21,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
+  <meta name="Author" content="Grupo Senzala 78" />
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -28,23 +29,30 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
-	
+  <!-- OpenGraph Facebook : Meta -->
+  <!--
+  <meta property="og:title" content="Association Capoeira Senzala 78 | Grupo Senzala" />
+  <meta property="og:description" content="Capoeira Senzala 78 dirigé par Mestre Banana. Association rattachée au Grupo Senzala, l'un des plus important groupe de Capoeira au monde." />
+  <meta property="og:image" content="http://localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/og.png" />
+  <meta property="og:image:width" content="250" />
+  <meta property="og:image:height" content="250" />
+  <meta property="og:url" content="http://localhost:8888/CSenzala_01/" />
+	-->
 	<!-- Favicon Aigle Senzala -->
 	<link rel="icon" type="image/png" href="http://localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/favicon.png">
 
 	<!-- Icon Touch Apple -->
 	<link rel="apple-touch-icon" href="http://localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/favicon_iphone.png">
-	
+
 	<!-- Google Font - LATO -->
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
   <!--Page Photo-->
     <script src="../wp-content/themes/Senzala/js/lightbox.js"></script>
-    <!--<script src="../wp-content/themes/Senzala/js/jquery-1.11.0.min.js"></script>-->
     <link rel="stylesheet" type="text/css" href="../wp-content/themes/Senzala/css/page-photo/screen.css">
     <link rel="stylesheet" type= "text/css" href="../wp-content/themes/Senzala/css/page-photo/lightbox.css">
 
-	<!--Page Où pratiquer-->
+	<!--Page Où Pratiquer-->
     <script src="../wp-content/themes/Senzala/js/jquery-1.10.2.js"></script>
     <script src="../wp-content/themes/Senzala/js/jquery-ui-1.10.4.custom.js"></script>
     <script>
@@ -64,7 +72,7 @@
                 $( this ).removeClass( "ui-state-hover" );
             }
         );
-        
+
     });
     </script>
 
