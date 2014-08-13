@@ -80,7 +80,7 @@
 
     <!--Carte Google Maps Personnalisée-->
     <!-- Ce code est à placer dans les pages concernée uniquement. Impact sur les performances conséquents-->
-                    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+                    <script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
                     <script>
                     window.onload = function () {
                         var styles = [
@@ -188,7 +188,7 @@
                     var map = new google.maps.Map(div, options);
                     var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
                     map.mapTypes.set('Styled', styledMapType);
-                    var ctaLayer = new google.maps.KmlLayer('https://dl.dropboxusercontent.com/u/79008563/Senzala%20GMap%20Icon/CapoeiraSenzala78.kml');
+                    var ctaLayer = new google.maps.KmlLayer('//dl.dropboxusercontent.com/u/79008563/Senzala%20GMap%20Icon/CapoeiraSenzala78.kml');
                     ctaLayer.setMap(map);
                     console.log(div);
                     }
