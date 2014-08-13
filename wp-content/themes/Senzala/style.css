@@ -1157,11 +1157,11 @@ ul.nav-menu .focus > ul,
  */
 
 .entry-content {
-	-webkit-hyphens: auto;
-	-moz-hyphens:    auto;
-	-ms-hyphens:     auto;
-	hyphens:         auto;
-	word-wrap: break-word;
+	/*-webkit-hyphens: auto;*/
+	/*-moz-hyphens:    auto;*/
+	/*-ms-hyphens:     auto;*/
+	/*hyphens:         auto;*/
+	/*word-wrap: break-word;*/
 }
 
 .entry-content a,
@@ -1172,7 +1172,9 @@ ul.nav-menu .focus > ul,
 
 .entry-content a:hover,
 .comment-content a:hover {
-	text-decoration: underline;
+	/*text-decoration: underline;*/
+	text-decoration: none;
+
 }
 
 .entry-content blockquote {
@@ -4099,6 +4101,106 @@ a.lien_presse{
 }
 
 /*******FIN de PAGE PHOTOS******/
+
+
+/******* PAGE TARIFS ******/
+.bg-tarifs{
+	background-image: url(images/images-pages/adhesion-tarifs-inscription/bg-tarifs.jpg);
+	background-size: 100%;
+	width: 100%;
+	height: 960px;
+	padding-top: 45px;
+}
+
+.tarif-info-container{
+	background-color: #13191C;
+	width: 60%;
+	position: relative;
+}
+
+.container-button-tarifs-main{
+	width: 100%;
+	height: 417px;
+	background-color: #F9BB07;
+	margin-top: -50px;
+
+}
+
+.title-tarifs{
+	font-size: 30px;
+	text-align: center;
+	margin: 0px auto;
+	padding-top: 25px;
+}
+
+.picto-tarifs{
+	width: 60px;
+	position: absolute;
+	margin-left: 37px;
+	margin-top: 20px;
+}
+
+.container-tarifs-left{
+	width: 49%;
+	display: inline-block;
+	padding-top: 50px;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+
+.container-tarifs-right{
+	width: 50%;
+	display: inline-block;
+}
+
+.subtitle-tarifs{
+	font-size: 17px;
+	text-align: center;
+	color: #F9BB07;
+}
+
+.text-tarif{
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.subtitle-button-tarifs{
+	text-align: center;
+	margin-top: 80px;
+	padding-top: 88px;
+	padding-bottom: 33px;
+	margin: 0;
+	color: #13191C;
+	font-weight: lighter;
+}
+
+.container-button-tarif-left{
+	background-color: green;
+	width: 33%;
+	height: 220px;
+	display: inline-block;
+	margin-left: 4px;
+}
+
+.container-button-tarif-middle{
+	background-color: blue;
+	width: 32.50%;
+	height: 220px;
+	display: inline-block;
+}
+
+.container-button-tarif-right{
+	background-color: red;
+	width: 33%;
+	height: 220px;
+	display: inline-block;
+}
+
+.button-tarif{
+	margin-bottom: 10px;
+}
+
+/******* FIN de PAGE TARIFS ******/
 
 
 /******* PAGE COURS ******/
