@@ -591,7 +591,6 @@ hr {
 button,
 input,
 textarea {
-	border: 2px solid #d4d0ba;
 	font-family: inherit;
 	padding: 5px;
 }
@@ -612,19 +611,18 @@ button,
 input[type="submit"],
 input[type="button"],
 input[type="reset"] {
-	background: #e05d22; /* Old browsers */
-	background: -webkit-linear-gradient(top, #e05d22 0%, #d94412 100%); /* Chrome 10+, Safari 5.1+ */
-	background:   linear-gradient(to bottom, #e05d22 0%, #d94412 100%); /* W3C */
-	border: none;
-	border-bottom: 3px solid #b93207;
-	border-radius: 2px;
-	color: #fff;
-	display: inline-block;
-	padding: 11px 24px 10px;
-	text-decoration: none;
-	font-weight: 700;
-    font-family:'Lato',Arial;
+    background: #f9bb07; /* Old browsers */
+    background: -webkit-linear-gradient(top, #f9bb07 0%, #f9bb07 100%); /* Chrome 10+, Safari 5.1+ */
+    background:   linear-gradient(to bottom, #f9bb07 0%, #f9bb07 100%); /* W3C */
+    color: #13191C;
+    display: inline-block;
+    padding: 11px 24px 10px;
+    text-decoration: none;
+    font-weight: 300;
+    font-family:'Lato', Arial;
     text-transform: uppercase;
+    border: 1px solid #13191C;
+    transition: all 0.7s;
 }
 
 button:hover,
@@ -635,23 +633,24 @@ input[type="reset"]:hover,
 input[type="submit"]:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus {
-	background: #ed6a31; /* Old browsers */
-	background: -webkit-linear-gradient(top, #ed6a31 0%, #e55627 100%); /* Chrome 10+, Safari 5.1+ */
-	background:   linear-gradient(to bottom, #ed6a31 0%, #e55627 100%); /* W3C */
-	outline: none;
+    background: #13191C; /* Old browsers */
+    background: -webkit-linear-gradient(top, #13191C 0%, #13191C 100%); /* Chrome 10+, Safari 5.1+ */
+    background:   linear-gradient(to bottom, #13191C 0%, #13191C 100%); /* W3C */
+    outline: none;
+    color: #f2F2F2;
 }
 
 button:active,
 input[type="submit"]:active,
 input[type="button"]:active,
 input[type="reset"]:active {
-	background: #d94412; /* Old browsers */
-	background: -webkit-linear-gradient(top, #d94412 0%, #e05d22 100%); /* Chrome 10+, Safari 5.1+ */
-	background:   linear-gradient(to bottom, #d94412 0%, #e05d22 100%); /* W3C */
-	border: none;
-	border-top: 3px solid #b93207;
-	padding: 10px 24px 11px;
+    background: #f9cb35; /* Old browsers */
+    background: -webkit-linear-gradient(top, #f9cb35 0%, #f9cb35 100%); /* Chrome 10+, Safari 5.1+ */
+    background:   linear-gradient(to bottom, #f9cb35 0%, #f9cb35 100%); /* W3C */
+    color: #13191C;
 }
+
+/*-------------------*/
 
 .post-password-required input[type="submit"] {
 	padding: 7px 24px 4px;
@@ -4103,7 +4102,7 @@ a.lien_presse{
 /*******FIN de PAGE PHOTOS******/
 
 
-/******* PAGE TARIFS ******/
+/******* PAGE COMMENT ADHERER ******/
 .bg-tarifs{
 	background-image: url(images/images-pages/adhesion-tarifs-inscription/bg-tarifs.jpg);
 	background-size: 100%;
@@ -4120,7 +4119,7 @@ a.lien_presse{
 
 .container-button-tarifs-main{
 	width: 100%;
-	height: 417px;
+	height: 475px;
 	background-color: #F9BB07;
 	margin-top: -50px;
 
@@ -4160,14 +4159,13 @@ a.lien_presse{
 }
 
 .text-tarif{
-	font-weight: bold;
 	font-size: 13px;
 }
 
 .subtitle-button-tarifs{
 	text-align: center;
 	margin-top: 80px;
-	padding-top: 88px;
+	padding-top: 87px;
 	padding-bottom: 33px;
 	margin: 0;
 	color: #13191C;
@@ -4175,7 +4173,7 @@ a.lien_presse{
 }
 
 .container-button-tarif-left{
-	background-color: green;
+	background-color: #f9bb07;
 	width: 33%;
 	height: 220px;
 	display: inline-block;
@@ -4183,24 +4181,27 @@ a.lien_presse{
 }
 
 .container-button-tarif-middle{
-	background-color: blue;
+	background-color: #f9bb07;
 	width: 32.50%;
 	height: 220px;
 	display: inline-block;
 }
 
 .container-button-tarif-right{
-	background-color: red;
+	background-color: #f9bb07;
 	width: 33%;
 	height: 220px;
 	display: inline-block;
+	float: right;
+	margin-right: 4px;
 }
 
 .button-tarif{
-	margin-bottom: 10px;
+	margin-bottom: 25px;
+	width: 255px;
 }
 
-/******* FIN de PAGE TARIFS ******/
+/******* FIN de PAGE COMMENT ADHERER ******/
 
 
 /******* PAGE COURS ******/
@@ -4216,7 +4217,9 @@ a.lien_presse{
 	text-transform: uppercase;
 	font-weight: 900;
 	color: #F9BB07;
-	font-size: 25px;
+	font-size: 23px;
+	display: inline;
+	margin-left: 30px;
 }
 
 .text-cours{
@@ -4435,7 +4438,7 @@ a.lien_presse{
 /* Component containers
 ----------------------------------*/
 .ui-widget {
-    font-family: Arial,sans-serif;
+    font-family: 'Lato', Arial,sans-serif;
     font-size: 1.1em;
 }
 .ui-widget .ui-widget {
@@ -4445,7 +4448,7 @@ a.lien_presse{
 .ui-widget select,
 .ui-widget textarea,
 .ui-widget button {
-    font-family: Arial,sans-serif;
+    font-family: 'Lato', Arial,sans-serif;
     font-size: 1em;
 }
 .ui-widget-content {
@@ -4480,25 +4483,20 @@ p.texte{
     margin-top: -15px;
 }
 
-a.inscription{
-    border: 1px solid #866a11;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
-    padding: 5px;
-    color: #F9BB07;
-    width: 154px;
+.inscription-button{
+	border: 2px solid #f9bb07;
+	color: #f9bb07;
+	background: #13191C;
 }
 
 
-a.inscription:hover, a.inscription:visited, a.inscription:focus, a.inscription:active{
-    border: 1px solid #F9BB07;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
-    padding: 5px;
-    color: #F9BB07;
-    width: 154px;
+.inscription-button:hover,
+.inscription-button:visited,
+.inscription-button:focus,
+.inscription-button:active{
+	border: 2px solid #f9bb07;
+	color: #13191C;
+	background: #f9bb07;
 }
 
 .tableau_semaine{

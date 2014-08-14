@@ -19,7 +19,7 @@
             	<div class="pre_footer_block pre_footer_capoeira">
                 	<div class="pre_footer_info">
                     	<h3>La Capoeira</h3>
-                    	<p><img src="http://localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/pre_footer/histoire.svg" style="width:30px" alt="Découvrez l'ensemble de la Capoeira. Du passé au présent."></p>
+                    	<p><img src="//localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/pre_footer/histoire-dark.svg" style="width:30px" alt="Découvrez l'ensemble de la Capoeira. Du passé au présent."></p>
                     	<p class="title_prefooter">La Capoeira</p>
                     	<div class="liens_hover">
                     		<p><a href="#">Son histoire</a></p>
@@ -34,7 +34,7 @@
             	<div class="pre_footer_block pre_footer_grupo_senzala">
                 	<div class="pre_footer_info">
                     	<h3>Grupo Senzala 78</h3>
-                    	<p><img src="http://localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/pre_footer/grupo_senzala.svg" style="width:30px" alt="Le Groupe Senzala est l'un des groupes les plus emblématique du XXème siècle."></p>
+                    	<p><img src="//localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/pre_footer/grupo-senzala-dark.svg" style="width:30px" alt="Le Groupe Senzala est l'un des groupes les plus emblématique du XXème siècle."></p>
                     	<p class="title_prefooter">Grupo Senzala</p>
                     	<div class="liens_hover">
                     		<p><a href="#">Le groupe</a></p>
@@ -49,7 +49,7 @@
             	<div class="pre_footer_block pre_footer_galerie">
                 	<div class="pre_footer_info">
                     	<h3>Galerie</h3>
-                    	<p><img src="http://localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/pre_footer/galerie.svg" style="width:30px" alt="Décrouvrez ce que nous avons produit et ce qu'on dit de l'association."></p>
+                    	<p><img src="//localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/pre_footer/galerie-dark.svg" style="width:30px" alt="Décrouvrez ce que nous avons produit et ce qu'on dit de l'association."></p>
                     	<a href="?p=7"><p class="title_prefooter">Galerie</p></a>
                     	<div class="liens_hover">
                     		<p><a href="?p=83">Presse</a></p>
@@ -65,7 +65,7 @@
             	<div class="pre_footer_block pre_footer_contact">
                 	<div class="pre_footer_info">
                     	<h3>Contact</h3>
-                    	<p><img src="http://localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/pre_footer/contact.svg" style="width:30px" alt="Restez en contact avec les responsables de Capoeira Senzala 78 !"></p>
+                    	<p><img src="//localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/pre_footer/contact-dark.svg" style="width:30px" alt="Restez en contact avec les responsables de Capoeira Senzala 78 !"></p>
                     	<p class="title_prefooter">Contact</p>
                     	<div class="liens_hover">
                     		<p><a href="?p=73">+ d'infos</a></p>
