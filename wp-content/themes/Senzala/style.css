@@ -143,7 +143,7 @@ h4,
 h5,
 h6 {
 	clear: both;
-	font-family: 'Lato',Arial,Helvetica,Verdana,sans-serif;
+	font-family: 'Lato', Arial, Helvetica, Verdana, sans-serif;
 	line-height: 1.3;
 }
 
@@ -168,7 +168,7 @@ h3 {
 	margin: 22px 0;
 	font-family:'Lato', Arial;
 	text-transform:uppercase;
-	color:#F2F2F2;
+	color:#F9BB07;
 	font-weight: 900;
 }
 
@@ -176,18 +176,22 @@ h4 {
 	font-size: 17px;
 	margin: 25px 0;
 	font-weight: 700;
+	color: #777777;
 }
 
 h5 {
 	font-size: 16px;
 	margin: 30px 0;
 	font-weight: 700;
+	color:#F9BB07;
 	font-style: italic;
 }
 
 h6 {
 	font-size: 15px;
 	margin: 36px 0;
+	color: #777777;
+	font-weight: 400;
 	font-style: italic;
 }
 
@@ -219,7 +223,7 @@ p {
 	font-size: 15px;
 	color: #FFF;
     font-weight: 300;
-    font-family:'Lato',Arial;
+    font-family:'Lato', Arial;
 }
 
 code,
@@ -270,7 +274,7 @@ blockquote {
 	font-weight: 300;
 	margin: 24px 40px;
 	font-weight: 300;
-	font-family: 'Lato',Arial;
+	font-family: 'Lato', Arial;
 }
 
 blockquote blockquote {
@@ -282,7 +286,7 @@ blockquote small {
 	font-size: 14px;
 	font-weight: normal;
 	text-transform: uppercase;
-	font-family: 'Lato',Arial;
+	font-family: 'Lato', Arial;
 }
 
 blockquote em,
@@ -339,7 +343,7 @@ ul {
 	list-style-type: square;
 	color: #FFF;
     font-weight: 300;
-    font-family:'Lato',Arial;
+    font-family:'Lato', Arial;
 }
 
 nav ul,
@@ -613,7 +617,7 @@ input[type="button"],
 input[type="reset"] {
     background: #f9bb07; /* Old browsers */
     background: -webkit-linear-gradient(top, #f9bb07 0%, #f9bb07 100%); /* Chrome 10+, Safari 5.1+ */
-    background:   linear-gradient(to bottom, #f9bb07 0%, #f9bb07 100%); /* W3C */
+    background: linear-gradient(to bottom, #f9bb07 0%, #f9bb07 100%); /* W3C */
     color: #13191C;
     display: inline-block;
     padding: 11px 24px 10px;
@@ -634,8 +638,8 @@ input[type="submit"]:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus {
     background: #13191C; /* Old browsers */
-    background: -webkit-linear-gradient(top, #13191C 0%, #13191C 100%); /* Chrome 10+, Safari 5.1+ */
-    background:   linear-gradient(to bottom, #13191C 0%, #13191C 100%); /* W3C */
+    background: -webkit-linear-gradient(top, #13191C 0%, #000 100%); /* Chrome 10+, Safari 5.1+ */
+    background: linear-gradient(to bottom, #13191C 0%, #000 100%); /* W3C */
     outline: none;
     color: #f2F2F2;
 }
@@ -646,7 +650,7 @@ input[type="button"]:active,
 input[type="reset"]:active {
     background: #f9cb35; /* Old browsers */
     background: -webkit-linear-gradient(top, #f9cb35 0%, #f9cb35 100%); /* Chrome 10+, Safari 5.1+ */
-    background:   linear-gradient(to bottom, #f9cb35 0%, #f9cb35 100%); /* W3C */
+    background: linear-gradient(to bottom, #f9cb35 0%, #f9cb35 100%); /* W3C */
     color: #13191C;
 }
 
@@ -804,12 +808,14 @@ img.wp-smiley,
  */
 
 .site {
-	/*background-color: #fff;
+	/*
+	background-color: #fff;
 	border-left: 10px solid #000;
 	border-right: 10px solid #000;
 	margin: 0 auto;
 	max-width: 2000px;
-	width: 100%;*/
+	width: 100%;
+	*/
 }
 
 .site-main {
@@ -1068,11 +1074,11 @@ ul.nav-menu .focus > ul,
 }
 
 .entry-title a {
-	color: #141412;
+	color: #F9BB07;
 }
 
 .entry-title a:hover {
-	color: #ea9629;
+	color: #f9cb35;
 }
 
 
@@ -1580,7 +1586,7 @@ footer.entry-meta {
 .format-link .entry-title {
 	color: #ca3c08;
 	display: inline;
-	font: 300 italic 20px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 20px 'Lato', Arial, "Source Sans Pro", Helvetica, sans-serif;
 	margin-right: 20px;
 }
 
@@ -1782,7 +1788,7 @@ footer.entry-meta {
 .attachment .entry-title {
 	display: inline-block;
 	float: left;
-	font: 300 italic 30px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 30px 'Lato', Arial, "Source Sans Pro", Helvetica, sans-serif;
 	margin: 0;
 }
 
@@ -1980,7 +1986,7 @@ footer.entry-meta {
 }
 
 .post-navigation {
-	background-color: #fff;
+	/*background-color: #fff;*/
 	color: #ca3c08;
 	font-size: 20px;
 	font-style: italic;
@@ -2036,7 +2042,7 @@ footer.entry-meta {
 
 .author-description .author-title {
 	clear: none;
-	font: 300 italic 20px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 20px 'Lato', Arial, "Source Sans Pro", Helvetica, sans-serif;
 	margin: 0 0 8px;
 }
 
@@ -2056,12 +2062,12 @@ footer.entry-meta {
  */
 
 .archive-header {
-	background-color: #e8e5ce;
+	/*background-color: #e8e5ce;*/
 }
 
 .archive-title,
 .archive-meta {
-	font: 300 italic 30px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 30px 'Lato', Arial, "Source Sans Pro", Helvetica, sans-serif;
 	margin: 0 auto;
 	max-width: 1040px;
 	padding: 30px 0;
@@ -2091,7 +2097,7 @@ footer.entry-meta {
 }
 
 .page-title {
-	font: 300 italic 30px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 30px 'Lato', Arial, "Source Sans Pro", Helvetica, sans-serif;
 	margin: 0 auto;
 	max-width: 1040px;
 	padding: 30px 0;
@@ -2148,7 +2154,7 @@ footer.entry-meta {
 .error404 .page-header,
 .error404 .page-content {
 	margin: 0 auto;
-	max-width: 960px;/*avant c'etait 1024px*/
+	max-width: 960px;/* Initialement c'etait 1024px */
 	padding-bottom: 40px;
 	width: 100%;
 }
@@ -2184,7 +2190,7 @@ footer.entry-meta {
 }
 
 .comments-title {
-	font: 300 italic 28px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 28px 'Lato', Arial, "Source Sans Pro", Helvetica, sans-serif;
 }
 
 .comment-list,
@@ -2315,7 +2321,7 @@ footer.entry-meta {
 
 /* Comment form */
 .comment-respond {
-	background-color: #f7f5e7;
+	/*background-color: #f7f5e7;*/
 	padding: 30px 0;
 }
 
@@ -2325,7 +2331,8 @@ footer.entry-meta {
 }
 
 .comment-reply-title {
-	font: 300 italic 28px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 28px 'Lato', Arial, "Source Sans Pro", Helvetica, sans-serif;
+	color: #F9BB07;
 }
 
 .comment-reply-title small a {
@@ -2882,7 +2889,7 @@ footer.entry-meta {
 	.menu-toggle {
 		cursor: pointer;
 		display: inline-block;
-		font: bold 16px/1.3 "Source Sans Pro", Helvetica, sans-serif;
+		font: bold 16px/1.3 'Lato', "Source Sans Pro", Helvetica, sans-serif;
 		margin: 0;
 		padding: 12px 0 12px 20px;
 		color: #F9BB07;
@@ -3106,7 +3113,7 @@ footer.entry-meta {
 	.format-status .entry-meta:before,
 	.comment-list > li:after,
 	.comment-list .children > li:before {
-		background-image: url(images/dotted-line-2x.png);
+		background-image: url(images/dotted-line.png);
 	}
 }
 
@@ -3216,9 +3223,9 @@ footer.entry-meta {
 	}
 }
 
-/***********************************************************************************/
-/*********************************CODE CSS PERSO***********************************/
-/*********************************************************************************/
+/**************************************************************************************/
+/********************************* CODE CSS PERSO ************************************/
+/************************************************************************************/
 
 /*GMAPS*/
 #kp_maps {
@@ -3233,7 +3240,7 @@ footer.entry-meta {
 /************* HOME PAGE ******************/
 
 
-/***** NAV *****/
+/***** NAV / MENU *****/
 
 .picto_menu {
 	width:24px;
@@ -3262,9 +3269,11 @@ footer.entry-meta {
 	margin:0 auto;
 }
 
+/********************* HOME PAGE ***************************/
+
 /************* SÉANCE OFFERTE ******************/
 .seance_offerte {
-	background-image:url(images/home_page/seance_offerte2x.jpg);
+	background-image:url(images/images-pages/home_page/bg-seance_offerte.jpg);
 	background-size: 600px 336px;
 	float:left;
 	width:600px;
@@ -3325,7 +3334,7 @@ footer.entry-meta {
 
 /************* PROFESSIONNELS ******************/
 .professionnels {
-	background-image:url(images/home_page/bg-professionnels.png);
+	background-image:url(images/images-pages/home_page/bg-professionnels.png);
 	background-size: 346px 136px;
 	float:left;
 	width:346px;
@@ -3365,7 +3374,7 @@ footer.entry-meta {
 
 /************* ADHESION ******************/
 .adhesion{
-	background-image:url(images/home_page/adhesion2x.jpg);
+	background-image:url(images/images-pages/home_page/bg-adhesion.jpg);
 	background-size: 166px 186px;
 	float:left;
 	width:166px;
@@ -3416,7 +3425,7 @@ footer.entry-meta {
 
 /************* OÙ PRATIQUER ******************/
 .pratique {
-	background-image:url(images/home_page/ou_pratiquer2x.jpg);
+	background-image:url(images/images-pages/home_page/bg-ou_pratiquer.jpg);
 	background-size: 166px 186px;
 	float:left;
 	width:166px;
@@ -3466,7 +3475,7 @@ footer.entry-meta {
 	text-decoration: none;
 }
 
-/************* FIN OÙ PRATIQUÉ ******************/
+/************* FIN OÙ PRATIQUER ******************/
 
 
 /************* DÉBUT PRE FOOTER ******************/
@@ -3526,7 +3535,7 @@ footer.entry-meta {
 /*Section La Capoeira*/
 
 .pre_footer_capoeira {
-    background-image: url(images/pre_footer/pre_footer_la_capoeira.png);
+    background-image: url(images/pre_footer/bg_pre_footer_la_capoeira.png);
     background-size: 229px 190px ;
     background-color: #F9BB07;
 }
@@ -3537,7 +3546,7 @@ footer.entry-meta {
 /*Section Grupo Senzala*/
 
 .pre_footer_grupo_senzala {
-    background-image: url(images/pre_footer/pre_footer_grupo_senzala.png);
+    background-image: url(images/pre_footer/bg_pre_footer_grupo_senzala.png);
     background-size: 229px 190px ;
     background-color: #F9BB07;
 }
@@ -3547,7 +3556,7 @@ footer.entry-meta {
 /*Section Gallerie*/
 
 .pre_footer_galerie {
-    background-image: url(images/pre_footer/pre_footer_galerie.png);
+    background-image: url(images/pre_footer/bg_pre_footer_galerie.png);
     background-size: 229px 190px ;
     background-color: #F9BB07;
 }
@@ -3557,7 +3566,7 @@ footer.entry-meta {
 /*Section Contact*/
 
 .pre_footer_contact {
-    background-image: url(images/pre_footer/pre_footer_contact.png);
+    background-image: url(images/pre_footer/bg_pre_footer_contact.png);
     background-size: 229px 190px ;
     background-color: #F9BB07;
 }
@@ -3657,7 +3666,8 @@ footer.entry-meta {
 
 
 /************* FOOTER ******************/
-#footer_copyright_container .footer_copyright{
+#footer_copyright_container
+.footer_copyright{
 	display:inline;
 }
 
@@ -3668,11 +3678,14 @@ footer.entry-meta {
 }
 
 #footer_copyright_container a {
-	margin-left:10px;
-	margin-right:10px;
-	margin-bottom:10px;
-	text-transform:uppercase;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
 	font-family: 'Lato', Arial;
+	color: #F9BB07;
+	font-size: 10px;
+	opacity: 1;
 }
 
 #footer_copyright_container img {
@@ -3684,15 +3697,10 @@ footer.entry-meta {
 }
 
 .footer_copyright {
-	color: #FDB92D;
+	color: #F9BB07;
 	font-size: 10px;
 	opacity: 0.6;
-}
-
-#footer_copyright_container a {
-	color: #FDB92D;
-	font-size: 10px;
-	opacity: 1;
+	text-transform: uppercase;
 }
 
 .cadre_footer_connect li {
@@ -3874,7 +3882,10 @@ a.lien_presse{
 /**** FIN de la PAGE GALERIE ****/
 
 
+/*************************/
 /******PAGES FIXES*******/
+/***********************/
+
 
 /************************** Page MUSIQUE ********************************/
 .commentaire-cache{
@@ -4013,6 +4024,7 @@ a.lien_presse{
     color: #FFF;
     line-height: 1.5em;
     margin: 0;
+    padding-right: 5px;
 }
 
 .media-press{
@@ -4440,6 +4452,7 @@ a.lien_presse{
 .ui-widget {
     font-family: 'Lato', Arial,sans-serif;
     font-size: 1.1em;
+    padding-top: 30px;
 }
 .ui-widget .ui-widget {
     font-size: 1em;
@@ -4459,13 +4472,19 @@ a.lien_presse{
 
 /* -------- La partie css que j'ai rajoutée ----------------- */
 
-.titre_page{
-    background-image: url("images/images-pages/ou-pratiquer/titre_ou_pratiquer.png");
+.bg-titre_page{
+    background-image: url("images/images-pages/ou-pratiquer/titre_ou_pratiquer.svg");
     background-repeat: no-repeat;
-    background-size: 960px 48px;
+    background-size: 960px 55px;
     width: 960px;
-    height: 48px;
+    height: 55px;
     margin-bottom: 30px;
+}
+
+.titre-oupratiquer{
+	text-align: center;
+	font-size: 40px;
+	color: #F9BB07;
 }
 
 h3.gros_titre{
@@ -4473,27 +4492,46 @@ h3.gros_titre{
 }
 
 h4.titre{
-    color: #F9BB07;
-    font-size: 13px;
+	color: #F9BB07;
+	font-size: 13px;
+	margin-top: 15px;
+	margin-bottom: 20px;
 }
 
 p.texte{
-    color: #d0d0d0;
-    font-size: 13px;
-    margin-top: -15px;
+    color: #D0D0D0;
+	font-size: 13px;
+	line-height: 130%;
+	margin: 0;
 }
 
-.inscription-button{
+
+button.inscription-button,
+input[type="submit"].inscription-button,
+input[type="button"].inscription-button,
+input[type="reset"].inscription-button {
 	border: 2px solid #f9bb07;
 	color: #f9bb07;
 	background: #13191C;
+	margin-top: 20px;
 }
 
-
-.inscription-button:hover,
-.inscription-button:visited,
-.inscription-button:focus,
-.inscription-button:active{
+button.inscription-button:hover,
+button.inscription-button:visited,
+button.inscription-button:focus,
+button.inscription-button:active,
+input[type="submit"].inscription-button:hover,
+input[type="submit"].inscription-button:visited,
+input[type="submit"].inscription-button:focus,
+input[type="submit"].inscription-button:active,
+input[type="button"].inscription-button:hover,
+input[type="button"].inscription-button:visited,
+input[type="button"].inscription-button:focus,
+input[type="button"].inscription-button:active,
+input[type="reset"].inscription-button:hover,
+input[type="reset"].inscription-button:visited,
+input[type="reset"].inscription-button:focus,
+input[type="reset"].inscription-button:active {
 	border: 2px solid #f9bb07;
 	color: #13191C;
 	background: #f9bb07;
@@ -4513,6 +4551,13 @@ p.texte{
 
 .titrage_jaune{
     color: #F9BB07;
+    /*text-transform: uppercase;*/
+    text-align: center;
+}
+
+.titrage_dark{
+    /*text-transform: uppercase;*/
+    text-align: center;
 }
 
 .ui-widget-content a {

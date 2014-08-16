@@ -36,7 +36,7 @@ section:first-of-type{border-top:none}
 
 .example-image-presse{ /* taille de la vignette dans la page Presse */
 	width: 75%;
-	padding-top: 3px;
+	padding-top: 5px;
 }
 
 .example-image-presse-2{ /* taille de la vignette dans la page Presse (image de chatou magazine)*/

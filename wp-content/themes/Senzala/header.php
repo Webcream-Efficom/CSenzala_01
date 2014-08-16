@@ -31,13 +31,16 @@
 	<?php wp_head(); ?>
   <!-- OpenGraph Facebook : Meta -->
   <!--
-  <meta property="og:title" content="Association Capoeira Senzala 78 | Grupo Senzala" />
+  <meta property="og:title" content="Association Capoeira Senzala 78 | Grupo Senzala - Le site" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fr_FR" />
   <meta property="og:description" content="Capoeira Senzala 78 dirigé par Mestre Banana. Association rattachée au Grupo Senzala, l'un des plus important groupe de Capoeira au monde." />
-  <meta property="og:image" content="http://localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/og.png" />
+  <meta property="og:image" content="http://localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/og-senzala78.png" />
   <meta property="og:image:width" content="250" />
   <meta property="og:image:height" content="250" />
   <meta property="og:url" content="http://localhost:8888/CSenzala_01/" />
 	-->
+
 	<!-- Favicon Aigle Senzala -->
 	<link rel="icon" type="image/png" href="http://localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/favicon.png">
 
@@ -47,12 +50,12 @@
 	<!-- Google Font - LATO -->
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
-  <!--Page Photo-->
+  <!--Page Photo -->
     <script src="../wp-content/themes/Senzala/js/lightbox.js"></script>
     <link rel="stylesheet" type="text/css" href="../wp-content/themes/Senzala/css/page-photo/screen.css">
     <link rel="stylesheet" type= "text/css" href="../wp-content/themes/Senzala/css/page-photo/lightbox.css">
 
-	<!--Page Où Pratiquer-->
+	<!--Page Où Pratiquer -->
     <script src="../wp-content/themes/Senzala/js/jquery-1.10.2.js"></script>
     <script src="../wp-content/themes/Senzala/js/jquery-ui-1.10.4.custom.js"></script>
     <script>
@@ -75,11 +78,10 @@
 
     });
     </script>
-
   <!-- fin Page Où pratiquer-->
 
-    <!--Carte Google Maps Personnalisée-->
-    <!-- Ce code est à placer dans les pages concernée uniquement. Impact sur les performances conséquents-->
+    <!--Carte Google Maps Personnalisée -->
+    <!-- Ce code est à placer dans les pages concernée uniquement. Impact sur les performances conséquents -->
                     <script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
                     <script>
                     window.onload = function () {
@@ -188,7 +190,7 @@
                     var map = new google.maps.Map(div, options);
                     var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
                     map.mapTypes.set('Styled', styledMapType);
-                    var ctaLayer = new google.maps.KmlLayer('//dl.dropboxusercontent.com/u/79008563/Senzala%20GMap%20Icon/CapoeiraSenzala78.kml');
+                    var ctaLayer = new google.maps.KmlLayer('https://dl.dropboxusercontent.com/u/79008563/Senzala%20GMap%20Icon/CapoeiraSenzala78.kml');
                     ctaLayer.setMap(map);
                     console.log(div);
                     }
@@ -205,7 +207,7 @@
 <!-- Début logo -->
 				<div>
           <a href="<?php echo home_url( '/' );?>">
-            <img class="logo_senzala" src="<?php echo home_url( 'wp-content/themes/Senzala/images/headers/logo.png' ); ?>"/>
+            <img class="logo_senzala" src="<?php echo home_url( 'wp-content/themes/Senzala/images/headers/logo-capoeira-senzala.png' ); ?>" alt="Cours de Capoeira dans les Yvelines - Capoeira Senzala 78 - Mestre Banana."/>
           </a>
         </div>
 <!-- Fin logo -->

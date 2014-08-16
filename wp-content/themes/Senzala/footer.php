@@ -54,8 +54,8 @@
                     	<div class="liens_hover">
                     		<p><a href="?p=83">Presse</a></p>
                     		<p><a href="?p=81">Musique</a></p>
-                            <p><a href="?p=77">Vidéos</a></p>
                             <p><a href="?p=79">Photos</a></p>
+                            <p><a href="?p=77">Vidéos</a></p>
                     	</div>
                 	</div>
             	</div>
@@ -65,7 +65,7 @@
             	<div class="pre_footer_block pre_footer_contact">
                 	<div class="pre_footer_info">
                     	<h3>Contact</h3>
-                    	<p><img src="//localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/pre_footer/contact-dark.svg" style="width:30px" alt="Restez en contact avec les responsables de Capoeira Senzala 78 !"></p>
+                    	<p><img src="//localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/pre_footer/contact-dark.svg" style="width:30px" alt="Restez en contact avec les responsables de l'association Capoeira Senzala 78 !"></p>
                     	<p class="title_prefooter">Contact</p>
                     	<div class="liens_hover">
                     		<p><a href="?p=73">+ d'infos</a></p>
@@ -84,11 +84,11 @@
 <!-- ICI EST INSTALLÉ LE FOOTER AVEC LES MENTIONS LÉGALES-->
 
                     <div id="footer_copyright_container">
-                		<p class="footer_copyright">©ESCOLA DE CAPOEIRA GRUPO SENZALA 78</p>
-                        <a href="http://www.youtube.com/playlist?list=PLF3940A5FF5E32F82" title="Découvrez et partagez nos vidéos" target="_blank">Youtube</a>|
-                        <a href="https://www.facebook.com/SenzalaCapoeiraStg" title="Suivez-nous sur Facebook" target="_blank">Facebook</a>|
+                		<p class="footer_copyright">© Escola de Capoeira | Grupo Senzala 78</p>
+                        <a href="http://www.youtube.com/playlist?list=PLF3940A5FF5E32F82" title="Découvrez et partagez nos vidéos" target="_blank" alt="Youtube Capoeira Senzala 78">Youtube</a>|
+                        <a href="https://www.facebook.com/SenzalaCapoeiraStg" title="Suivez-nous sur Facebook" target="_blank" alt="Facebook Senzala 78">Facebook</a>|
                         <a href="?p=92">Mentions Légales</a>|
-                		<a href="?p=150">Site réalisé par<img src="http://localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/webcream.png" width="100px" height="18px"></a>
+                		<a href="?p=150">Site réalisé par<img src="http://localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/webcream.png" width="100px"></a>
                     </div>
 
 	</footer><!-- #colophon -->
