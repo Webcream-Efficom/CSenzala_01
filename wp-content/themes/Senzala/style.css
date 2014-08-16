@@ -4326,6 +4326,101 @@ a.lien_presse{
 /******* FIN de PAGE COURS ******/
 
 
+/*********** PAGE PROFESSIONNELS ***********/
+
+.container-professionnels{
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo-pro{
+	width: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h3.titre-section-pro{
+	text-transform: uppercase;
+	color: #F9BB07;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 60px;
+}
+
+
+h4.title-paragraph-pro{
+	color: #F9BB07;
+	font-size: 20px;
+	opacity: 0.6;
+	text-transform: uppercase;
+}
+
+p.texte-pro{
+	text-align: justify;
+}
+
+p.texte-pro-intro{
+	font-style: italic;
+	font-weight: bold;
+	text-align: justify;
+}
+
+hr.professionnels-separator{
+	background-color: #F9BB07;
+	background-size: 2px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: 0;
+	background-image: none;
+	height: 2px;
+}
+
+.titre-pro{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+.pro-gauche{
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+}
+
+.pro-droite{
+	display: inline-block;
+	padding-left: 14px;
+	width: 39%;
+}
+
+.logo-partners-pro{
+	margin-right: auto;
+	margin-left: 6%;
+	display: inline-block;
+}
+
+.logo-partners-pro-speo{
+	width: 10%;
+}
+
+/* Classe à retirer lorsque les vrais logos des clients et partenaires auront été placé */
+.rond{
+	width:50px;
+	height:50px;
+	opacity:0.6;
+	background:#F9BB07;
+	border-radius:100px;
+	margin-left: 25px;
+	margin-right: 25px;
+	display: inline-block;
+}
+
+
+/* Fin de PAGE PROFESSIONNELS */
+
+
 /*******PAGE OU PRATIQUER******/
 
 /*! jQuery UI - v1.10.4 - 2014-06-15 (15 Juin 2014)
