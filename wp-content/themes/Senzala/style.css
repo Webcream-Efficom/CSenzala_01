@@ -3271,7 +3271,7 @@ footer.entry-meta {
 
 /********************* HOME PAGE ***************************/
 
-/************* SÉANCE OFFERTE ******************/
+/************* Homepage - bloc SÉANCE OFFERTE ******************/
 .seance_offerte {
 	background-image:url(images/images-pages/home_page/bg-seance_offerte.jpg);
 	background-size: 600px 336px;
@@ -3330,9 +3330,9 @@ footer.entry-meta {
     color: #F9BB07;
 }
 
-/************* FIN SÉANCE OFFERTE ******************/
+/************* FIN Homepage - bloc SÉANCE OFFERTE ******************/
 
-/************* PROFESSIONNELS ******************/
+/************* Homepage - bloc PROFESSIONNELS ******************/
 .professionnels {
 	background-image:url(images/images-pages/home_page/bg-professionnels.png);
 	background-size: 346px 136px;
@@ -3370,9 +3370,9 @@ footer.entry-meta {
 	margin-top: 20px;
 }
 
-/************* FIN PROFESSIONNELS ******************/
+/************* FIN Homepage - bloc PROFESSIONNELS ******************/
 
-/************* ADHESION ******************/
+/************* Homepage - bloc ADHESION ******************/
 .adhesion{
 	background-image:url(images/images-pages/home_page/bg-adhesion.jpg);
 	background-size: 166px 186px;
@@ -3420,10 +3420,10 @@ footer.entry-meta {
 	text-decoration: none;
 }
 
-/************* FIN ADHESION ******************/
+/************* FIN Homepage - bloc ADHESION ******************/
 
 
-/************* OÙ PRATIQUER ******************/
+/************* Homepage - bloc OÙ PRATIQUER ******************/
 .pratique {
 	background-image:url(images/images-pages/home_page/bg-ou_pratiquer.jpg);
 	background-size: 166px 186px;
@@ -3475,7 +3475,7 @@ footer.entry-meta {
 	text-decoration: none;
 }
 
-/************* FIN OÙ PRATIQUER ******************/
+/************* FIN Homepage - bloc OÙ PRATIQUER ******************/
 
 
 /************* DÉBUT PRE FOOTER ******************/
@@ -3490,7 +3490,6 @@ footer.entry-meta {
 /*Fin alignement footer*/
 
 .tableau_prefooter {
-    margin: 10px auto 0px auto;
     padding: 0;
     list-style: none;
     display: block;
@@ -3532,7 +3531,7 @@ footer.entry-meta {
     cursor: default;
 }
 
-/*Section La Capoeira*/
+/*Section La Capoeira Pre-footer*/
 
 .pre_footer_capoeira {
     background-image: url(images/pre_footer/bg_pre_footer_la_capoeira.png);
@@ -3540,10 +3539,10 @@ footer.entry-meta {
     background-color: #F9BB07;
 }
 
-/*Fin Section La Capoeira*/
+/*Fin Section La Capoeira Pre-footer*/
 
 
-/*Section Grupo Senzala*/
+/*Section Grupo Senzala Pre-footer*/
 
 .pre_footer_grupo_senzala {
     background-image: url(images/pre_footer/bg_pre_footer_grupo_senzala.png);
@@ -3551,9 +3550,9 @@ footer.entry-meta {
     background-color: #F9BB07;
 }
 
-/*Fin Section La Capoeira*/
+/*Fin Section La Capoeira Pre-footer*/
 
-/*Section Gallerie*/
+/*Section Galerie Pre-footer*/
 
 .pre_footer_galerie {
     background-image: url(images/pre_footer/bg_pre_footer_galerie.png);
@@ -3561,9 +3560,9 @@ footer.entry-meta {
     background-color: #F9BB07;
 }
 
-/*Fin Section Gallerie*/
+/*Fin Section Galerie Pre-footer*/
 
-/*Section Contact*/
+/*Section Contact Pre-footer*/
 
 .pre_footer_contact {
     background-image: url(images/pre_footer/bg_pre_footer_contact.png);
@@ -3571,7 +3570,7 @@ footer.entry-meta {
     background-color: #F9BB07;
 }
 
-/*Fin Section Contact*/
+/*Fin Section Contact Pre-footer*/
 
 /*Styles pour titre h3 */
 
@@ -3583,7 +3582,7 @@ footer.entry-meta {
     height: 20px;
     width: 100%;
     padding:7px 10px;
-    font-family: 'Lato',Arial, sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
     font-size:15px;
     font-weight: 700;
 }
@@ -3682,7 +3681,7 @@ footer.entry-meta {
 	margin-right: 10px;
 	margin-bottom: 10px;
 	text-transform: uppercase;
-	font-family: 'Lato', Arial;
+	font-family: 'Lato', Arial, sans-serif;
 	color: #F9BB07;
 	font-size: 10px;
 	opacity: 1;
@@ -4399,24 +4398,8 @@ hr.professionnels-separator{
 	margin-right: auto;
 	margin-left: 6%;
 	display: inline-block;
-}
-
-.logo-partners-pro-speo{
 	width: 10%;
 }
-
-/* Classe à retirer lorsque les vrais logos des clients et partenaires auront été placé */
-.rond{
-	width:50px;
-	height:50px;
-	opacity:0.6;
-	background:#F9BB07;
-	border-radius:100px;
-	margin-left: 25px;
-	margin-right: 25px;
-	display: inline-block;
-}
-
 
 /* Fin de PAGE PROFESSIONNELS */
 
