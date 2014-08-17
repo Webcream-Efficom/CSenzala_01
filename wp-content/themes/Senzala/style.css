@@ -4403,6 +4403,50 @@ hr.professionnels-separator{
 
 /* Fin de PAGE PROFESSIONNELS */
 
+/*** Page CONTACT ***/
+
+.contact-full-text-container{
+    width: 740px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.logos-page-contact{
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.titre-page-contact-container{
+    text-align: center;
+}
+
+.titre-page-contact{
+    text-transform: uppercase;
+    color: #F9BB07;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
+.img-left-container-contact{
+    display: table-cell;
+    vertical-align: top;
+    width: 180px;
+}
+
+.txt-right-container-contact{
+    display: table-cell;
+    padding-left: 50px;
+    width: 560px;
+}
+
+/*** Fin page CONTACT ***/
+
 
 /*******PAGE OU PRATIQUER******/
 
