@@ -41,6 +41,9 @@
   <meta property="og:url" content="http://localhost:8888/CSenzala_01/" />
 	-->
 
+  <!-- Google Formulaire - Landing Page Inscription -->
+  <link rel="stylesheet" type="text/css" href="../wp-content/themes/Senzala/css/googleform/stylegoogleform.css">
+
 	<!-- Favicon Aigle Senzala -->
 	<link rel="icon" type="image/png" href="http://localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/favicon.png">
 
