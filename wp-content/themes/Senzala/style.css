@@ -1,14 +1,14 @@
 /*
 Theme Name: Twenty Thirteen/Senzala
 Theme URI: http://wordpress.org/themes/twentythirteen
-Author: the WordPress team
-Author URI: http://wordpress.org/
+Author: the WordPress team and Webcream Team
+Author URI: http://wordpress.org/ or http://capoeirasenzala78.fr/;
 Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
 Version: 1.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
-Text Domain: twentythirteen
+Text Domain: twentythirteen/Senzala
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -43,6 +43,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * 7.0 - Footer
  * 8.0 - Media Queries
  * 9.0 - Print
+ * 10.0 - Senzala
  * ----------------------------------------------------------------------------
  */
 
@@ -3222,9 +3223,13 @@ footer.entry-meta {
 	}
 }
 
-/**************************************************************************************/
-/********************************* CODE CSS PERSO ************************************/
-/************************************************************************************/
+/**
+ * 10.0 Senzala
+ * ----------------------------------------------------------------------------------------------
+ */
+/**********************************************************************************************/
+/********************************* CODE CSS PERSO Senzala ************************************/
+/********************************************************************************************/
 
 /*GMAPS*/
 #kp_maps {
@@ -4153,7 +4158,6 @@ a.lien_presse{
 	width: 49%;
 	display: inline-block;
 	padding-top: 50px;
-	text-transform: uppercase;
 	padding-left: 10px;
 }
 
@@ -4338,9 +4342,7 @@ a.lien_presse{
 	margin-right: auto;
 }
 
-h3.titre-section-pro{
-	text-transform: uppercase;
-	color: #F9BB07;
+.titre-section-pro{
 	font-size: 45px;
 	text-align: center;
 	margin-top: 5px;
@@ -4348,9 +4350,9 @@ h3.titre-section-pro{
 }
 
 
-h4.title-paragraph-pro{
+.title-paragraph-pro{
 	color: #F9BB07;
-	font-size: 20px;
+	font-size: 25px;
 	opacity: 0.6;
 	text-transform: uppercase;
 }
@@ -4648,11 +4650,7 @@ label{
 	color: #F9BB07;
 }
 
-h3.gros_titre{
-
-}
-
-h4.titre{
+h4.titre-text-accordeon{
 	color: #F9BB07;
 	font-size: 13px;
 	margin-top: 15px;

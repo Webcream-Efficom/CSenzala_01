@@ -2460,29 +2460,6 @@ body::-webkit-scrollbar-corner{
 	font-weight:bold
 }
 
-h1{
-	font-size:23px;
-	padding:0
-}
-
-hr{
-	border:0;
-	height:1px;
-	background-color:#ddd
-}
-
-table{
-	border-collapse:collapse
-}
-
-textarea{
-	font:normal 13px arial,sans-serif
-}
-
-br{
-	display:block!important
-}
-
 .aria-only-help{
 	font-size:0;
 	left:-9999px;
