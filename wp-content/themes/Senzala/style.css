@@ -4044,17 +4044,6 @@ a.lien_presse{
 	padding-top: 3px;
 }
 
-.bg-vid-center{
-    background-image: url(images/images-pages/galerie-presse/fond_videos.svg);
-    width: 565px;
-    height: 300px;
-    background-size: 565px 300px;
-    background-repeat: no-repeat;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .bg-vid-right{
     background-image: url(images/images-pages/galerie-presse/fond_videos.svg);
     width: 565px;
