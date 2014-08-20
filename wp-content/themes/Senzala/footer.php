@@ -84,7 +84,7 @@
 <!-- ICI EST INSTALLÉ LE FOOTER AVEC LES MENTIONS LÉGALES-->
 
                     <div id="footer_copyright_container">
-                		<p class="footer_copyright">© Escola de Capoeira | Grupo Senzala 78</p>
+                		<p class="footer_copyright"><img src="//localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/favicon.png" style="width:10px" alt="Picto de l'association Capoeira Senzala 78"> Escola de Capoeira | Grupo Senzala 78 ©</p>
                         <a href="http://www.youtube.com/playlist?list=PLF3940A5FF5E32F82" title="Découvrez et partagez nos vidéos" target="_blank" alt="Youtube Capoeira Senzala 78">Youtube</a>|
                         <a href="https://www.facebook.com/SenzalaCapoeiraStg" title="Suivez-nous sur Facebook" target="_blank" alt="Facebook Senzala 78">Facebook</a>|
                         <a href="?p=92">Mentions Légales</a>|
