@@ -1,0 +1,370 @@
+.actualites{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.cadre {
+    /* ce DIV regroupe les deux vues de l'article (summary et détail) il est important mais 
+       on peut virer sa bordure */
+/*    border:1px solid #DDD;*/
+    position: relative;
+    height: 450px;
+}
+
+.titre_page_actu {
+    width: 952px;
+    margin-left: 158px;
+    margin-top: 32px;
+}
+
+
+.margeGauche{
+    display: inline-block;
+    background-image: url("images/motif_ceinture copie verticale.png");
+    background-color: #F9BB07;
+    position:relative;
+    width: 45px;
+    height: 450px;
+} 
+.summary{
+    display: inline-block;
+    background-color: #F9BB07;
+    width: 585px;                         /* 45%   55% */
+    height: 450px;
+    overflow:auto;
+    position:absolute; left:50px;
+    color:#13191c;
+    margin-left: -5px;
+}
+.detail{
+    display: inline-block;
+    background-color: #F9BB07;          /* #F9BB07; */
+    position:absolute;
+    left:400px;
+    width: 585px;                         /* 45%   55% */
+    height: 345px;
+    overflow:auto;
+    bottom: 0px;
+    visibility: hidden;
+    margin-left: -5px;
+}
+
+.detail a {color:#13191c !important;font-weight: bold;}
+.summary a {color:#13191c!important;font-weight: bold;}
+
+.intercalaire{
+    display: inline-block;
+    background-color: #13191c;
+    position:absolute; left:750px;      /* 45% */
+    width: 20px;                          /* 1% */
+    height: 450px;
+} 
+.important{
+    display: inline-block;
+    background-color: #454849;
+    position:absolute; 
+    left:645px;        /* 46%   56% */
+    width: 305px;                         /* 30%   40% */
+    height: 450px;
+    overflow:auto;
+    text-align: center;
+}
+.margeDroite{
+    display: inline-block;
+    background-color: #13191c;
+    position:absolute; left:950px;
+    width: 380px;
+    height: 450px;
+} 
+.cont_detail {
+    /* cette classe pour les propriétés communes des 3 panneaux */
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cont { 
+/* cette classe pour les propriétés communes des 3 panneaux */
+    height: 100px;
+    cursor: pointer;
+}
+
+.sumdate{
+    border-top:4px solid #13191c;
+    border-bottom:4px solid #13191c;
+    display: inline-block;
+    float: left;
+    font-family: 'Lato', Arial;
+    margin:10px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding-top: 5px;
+    width: 47px;
+    
+}
+
+.sumdate_number {
+    font-weight: 900;
+    font-size: 36px;
+    letter-spacing: -1px;
+}
+
+.sumdate_jour {
+    font-size: 22px;
+    margin-top: 3px;
+    font-weight: 500;}
+
+.sumdate_mois {
+    font-size: 18px;
+    letter-spacing: -1px;
+    margin-top: -3px;
+    font-weight: 500;
+}
+
+.sumdateimportant{
+    border-top:4px solid #FFF;
+    border-bottom:4px solid #FFF;
+    display: inline-block;
+    float: left;
+    font-family: 'Lato', Arial;
+    margin:10px;
+    text-align: left;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding-top: 5px;
+    color: #FFF;
+    opacity: 0.7;
+    width: 43px;
+}
+
+.sumdateimportant_number {
+    font-weight: 600;
+    font-size: 33px;
+    letter-spacing: -1px;}
+
+.sumdateimportant_jour {
+    font-size: 19px;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.sumdateimportant_mois {
+    font-size: 15px;
+    margin-top: -5px;
+    font-weight: 500;
+    }
+
+.sumdatedetail{
+    border-top:4px solid #13191c;
+    border-bottom:4px solid #13191c;
+    display: inline-block;
+    float: left;
+    font-family: 'Lato', Arial;
+    margin:10px;
+    text-align: left;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding-top: 5px;
+    color: #13191C;
+    width: 47px;
+}
+
+.sumdatedetail_number {
+    font-weight: 900;
+    font-size: 36px;
+    letter-spacing: -1px;}
+
+.sumdatedetail_jour {
+    font-size: 22px;
+    margin-top: 3px;
+    font-weight: 500;}
+
+.sumdatedetail_mois {
+    font-size: 18px;
+    letter-spacing: -1px;
+    margin-top: -3px;
+    font-weight: 500;
+}
+
+.sumicone{
+    display: inline-block;
+    float: left;
+    margin-top: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.sumactus{
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    width: 400px;
+    height: 72px;
+
+}
+
+.sumactus_titre {
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#000;
+}
+
+.sumactus_res p{ color:#000 !important;font-weight: 400;}
+
+.impactus {
+    width: 225px;
+    text-align: left;
+    height: 84px;
+    overflow: hidden;
+    padding-top: 7px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.impactus_titre {
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#fff !important;
+    opacity: 0.7 !important;
+    width: 220px;
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+.impactus_res p{ 
+    color:#fff !important;
+    line-height: 17px;
+    font-weight: 400;
+    opacity: 0.5;}
+
+.listes_deroulantes{
+    text-align:center;
+    width: 100%;
+    padding:10px;
+    height: 92px;
+}
+.immanquables{
+    background-color: #454849 ;
+    text-align:left;
+    width: 100%;
+    padding:15px;
+    height: 72px;
+    margin-top: -20px;
+}
+
+.immanquables h3 { 
+    font-size: 24px;
+    color:#fff;}
+
+.erreur_mois {
+    background-color:#13191c;
+    color:#fff;
+    width: 560px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 7px;
+}
+
+.barre_noire {
+    border-bottom: 3px solid black;
+    width:580px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.postform {
+    display: block;
+}
+
+.bouton_fermer {
+    color:#13191c;
+    cursor: pointer;
+}
+
+.titre_article_actus {
+    color:#13191c;
+    text-transform: uppercase;
+
+    margin-left:5px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.contenu_article_actus {
+    color:#13191c;
+    margin-left:5px;
+    font-size: 14px;
+}
+
+.contenu_article_actus p{
+    margin: 0px 0px 24px;
+    font-size: 15px;
+    color: #13191C;
+    font-weight: 400;
+    font-family: "Lato",Arial;
+}
+
+
+.date_icon {float: right;}
+
+.icons_tag { margin-left: 10px;margin-right: 10px;}
+
+/* The CSS */
+select {
+    padding:3px;
+    margin-bottom: 10px !important;
+    color:#13191c;
+    border:3px solid black;
+    outline:none;
+    background-color: #F9BB07;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+    text-transform: uppercase;
+    margin-bottom: ;
+    overflow: hidden !important;
+    font-weight: bold;
+}
+
+option {
+    text-transform: uppercase;
+    font-weight: bold;}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}
+
+
+
+
+/*label {position:relative}
+label:after {
+    content:'<>';
+    font:11px "Consolas", monospace;
+    color:#aaa;
+    background-color: #fbba3e ;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:8px; top:2px;
+    padding:0 0 2px;
+    border-bottom:1px solid #ddd;
+    position:absolute;
+    pointer-events:none;
+}
+label:before {
+    content:'';
+    right:6px; top:0px;
+    width:20px; height:20px;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}*/

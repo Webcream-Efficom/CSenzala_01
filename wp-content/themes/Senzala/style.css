@@ -64,6 +64,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	box-sizing:         border-box;
 }
 
+em{
+	font-size: 13px;
+}
+
 article,
 aside,
 details,
@@ -115,7 +119,7 @@ body {
 }
 
 a {
-	color: #FDB92D;
+	color: #F9BB07;
 	text-decoration: none;
 }
 
@@ -133,8 +137,8 @@ a:hover {
 	outline: 0;
 }
 
-a:hover {
-	text-decoration: none;
+a:hover{
+	text-decoration: underline;
 }
 
 h1,
@@ -161,7 +165,7 @@ h2 {
 	margin: 25px 0;
 	color: #777777;
 	text-transform: uppercase;
-	font-weight: 900;
+	font-weight: 600;
 }
 
 h3 {
@@ -222,7 +226,7 @@ mark {
 p {
 	margin: 0 0 24px;
 	font-size: 15px;
-	color: #FFF;
+	color: #D0D0D0;
     font-weight: 300;
     font-family:'Lato', Arial;
 }
@@ -447,7 +451,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 	font-size: 14px;
-	line-height: 2;
+	line-height: 1.2;
 	margin: 0 0 20px;
 	width: 100%;
 }
@@ -470,7 +474,7 @@ th {
 }
 
 td {
-	border-top: 1px solid #ededed;
+	border: 1px solid #13191C;
 	padding: 6px 10px 6px 0;
 }
 
@@ -489,6 +493,27 @@ hr {
 	border: 0;
 	height: 1px;
 	margin: 0 0 24px;
+}
+
+hr.titre{
+	background-color: #F9BB07;
+	background-size: 2px;
+	margin-bottom: 30px;
+	margin-top: 5px;
+	border: 0;
+	background-image: none;
+	height: 2px;
+}
+
+
+hr.titre-galerie{
+	background-color: #F9BB07;
+	background-size: 2px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border: 0;
+	background-image: none;
+	height: 2px;
 }
 
 
@@ -987,7 +1012,8 @@ ul.nav-menu .focus > ul,
 	background-color: transparent;
 	margin: 0 auto;
 	max-width: 1600px;
-	width: 77%;
+	width: 1024px;
+	padding-left: 10px;
 }
 
 .site-header .search-form {
@@ -1177,8 +1203,6 @@ ul.nav-menu .focus > ul,
 
 .entry-content a:hover,
 .comment-content a:hover {
-	/*text-decoration: underline;*/
-	text-decoration: none;
 
 }
 
@@ -3253,6 +3277,7 @@ footer.entry-meta {
 
 .picto_menu_social {
 	width:24px;
+	margin-right: -24px;
 }
 
 /************* HEADER ******************/
@@ -3264,6 +3289,7 @@ footer.entry-meta {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	width: 960px;
+	image-rendering: optimizeQuality;
 }
 
 /************* FIN HEADER ******************/
@@ -3541,6 +3567,7 @@ footer.entry-meta {
     background-image: url(images/pre_footer/bg_pre_footer_la_capoeira.png);
     background-size: 229px 190px ;
     background-color: #F9BB07;
+    image-rendering: optimizeQuality;
 }
 
 /*Fin Section La Capoeira Pre-footer*/
@@ -3552,6 +3579,7 @@ footer.entry-meta {
     background-image: url(images/pre_footer/bg_pre_footer_grupo_senzala.png);
     background-size: 229px 190px ;
     background-color: #F9BB07;
+    image-rendering: optimizeQuality;
 }
 
 /*Fin Section La Capoeira Pre-footer*/
@@ -3562,6 +3590,7 @@ footer.entry-meta {
     background-image: url(images/pre_footer/bg_pre_footer_galerie.png);
     background-size: 229px 190px ;
     background-color: #F9BB07;
+    image-rendering: optimizeQuality;
 }
 
 /*Fin Section Galerie Pre-footer*/
@@ -3572,6 +3601,7 @@ footer.entry-meta {
     background-image: url(images/pre_footer/bg_pre_footer_contact.png);
     background-size: 229px 190px ;
     background-color: #F9BB07;
+    image-rendering: optimizeQuality;
 }
 
 /*Fin Section Contact Pre-footer*/
@@ -3737,7 +3767,7 @@ footer.entry-meta {
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #F9BB07;
-	margin-left: 10px;
+	margin-left: 6px;
 	line-height: normal;
 }
 
@@ -3963,8 +3993,8 @@ a.lien_presse{
 }
 
 .texte_chanson_refrain{
-    color: #F9BB07;
-    font-size: 0.9em;
+    color: #777777;
+    font-size: 1em;
     margin-left: 25px;
     margin-top: 25px;
     font-weight: bold;
@@ -3983,10 +4013,9 @@ a.lien_presse{
 }
 
 .artiste_musique {
-    font-size: 11px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    color: #D0D0D0;
     line-height: 1.3em;
     margin-bottom: 30px;
 }
@@ -4018,15 +4047,24 @@ a.lien_presse{
     color: #F9BB07;
     line-height: 1em;
     margin: 0;
+    width: 395px;
+}
+
+.titre_presse_sub{
+	font-weight: 300;
+	font-size: 15px;
+	color: #F9BB07;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .texte_presse{
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #FFF;
-    line-height: 1.5em;
+    font-size: 15px;
+    color: #D0D0D0;
+    line-height: 120%;
     margin: 0;
     padding-right: 5px;
+    margin-right: 10px;
 }
 
 .media-press{
@@ -4105,7 +4143,7 @@ a.lien_presse{
 /*******FIN de PAGE PHOTOS******/
 
 
-/******* PAGE COMMENT ADHERER ******/
+/******* PAGE COMMENT ADHERER - Tarifs ******/
 .bg-tarifs{
 	background-image: url(images/images-pages/adhesion-tarifs-inscription/bg-tarifs.jpg);
 	background-size: 100%;
@@ -4116,13 +4154,13 @@ a.lien_presse{
 
 .tarif-info-container{
 	background-color: #13191C;
-	width: 60%;
+	width: 68%;
 	position: relative;
 }
 
 .container-button-tarifs-main{
 	width: 100%;
-	height: 475px;
+	height: 432px;
 	background-color: #F9BB07;
 	margin-top: -50px;
 
@@ -4135,33 +4173,36 @@ a.lien_presse{
 	padding-top: 25px;
 }
 
-.picto-tarifs{
-	width: 60px;
-	position: absolute;
-	margin-left: 37px;
-	margin-top: 20px;
-}
-
 .container-tarifs-left{
-	width: 49%;
+	width: 45%;
 	display: inline-block;
-	padding-top: 50px;
-	padding-left: 10px;
 }
 
 .container-tarifs-right{
-	width: 50%;
+	width: 54%;
 	display: inline-block;
 }
 
 .subtitle-tarifs{
+	font-weight: lighter;
+	color: #F9BB07;
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+.subtitle-tarifs-2{
 	font-size: 17px;
-	text-align: center;
+	margin-left: 20px;
 	color: #F9BB07;
 }
 
 .text-tarif{
 	font-size: 13px;
+	margin-left: 20px;
+	color: #D0D0D0;
+}
+
+ul.text-tarif{
 }
 
 .subtitle-button-tarifs{
@@ -4214,6 +4255,13 @@ a.lien_presse{
 	margin-left: auto;
 }
 
+.cours-container2{
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+
 .title-cours{
 	text-align: center;
 	text-transform: uppercase;
@@ -4224,10 +4272,8 @@ a.lien_presse{
 	margin-left: 30px;
 }
 
-.text-cours{
+.text-cours{ 
 	text-align: center;
-	text-align: justify;
-	text-transform: uppercase;
 	font-weight: 400;
 }
 
@@ -4246,26 +4292,28 @@ a.lien_presse{
 	text-transform: uppercase;
 }
 
-.push-oupratiquer{
-	width: 100px;
-	border-radius: 5px;
-}
-
 .wrapper-cours-push-oupratiquer{
-	margin-left: auto;
-	margin-right: auto;
 	display: block;
-	padding-bottom: 25px;
-	width: 636px;
+	padding-bottom: 5px;
+    padding-top: 18px;
+    width: 815px;
 }
 
 .text-cours-push-oupratiquer{
 	display: inline-block;
 	text-align: left;
-	padding-left: 20px;
-	width: 75%;
-	text-transform: uppercase;
+	padding-left: 10px;
 	font-weight: 400;
+	vertical-align: middle;
+}
+
+.text-cours-push-oupratiquer-yellow{
+	color: #F9BB07;
+}
+
+.push-oupratiquer{
+	margin-bottom: 20px;
+	width: 7%;
 }
 
 .video-cours-container{
@@ -4340,19 +4388,18 @@ a.lien_presse{
 
 .title-paragraph-pro{
 	color: #F9BB07;
-	font-size: 25px;
+	font-size: 18px;
 	opacity: 0.6;
 	text-transform: uppercase;
 }
 
 p.texte-pro{
-	text-align: justify;
+	text-align: left;
 }
 
 p.texte-pro-intro{
 	font-style: italic;
-	font-weight: bold;
-	text-align: justify;
+	text-align: center;
 }
 
 hr.professionnels-separator{
@@ -4374,20 +4421,24 @@ hr.professionnels-separator{
 .pro-gauche{
 	display: inline-block;
 	vertical-align: top;
-	width: 60%;
+	width: 70%;
 }
 
 .pro-droite{
 	display: inline-block;
-	padding-left: 14px;
-	width: 39%;
+	margin-left: 44px;
+	width: 25%;
 }
 
 .logo-partners-pro{
 	margin-right: auto;
-	margin-left: 6%;
+	margin-left: 8%;
 	display: inline-block;
 	width: 10%;
+}
+
+.logos-partenaires1{
+	margin-bottom: 10px;
 }
 
 /* Fin de PAGE PROFESSIONNELS */
@@ -4425,11 +4476,13 @@ hr.professionnels-separator{
 .titre-page-contact-2{
 	text-transform: uppercase;
     color: #F9BB07;
-    font-size: 30px;
+    font-size: 18px;
     text-align: center;
     margin-top: 5px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+    opacity: 0.6;
 }
+
 
 .img-left-container-contact{
     display: table-cell;
@@ -4476,6 +4529,72 @@ label{
 
 
 /* Fin du Formulaire MailChimp Personnalisé */
+
+
+/********** WEB CREAM **********/
+
+
+.webcream-full-container1{
+    width: 730px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+}
+
+
+.webcream-full-container2{
+    width: 730px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.rond1-webcream{
+    display: table-cell;
+    vertical-align: top;
+    width: 180px;
+    padding: 0px;
+    text-align: center;
+}
+
+.rond2-webcream{
+    display: table-cell;
+    vertical-align: top;
+    width: 180px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+
+.rond3-webcream{
+    display: table-cell;
+    vertical-align: top;
+    width: 180px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+
+.rond4-webcream{
+    display: table-cell;
+    vertical-align: top;
+    width: 180px;
+    padding-left: 130px;
+    text-align: center;
+}
+
+
+.rond5-webcream{
+    display: table-cell;
+    vertical-align: top;
+    width: 180px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+/* Fin de la page WEBCREAM */
+
 
 /*******PAGE OU PRATIQUER******/
 
@@ -4577,6 +4696,7 @@ label{
     min-height: 0; /* support: IE7 */
     font-size: 18px; /* changer taille titre */
 }
+
 .ui-accordion .ui-accordion-icons {
     padding-left: 2.2em;
 }
