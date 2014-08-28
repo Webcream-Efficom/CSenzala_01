@@ -53,10 +53,14 @@
 	<!-- Google Font - LATO -->
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
-  <!--Page Photo -->
+  <!-- Page Photo -->
     <script src="../wp-content/themes/Senzala/js/lightbox.js"></script>
     <link rel="stylesheet" type="text/css" href="../wp-content/themes/Senzala/css/page-photo/screen.css">
     <link rel="stylesheet" type= "text/css" href="../wp-content/themes/Senzala/css/page-photo/lightbox.css">
+
+  <!-- Page La Capoeira / Senzala78 -->
+    <script src="../wp-content/themes/Senzala/js/jquery.js"></script>
+    <script src="../wp-content/themes/Senzala/js/script.js"></script>
 
 	<!--Page Où Pratiquer -->
     <script src="../wp-content/themes/Senzala/js/jquery-1.10.2.js"></script>

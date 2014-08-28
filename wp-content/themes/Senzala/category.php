@@ -10,7 +10,6 @@
 */
 
     /* Constantes et Globales */
-    $VERSION  = "11.0";
     $BASE_DIR = "wp-content/themes/Senzala/";
     $ICON_DIR = "images/pictos/";
     $ICON_LIST = array('evenement' => 'evenements-dark.svg', 'courant' => 'courant-dark.svg', 'defaut' => 'courant-dark.svg');
@@ -59,10 +58,6 @@
         
     } /* end initComboBoxes */
     
-    function getPostDate() {
-        date('D<br />j<br />M.');
-    } /* end getPostDate */
-    
     function getPostTag() {
         global $ICON_LIST;
         $posttags = get_the_tags();
@@ -92,7 +87,6 @@
 ?>
 <script type="text/javascript"><!--
     urlSite = "<?php echo $urlSite; ?>";
-    version = "<?php echo $VERSION; ?>";
 --></script>
 
 <link rel='stylesheet' href='http://localhost:8888/CSenzala_01/wp-content/themes/Senzala/actus.css' type='text/css' media='all' />
@@ -117,9 +111,7 @@
 
 
 
-
-<div class="margeGauche">
-</div>
+<div class="margeGauche"></div>
 <div id="boite1" class="summary">
 
     <div id="combos" class="listes_deroulantes" align="center">
@@ -136,7 +128,7 @@
         <?php while ( $query->have_posts() ) : $query->the_post(); ?>
             <div class="cont" onclick="panel.deplace(<?php echo($index++); ?>);">
                 <div class="sumdate">
-                    <?php $dates  = explode ( '-' , the_date("D-j-M.","","",false) ); ?>
+                    <?php $dates  = explode ( '-' , get_the_date("D-j-M.") ); ?>
                     <div class="sumdate_number"><?php echo $dates[1]; ?><br /></div>
                     <div class="sumdate_jour"><?php echo $dates[0]; ?><br /></div>
                     <div class="sumdate_mois"><?php echo $dates[2]; ?></div>
@@ -225,7 +217,7 @@
                 <div class="titre_article_actus"><?php the_title(); ?></div>
                 <div class="contenu_article_actus"><?php the_content(); ?></div>
             </div>
-          </div><!-- class detail -->
+          </div><!-- class detaili -->
         <?php endif; /* isDateAfterToday */ ?>
     <?php endwhile; ?>
 <?php /* fin loop des detail */ ?>
@@ -233,15 +225,14 @@
 <?php /* Restore original Post Data */ ?>
 <?php wp_reset_postdata(); ?><!-- new query -->
 
-<div id="inter" class="intercalaire">
-</div>
+<div id="inter" class="intercalaire"></div>
 
 <div id="important1" class="important">
     <div id="combos" class="immanquables" align="left">
         <h3>LES IMMANQUABLES</h3>
     </div><!-- fin div class listes_deroulantes -->
 
-<?php /* loop des importants */ ?>
+    <?php /* loop des importants */ ?>
     <?php $query = new WP_Query(array ( 'post_status' => array( 'publish', 'future' ), 'tag'=>'important', 'orderby' => 'date', 'order' => 'ASC')); ?><!-- posts taggués importants -->
     <?php if ( $query->have_posts() ) : ?>
         <?php $index=1; ?>
@@ -269,8 +260,7 @@
     <?php wp_reset_postdata(); ?>
 </div><!-- class important -->
 
-<div class="margeDroite">
-</div>
+<div class="margeDroite"></div>
 
 <?php if( $isRequestFromPageLoad ): ?>
     </div><!-- class cadre -->

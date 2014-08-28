@@ -1,35 +1,16 @@
-/* Intialisation*/
-window.onload = function ()
-{
-	panel.init();
-}
-window.onresize = function ()
-{
-	panel.init();
-}
 var panel = {
     delay: null,            /* objet de controle de l'animation */
     speed: 5,               /* rapidité d'exécution de l'animation */
     sens: -5,		        /* négatif : ouverture détail */
     positionMax: 750,       /* Largeur du div summary */
-    positionMin: 50,	        /* position du div detail quand visible */
-    xx: 750,                  /* variable de l'animation ici, l'attribut left */
+    positionMin: 50,	    /* position du div detail quand visible */
+    xx: 750,                /* variable de l'animation ici, l'attribut left initialisée à positionMax */
     suite: 0,               /* booleen pour ouvrir après avoir fermer un détail */
     noeud: "",              /* String représenat l'ID du div important sélectionné */
     detail: "",             /* String représenat l'ID du div de détail sélectionné */
     
     selMois: null,
     selAnnee: null,
-
-init: function ()
-{
-    this.writeInConsole("version : "+version);
-    document.getElementById('detail1').setAttribute("style","visibility:hidden");
-    this.xx = this.positionMax;
-    
-    var obj = document.getElementById("inter");
-    this.writeInConsole("mon toto : "+obj.style);
-},
   
 /***********************************/
 /* fonction gestion déroulants     */
@@ -43,7 +24,7 @@ init: function ()
 
 //    var params = "?cat=3&actu=1&year="+annee+"&month="+mois;
     var params = "category/actualites_mois/?actu=1&ayear="+annee+"&month="+mois;
- this.writeInConsole("url deroul : "+urlSite);
+    this.writeInConsole("url deroul : "+urlSite);
     panel.sendRequest(params, urlSite);
 
   },
@@ -121,7 +102,8 @@ replace: function ()
   parseServeurReponse: function (reponse)
   {
     document.getElementById("cadre").innerHTML = reponse;
-    if ( this.suite > 0 ) {
+    if ( this.suite > 0 ) { 
+        this.xx = this.positionMax;
         this.suite = 0;
         this.deplace( this.noeud );
     }
@@ -180,8 +162,8 @@ alert('problème ! \nstatus = '+ httpRequest.status +'\nreponse :\n '+ httpReques
   remplace: function (param)
   {
     this.writeInConsole(param);
-    var reponses = param.split("-");
-    var params = "?cat=3&actu=1&year="+reponses[1]+"&month="+reponses[0];
+
+   var reponses = param.split("-");
     var params = "category/actualites_mois/?actu=1&ayear="+reponses[1]+"&month="+reponses[0];
     /* permettre l'ouverture du panneau du détail important */
     this.noeud = reponses[2];

@@ -346,7 +346,7 @@ ul {
 
 ul {
 	list-style-type: square;
-	color: #FFF;
+	color: #D0D0D0;
     font-weight: 300;
     font-family:'Lato', Arial;
 }
@@ -1401,7 +1401,7 @@ footer.entry-meta {
 .gallery-caption {
 	background-color: rgba(0, 0, 0, 0.7);
 	box-sizing: border-box;
-	color: #fff;
+	color: #D0D0D0;
 	font-size: 14px;
 	line-height: 1.3;
 	margin: 0;
@@ -1644,8 +1644,8 @@ footer.entry-meta {
 }
 
 .format-quote .entry-content cite a {
-	border-bottom: 1px dotted #fff;
-	color: #fff;
+	border-bottom: 1px dotted #D0D0D0;
+	color: #D0D0D0;
 }
 
 .format-quote .entry-content cite a:hover {
@@ -3328,20 +3328,24 @@ footer.entry-meta {
 
 .seance_offerte_div a {
 	font-size: 18px;
+	width: 299px;
+    height: 117px;
+    display: block;
 }
 
 .seance_offerte_p_1{
 	font-size: 48px;
 	text-transform: uppercase;
     margin: 0px 0px 0px 0px;
-	font-weight: 100;
+	font-weight: 400;
     padding: 0px 0px 0px 0px;
     line-height: 1.1;
     color: #F9BB07;
 }
 
 .seance_offerte_p_2{
-	font-size: 22px;
+	font-size: 24px;
+	font-style: italic;
 	text-transform: uppercase;
 	font-weight: 400;
     margin: 0px 0px 0px 0px;
@@ -3353,11 +3357,12 @@ footer.entry-meta {
 .seance_offerte_p_3{
 	font-size: 42px;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 900;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     line-height: 1.1;
     color: #F9BB07;
+    margin-top: -2px;
 }
 
 /************* FIN Homepage - bloc SÉANCE OFFERTE ******************/
@@ -3373,6 +3378,7 @@ footer.entry-meta {
 	margin-bottom:14px;
 	opacity: 0.7;
 	text-align: center;
+	cursor: pointer;
 }
 
 .picto-pro-home{
@@ -3383,6 +3389,12 @@ footer.entry-meta {
 .professionnels:hover {
 	opacity: 1.0;
 	text-decoration: none;
+}
+
+.professionnels a{
+	width:346px;
+	height:136px;
+	display: block;
 }
 
 .professionnels a:hover {
@@ -3411,6 +3423,7 @@ footer.entry-meta {
 	height:186px;
 	display:inline-block;
 	margin-right:14px;
+	cursor: pointer;
 }
 
 .adhesion h4 {
@@ -3443,9 +3456,12 @@ footer.entry-meta {
 
 .adhesion  a {
 	opacity: 0.7;
+	width:166px;
+	height:186px;
+	display: block;
 }
 
-.adhesion  a:hover {
+.adhesion:hover  a {
 	opacity: 1.0;
 	text-decoration: none;
 }
@@ -3460,6 +3476,7 @@ footer.entry-meta {
 	float:left;
 	width:166px;
 	height:186px;
+	cursor: pointer;
 }
 
 .pratique_txt:hover {
@@ -3498,6 +3515,12 @@ footer.entry-meta {
     line-height: 0.1;
     margin-top: 14px;
     text-align: center;
+}
+
+.pratique a{
+	width:166px;
+	height:186px;
+	display: block;
 }
 
 .pratique a:hover {
@@ -3632,7 +3655,7 @@ footer.entry-meta {
 /*Fin Styles pour titre h3 hover*/
 
 .pre_footer_info p {
-    color: #fff;
+    color: #D0D0D0;
     padding: 1px 5px 1px 0px;
     margin: 0 20px;
     font-size: 12px;
@@ -3656,7 +3679,7 @@ footer.entry-meta {
     font-family: 'Lato', Arial, sans-serif;
     text-transform: uppercase;
     background-color: #F9BB07;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .pre_footer_info p a {
@@ -3704,12 +3727,6 @@ footer.entry-meta {
 	display:inline;
 }
 
-.footer_copyright{
-	margin-right:50px;
-	margin-left:10px;
-	padding: 25px;
-}
-
 #footer_copyright_container a {
 	margin-left: 10px;
 	margin-right: 10px;
@@ -3734,6 +3751,9 @@ footer.entry-meta {
 	font-size: 10px;
 	opacity: 0.6;
 	text-transform: uppercase;
+	margin-left:-13px;
+	margin-right:11px;
+	padding: 25px;
 }
 
 .cadre_footer_connect li {
@@ -3765,7 +3785,7 @@ footer.entry-meta {
 	font-family: 'Lato', Arial;
 	font-size: 22px;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 700;
 	color: #F9BB07;
 	margin-left: 6px;
 	line-height: normal;
@@ -4006,7 +4026,7 @@ a.lien_presse{
 .titre_musique {
     font-size: 20px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 700;
     color: #F9BB07;
     line-height: 1em;
     margin: 0;
@@ -4102,8 +4122,8 @@ a.lien_presse{
 .bg_photos{
     background-image: url(images/images-pages/galerie-photos/fond_photos.svg);
     width: 960px;
-    height: 650px;
-    background-size: 960px 650px;
+    height: 630px;
+    background-size: 960px 630px;
     background-repeat: no-repeat;
     display: block;
     margin-left: auto;
@@ -4244,6 +4264,12 @@ ul.text-tarif{
 	width: 255px;
 }
 
+.container-button-tarif-left a,
+.container-button-tarif-middle a,
+.container-button-tarif-right a {
+	text-decoration: none;
+}
+
 /******* FIN de PAGE COMMENT ADHERER ******/
 
 
@@ -4273,7 +4299,7 @@ ul.text-tarif{
 }
 
 .text-cours{ 
-	text-align: center;
+	margin-left: 110px;
 	font-weight: 400;
 }
 
@@ -4398,8 +4424,8 @@ p.texte-pro{
 }
 
 p.texte-pro-intro{
-	font-style: italic;
-	text-align: center;
+	font-weight: 400;
+	text-align: left;
 }
 
 hr.professionnels-separator{
@@ -4553,7 +4579,6 @@ label{
 .rond1-webcream{
     display: table-cell;
     vertical-align: top;
-    width: 180px;
     padding: 0px;
     text-align: center;
 }
@@ -4561,7 +4586,6 @@ label{
 .rond2-webcream{
     display: table-cell;
     vertical-align: top;
-    width: 180px;
     padding-left: 60px;
     text-align: center;
 }
@@ -4570,7 +4594,6 @@ label{
 .rond3-webcream{
     display: table-cell;
     vertical-align: top;
-    width: 180px;
     padding-left: 60px;
     text-align: center;
 }
@@ -4595,6 +4618,616 @@ label{
 
 /* Fin de la page WEBCREAM */
 
+/******** HISTOIRE / La Capoeira *******/
+
+/*CSS TAB*/
+
+ul.tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.tabs li{
+    background: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FDB92D;
+    opacity: 0.7;
+    display: inline-block;
+    padding: 10px 8px;
+    cursor: pointer;
+    width: 318px;
+    text-align: center;
+}
+
+ul.tabs li.current{
+    background: none;
+    font-weight: 700;
+    color: #FDB92D;
+    text-transform: uppercase;
+    opacity: 1.0;
+    border-bottom: 4px solid #FDB92D;
+    width: 317px;
+    text-align: center;
+
+}
+
+.tab-content{
+    display: none;
+    background: #2b3033;
+    padding: 25px;
+    padding-top: 25px;
+    color: #fff;
+}
+
+.tab-content.current{
+    display: inherit;
+}
+
+/*CSS FIN TAB*/
+
+/*HISTOIRE*/
+
+.titre_2 h2 {
+	color: #fff;
+	font-weight: 100;
+	font-family: 'Lato', sans-serif;
+	font-size: 45px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 25px;
+}
+
+.la_capoeira_histoire_citation {
+	background-color: #9d7a15;
+	height: 120px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.la_capoeira_histoire_citation_h2 { 
+	font-family: 'Lato', sans-serif;
+	color: #D0D0D0;
+	font-weight: 400;
+	text-transform: none;
+	text-align: center;
+	font-size: 25px;
+	line-height: 0.1;
+}
+
+.la_capoeira_histoire_citation_h3 { 
+	font-size: 20px;
+	color: #D0D0D0;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+#lettrine{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.la_capoeira_histoire img { 
+	float: right;
+	padding-top: 10px;
+}
+
+.la_capoeira_histoire p { 
+	width: 600px;
+	padding: 0px;
+	text-align: justify;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.img_2 {
+	float: left;
+	margin-right: 20px;
+}
+
+.img_2 img{
+	width: 250px;
+}
+
+.img_mestre_bimba {
+	background-image: url(images/images-pages/la-capoeira/histoire/mestre-bimba.jpg);
+	width: 300px;
+	height: 300px;
+	overflow:hidden;
+    -webkit-border-radius:300px;
+    -moz-border-radius:300px;
+    border-radius:300px;
+}
+
+.mestre_bimba_h1 , .mestre_pastinha_h1 {
+	padding-top: 120px;
+	color: #D0D0D0;
+	text-align: center;
+	line-height: 1.0;
+	font-family: 'Lato',Arial, sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	opacity: 1;
+	text-transform: uppercase;
+}
+
+.capoeira_angola_h3 {
+    text-transform: uppercase;
+    text-align: center;
+	color: #D0D0D0;
+	font-family: 'Lato',Arial, sans-serif;
+	font-size: 20px;
+}
+
+.img_mestre_pastinha {
+	background-image: url(images/images-pages/la-capoeira/histoire/mestre-pastinha.jpg);
+	width: 300px;
+	height: 300px;
+	overflow:hidden;
+    -webkit-border-radius:300px;
+    -moz-border-radius:300px;
+    border-radius:300px;
+}
+
+.capoeira_angola {
+	width: 300px;
+    margin-top: 15px;
+	display: inline-block;
+	padding: 0px;
+}
+
+.capoeira_angola p {
+	text-align: justify;
+	padding: 0px;
+	margin: 0px;
+}
+
+.capoeira_angola_txt {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.capoeira_angola2 {
+	width: 300px;
+    margin-top: 15px;
+    margin-left: 50px;
+	display: inline-block;
+	float: right;
+}
+
+.capoeira_angola2 p {
+	width: 300px;
+	text-align: justify;
+	padding: 0px;
+	margin: 0px;
+}
+
+img.zoomEffect {
+	margin-top: 0px;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+img.zoomEffect:hover {
+    -moz-transform: scale(2.0);
+    -webkit-transform: scale(2.0);
+    -o-transform: scale(2.0);
+    -ms-transform: scale(2.0);
+    transform: scale(2.0);
+}
+
+/*FIN HISTOIRE*/
+
+/*FOLKORE*/
+
+.folklore_capoeira div {
+    margin-bottom: 35px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.folklore_capoeira h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #D0D0D0;
+}
+
+.folklore_p {
+    margin-left: 45px;
+}
+
+.folklore_capoeira p {
+    border-top: solid 3px #FDB92D;
+    padding-top: 15px;
+    width: 450px;
+    text-align: justify;
+}
+
+/*FIN FOLKLORE*/
+
+/*MUSIQUE*/
+
+.musique_capoeira_container{
+	padding-left: 15px;
+}
+
+.musique_berimbau {
+    background-image: url("images/images-pages/la-capoeira/musique/berimbau_noir.jpg");
+    width: 880px;
+    height: 400px;
+    padding: 15px;
+    margin-bottom: 25px;
+    vertical-align: bottom;
+}
+
+.musique_berimbau p {
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 500px;
+    text-align: justify;
+}
+
+.musique_berimbau h2 {
+    margin-top: 75px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 55px;
+}
+
+.musique_berimbau:hover {
+    background-image: url("images/images-pages/la-capoeira/musique/berimbau.jpg");
+}
+
+.musique_berimbau:hover p{
+    opacity: 0.0;
+}
+
+.musique_berimbau:hover h2{
+    opacity: 0.0;
+}
+
+.musique_pandeiro {
+    background-image: url("images/images-pages/la-capoeira/musique/pandeiro_noir.jpg");
+    width: 880px;
+    height: 400px;
+    padding: 15px;
+    margin-bottom: 25px;
+    vertical-align: bottom;
+}
+
+.musique_pandeiro p {
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 500px;
+    text-align: justify;
+}
+
+.musique_pandeiro h2 {
+    margin-top: 75px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 55px;
+}
+
+.musique_pandeiro:hover {
+    background-image: url("images/images-pages/la-capoeira/musique/pandeiro.jpg");
+}
+
+.musique_pandeiro:hover p{
+    opacity: 0.0;
+}
+
+.musique_pandeiro:hover h2{
+    opacity: 0.0;
+}
+
+.musique_agogo {
+    background-image: url("images/images-pages/la-capoeira/musique/agogo_noir.jpg");
+    width: 420px;
+    height: 400px;
+    padding: 15px;
+    vertical-align: bottom;
+    margin-right: 37px;
+}
+
+.musique_agogo p {
+    margin-top: 100px;
+    margin-left: 40px;
+    width: 300px;
+    text-align: justify;
+}
+
+.musique_agogo h2 {
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 55px;
+}
+
+.musique_agogo:hover {
+    background-image: url("images/images-pages/la-capoeira/musique/agogo.jpg");
+}
+
+.musique_agogo:hover p{
+    opacity: 0.0;
+}
+
+.musique_agogo:hover h2{
+    opacity: 0.0;
+}
+
+.musique_recoreco {
+    background-image: url("images/images-pages/la-capoeira/musique/recoreco_noir.jpg");
+    width: 420px;
+    height: 400px;
+    padding: 15px;
+    vertical-align: bottom;
+}
+
+.musique_recoreco p {
+    margin-top: 100px;
+    margin-left: 40px;
+    width: 300px;
+    text-align: justify;
+}
+
+.musique_recoreco h2 {
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 55px;
+}
+
+.musique_recoreco:hover {
+    background-image: url("images/images-pages/la-capoeira/musique/recoreco.jpg");
+}
+
+.musique_recoreco:hover p{
+    opacity: 0.0;
+}
+
+.musique_recoreco:hover h2{
+    opacity: 0.0;
+}
+
+.recoreco , .agogo {
+    display: inline-block;
+}
+
+.musique_atabaque {
+    background-image: url("images/images-pages/la-capoeira/musique/atabaque_noir.jpg");
+    width: 880px;
+    height: 400px;
+    padding: 15px;
+    margin-bottom: 25px;
+    vertical-align: bottom;
+}
+
+.musique_atabaque p {
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 500px;
+    text-align: justify;
+}
+
+.musique_atabaque h2 {
+    margin-top: 75px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 55px;
+}
+
+.musique_atabaque:hover {
+    background-image: url("images/images-pages/la-capoeira/musique/atabaque.jpg");
+}
+
+.musique_atabaque:hover p{
+    opacity: 0.0;
+}
+
+.musique_atabaque:hover h2{
+    opacity: 0.0;
+}
+
+.lecteur {
+	background-image: url('images/images-pages/la-capoeira/musique/bg_musique_histoire.svg');
+	height: 108px;
+	display: inline-block;
+	margin-bottom: 30px;
+	width: 270px;
+	margin-left: auto;
+	margin-right: 32px;
+}
+
+.lecteur2{
+	background-image: url('images/images-pages/la-capoeira/musique/bg_musique_histoire.svg');
+	height: 108px;
+	display: inline-block;
+	margin-bottom: 30px;
+	width: 270px;
+	margin-right: 32px;
+}
+
+.lecteur3{
+	background-image: url('images/images-pages/la-capoeira/musique/bg_musique_histoire.svg');
+	height: 108px;
+	display: inline-block;
+	margin-bottom: 30px;
+	width: 270px;
+}
+
+.lecteur4{
+	height: 40px;
+	display: inline-block;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	width: 420px;
+	padding: 0px;
+}
+
+.lecteur-title{
+    font-weight: 700;
+    color: #F9BB07;
+    width: 270px;
+    text-align: center;
+ }
+
+audio {
+    width: 100%;
+    padding-bottom: 0px;
+}
+/*FIN MUSIQUE*/
+
+/****** FIN HISTOIRE ******/
+
+/******* Page GRUPO SENZALA **********/
+
+/*INTERNATIONAL / FR*/
+
+.grupo_international p{
+			text-align: justify;
+		}
+
+.grupo_international_img img{
+	float: left;
+	margin-bottom: 15px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.grupo_international img {
+	margin-bottom: 25px;
+}
+
+.grupo_international_txt {
+	display: inline-block;
+	padding-left: 85px;
+	width: 620px;
+}
+
+.grupo_international_txt h1 {
+	font-size: 45px;
+	font-weight: 200;
+	color: #FDB92D;
+}
+
+.grupo_international_txt h2 {
+	color: #fff;
+	opacity: 0.6;
+}
+
+.grupo_international_txt p {
+	text-align: justify;
+	padding-bottom: 25px;
+	border-bottom: 4px solid #F9BB07;
+}
+
+/* FIN INTERNATIONAL / FR*/
+
+/* MAÎTRE */
+		.banana , .elias {
+			text-align: center;
+			width: 400px;
+			display: inline-block;
+			text-align: justify;
+		}
+
+		.banana , .elias {
+			margin-left: 35px;
+		}
+
+		.banana h2 , .elias h2 {
+			text-transform: uppercase;
+			color: #FDB92D;
+			border-bottom: 4px solid #FDB92D;
+		}
+
+		.banana a , .elias a {
+			color: #FDB92D;
+			margin: 15px;
+			text-decoration: none;
+		}
+
+		.mestre_banana {
+			width: 400px;
+			height:700px;
+			background-image: url(images/images-pages/gruposenzala/maitres/banana.jpg);
+			display: inline-block;
+		}
+
+		.mestre_elias {
+			width: 400px;
+			height:700px;
+			background-image: url(images/images-pages/gruposenzala/maitres/elias.jpg);
+			display: inline-block;
+		}
+
+		.portrait {
+			margin-top: 330px;
+			padding-left: 15px;
+			font-weight: 200;
+			color: #2b3033;
+			text-transform: uppercase;
+			background-color: #FDB92D;
+		}
+
+		.mestre_banana h1 , .mestre_elias h1 {
+			color: #FDB92D;
+			padding-left: 25px;
+			line-height: 0.9;
+			font-size: 45px;
+			text-transform: uppercase;
+			opacity: 0.7;
+		}
+
+		.mestre_banana a {
+			opacity: 0.0;
+		}
+
+		.mestre_elias a {
+			opacity: 0.0;
+		}
+
+		.mestre_elias:hover a {
+			opacity: 1.0;
+		}
+
+		.mestre_reseaux_sociaux{
+			margin: 200px 15px 0px 35px;
+		}
+	
+
+		.mestre_banana:hover a {
+			opacity: 1.0;
+		}
+
+		.mestre_banana:hover {
+			background-image: url(images/images-pages/gruposenzala/maitres/banana_noir.jpg);
+		}
+
+		.mestre_elias:hover {
+			background-image: url(images/images-pages/gruposenzala/maitres/elias_noir.jpg);
+		}
+
+		.list_mestre ul {
+			color: #d0d0d0;
+			border-top: 4px solid #FDB92D;
+			padding-top: 35px;
+		}
+/* FIN MAÎTRE*/
+
+/****** Fin de la page GRUPO SENZALA *******/
 
 /*******PAGE OU PRATIQUER******/
 
@@ -4760,14 +5393,13 @@ label{
 
 h4.titre-text-accordeon{
 	color: #F9BB07;
-	font-size: 13px;
+	font-size: 16px;
 	margin-top: 15px;
 	margin-bottom: 20px;
 }
 
 p.texte{
     color: #D0D0D0;
-	font-size: 13px;
 	line-height: 130%;
 	margin: 0;
 }
@@ -4853,7 +5485,7 @@ input[type="reset"].inscription-button:active {
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-    font-weight: bold;
+    font-weight: 700;
     color: #866a11;
 }
 .ui-state-default a,
@@ -4887,7 +5519,7 @@ input[type="reset"].inscription-button:active {
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
     background: #13191C url("images/images-pages/ou-pratiquer/ui-bg_flat_100_13191C_40x100.png") 50% 50% repeat-x;
-    font-weight: bold;
+    font-weight: 700;
     color: #F9BB07;
     font-size: 18px; /* changer taille titre */
 }

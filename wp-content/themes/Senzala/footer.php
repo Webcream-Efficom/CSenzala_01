@@ -20,11 +20,11 @@
                 	<div class="pre_footer_info">
                     	<h3>La Capoeira</h3>
                     	<p><img src="//localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/pre_footer/histoire-dark.svg" style="width:30px" alt="Découvrez l'ensemble de la Capoeira. Du passé au présent."></p>
-                    	<p class="title_prefooter">La Capoeira</p>
+                    	<a href="?p=100"><p class="title_prefooter">La Capoeira</p></a>
                     	<div class="liens_hover">
-                    		<p><a href="#">Son histoire</a></p>
-                    		<p><a href="#">Les Styles</a></p>
-                    		<p><a href="#">Le folklore brésilien</a></p>
+                    		<p><a href="?p=100">Son histoire</a></p>
+                    		<p><a href="?p=100">La musique</a></p>
+                    		<p><a href="?p=100">Le folklore brésilien</a></p>
                     	</div>
                 	</div>
             	</div>
@@ -35,11 +35,11 @@
                 	<div class="pre_footer_info">
                     	<h3>Grupo Senzala 78</h3>
                     	<p><img src="//localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/pre_footer/grupo-senzala-dark.svg" style="width:30px" alt="Le Groupe Senzala est l'un des groupes les plus emblématique du XXème siècle."></p>
-                    	<p class="title_prefooter">Grupo Senzala</p>
+                    	<a href="?p=49"><p class="title_prefooter">Grupo Senzala</p></a>
                     	<div class="liens_hover">
-                    		<p><a href="#">Le groupe</a></p>
-                    		<p><a href="#">Les Maîtres</a></p>
-                    		<p><a href="#">Les grades</a></p>
+                    		<p><a href="?p=49">Le groupe</a></p>
+                    		<p><a href="?p=49">Les maîtres</a></p>
+                    		<!--<p><a href="?p=49">Les grades</a></p>-->
                     	</div>
                 	</div>
             	</div>

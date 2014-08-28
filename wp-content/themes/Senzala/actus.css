@@ -1,13 +1,18 @@
+/**************************************************************************************/
+/***************************** PAGE ACTUALITÉ - Le CSS *******************************/
+/************************************************************************************/
+
+
+/*CADRE INVISIBLE DE LA PAGE ACTU*/
 .actualites{
     width: 960px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
 }
+
+/* ce DIV regroupe les deux vues de l'article (summary et détail). Il est important*/
 .cadre {
-    /* ce DIV regroupe les deux vues de l'article (summary et détail) il est important mais 
-       on peut virer sa bordure */
-/*    border:1px solid #DDD;*/
     position: relative;
     height: 450px;
 }
@@ -18,31 +23,82 @@
     margin-top: 32px;
 }
 
+/* Style des listes déroulantes Mois et Années*/
+.listes_deroulantes{
+    text-align:center;
+    width: 100%;
+    padding:10px;
+    height: 92px;
+}
 
+select {
+    padding:3px;
+    margin-bottom: 10px !important;
+    color:#13191c;
+    border:3px solid black;
+    outline:none;
+    background-color: #F9BB07;
+    cursor:pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+option {
+    text-transform: uppercase;
+    font-weight: bold;}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}
+
+/*Présence de la barre noire sous les listes déroulantes*/
+.barre_noire {
+    border-bottom: 3px solid black;
+    width:580px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Pour que les listes déroulantes soient l'une sous l'autre.*/
+.postform {
+    display: block;
+}
+
+/* Début des panneaux*/
 .margeGauche{
     display: inline-block;
-    background-image: url("images/motif_ceinture copie verticale.png");
+    background-image: url(images/motif_ceinture_noir_actus.png);
     background-color: #F9BB07;
     position:relative;
     width: 45px;
     height: 450px;
+    background-size: 700px;
 } 
+
+/*Fil actu sans effet*/
 .summary{
     display: inline-block;
     background-color: #F9BB07;
-    width: 585px;                         /* 45%   55% */
+    width: 585px;                         
     height: 450px;
     overflow:auto;
-    position:absolute; left:50px;
+    position:absolute; 
     color:#13191c;
-    margin-left: -5px;
 }
+
+.summary a {
+    color:#13191c!important;
+    font-weight: bold;
+}
+
+/*Fil actu avec effet*/
 .detail{
     display: inline-block;
-    background-color: #F9BB07;          /* #F9BB07; */
+    background-color: #F9BB07;          
     position:absolute;
     left:400px;
-    width: 585px;                         /* 45%   55% */
+    width: 585px;                         
     height: 345px;
     overflow:auto;
     bottom: 0px;
@@ -50,9 +106,12 @@
     margin-left: -5px;
 }
 
-.detail a {color:#13191c !important;font-weight: bold;}
-.summary a {color:#13191c!important;font-weight: bold;}
+.detail a {
+    color:#13191c !important;
+    font-weight: bold;
+}
 
+/*Partie noire entre Summary et Immanquable*/
 .intercalaire{
     display: inline-block;
     background-color: #13191c;
@@ -60,23 +119,35 @@
     width: 20px;                          /* 1% */
     height: 450px;
 } 
+
+/*Partie Immanquable*/
 .important{
     display: inline-block;
-    background-color: #454849;
+    background-color: #45484A;
     position:absolute; 
     left:645px;        /* 46%   56% */
     width: 305px;                         /* 30%   40% */
     height: 450px;
     overflow:auto;
-    text-align: center;
 }
+
+/* Partie pour dissimuler Detail*/
 .margeDroite{
     display: inline-block;
     background-color: #13191c;
-    position:absolute; left:950px;
+    position:absolute; 
+    left:950px;
     width: 380px;
     height: 450px;
 } 
+
+/* Intérieur des fils dactu*/
+.cont { 
+/* cette classe pour les propriétés communes des 3 panneaux */
+    height: 100px;
+    cursor: pointer;
+}
+
 .cont_detail {
     /* cette classe pour les propriétés communes des 3 panneaux */
     height: 100px;
@@ -84,20 +155,13 @@
     margin-right: 10px;
 }
 
-.cont { 
-/* cette classe pour les propriétés communes des 3 panneaux */
-    height: 100px;
-    cursor: pointer;
-}
-
+/*Mise en page des dates de Summary*/
 .sumdate{
     border-top:4px solid #13191c;
     border-bottom:4px solid #13191c;
-    display: inline-block;
     float: left;
     font-family: 'Lato', Arial;
     margin:10px;
-    font-weight: 500;
     text-align: left;
     line-height: 22px;
     text-transform: uppercase;
@@ -124,20 +188,20 @@
     font-weight: 500;
 }
 
+/*Mise en page des dates de Important*/
 .sumdateimportant{
     border-top:4px solid #FFF;
     border-bottom:4px solid #FFF;
-    display: inline-block;
-    float: left;
-    font-family: 'Lato', Arial;
     margin:10px;
+    padding-top: 5px;
+    float: left;
+    width: 43px;
+    font-family: 'Lato', Arial;
     text-align: left;
     line-height: 22px;
     text-transform: uppercase;
-    padding-top: 5px;
     color: #FFF;
     opacity: 0.7;
-    width: 43px;
 }
 
 .sumdateimportant_number {
@@ -157,19 +221,19 @@
     font-weight: 500;
     }
 
+/*Mise en page des dates de Detail*/
 .sumdatedetail{
-    border-top:4px solid #13191c;
-    border-bottom:4px solid #13191c;
-    display: inline-block;
-    float: left;
-    font-family: 'Lato', Arial;
+    border-top:4px solid #13191C;
+    border-bottom:4px solid #13191C;
     margin:10px;
+    padding-top: 5px;
+    float: left;
+    width: 47px;
+    font-family: 'Lato', Arial;
     text-align: left;
     line-height: 22px;
     text-transform: uppercase;
-    padding-top: 5px;
     color: #13191C;
-    width: 47px;
 }
 
 .sumdatedetail_number {
@@ -189,8 +253,8 @@
     font-weight: 500;
 }
 
+/*Mise en page des icons de communauté*/
 .sumicone{
-    display: inline-block;
     float: left;
     margin-top: 13px;
     margin-left: 10px;
@@ -198,6 +262,7 @@
     
 }
 
+/*Mise en page des résumés de Summary*/
 .sumactus{
     display: inline-block;
     float: left;
@@ -207,48 +272,53 @@
 
 }
 
+/*Mise en page des titres darticles de Summary*/
 .sumactus_titre {
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 700;
     color:#000;
+    font-size:16px;
 }
 
-.sumactus_res p{ color:#000 !important;font-weight: 400;}
+/*Mise en page du texte des résumés de Summary*/
+.sumactus_res p{ 
+    color:#000 !important;
+    font-weight: 400;
+    font-size:15px;}
 
+/*Mise en page des résumés de Important*/
 .impactus {
     width: 225px;
-    text-align: left;
     height: 84px;
-    overflow: hidden;
+    overflow: hidden;    
+    text-align: left;
     padding-top: 7px;
-    color: #FFF;
-    font-weight: bold;
+    font-weight: 700;
 }
 
+/*Mise en page des titres darticles de Important*/
 .impactus_titre {
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 700;
     color:#fff !important;
     opacity: 0.7 !important;
     width: 220px;
     text-align: left;
     margin-bottom: 3px;
+    font-size:16px;
 }
 
+/*Mise en page du texte des résumés de Important*/
 .impactus_res p{ 
     color:#fff !important;
     line-height: 17px;
     font-weight: 400;
-    opacity: 0.5;}
-
-.listes_deroulantes{
-    text-align:center;
-    width: 100%;
-    padding:10px;
-    height: 92px;
+    opacity: 0.5;
+    font-size:15px;
 }
+
+/*Titre de la partie Important*/
 .immanquables{
-    background-color: #454849 ;
     text-align:left;
     width: 100%;
     padding:15px;
@@ -258,8 +328,10 @@
 
 .immanquables h3 { 
     font-size: 24px;
-    color:#fff;}
+    color:#fff;
+}
 
+/* Affichage de l'erreur quand il n'y a pas d'article pour le mois et l'année demandée.*/
 .erreur_mois {
     background-color:#13191c;
     color:#fff;
@@ -269,35 +341,29 @@
     padding: 7px;
 }
 
-.barre_noire {
-    border-bottom: 3px solid black;
-    width:580px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.postform {
-    display: block;
-}
-
+/* MISE EN PAGE DE LA PARTIE DETAIL (Panneaux déroulants) */
+/*Bouton de fermeture des panneaux détails.*/
 .bouton_fermer {
     color:#13191c;
     cursor: pointer;
+    font-size: 15px;
 }
 
+/*Titre de l'article dans le panneau*/
 .titre_article_actus {
     color:#13191c;
     text-transform: uppercase;
-
     margin-left:5px;
     margin-top: 15px;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 20px;
-
 }
+
+/* Mise en page du contenu de l'article dans le panneau*/
 .contenu_article_actus {
     color:#13191c;
     margin-left:5px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .contenu_article_actus p{
@@ -308,63 +374,5 @@
     font-family: "Lato",Arial;
 }
 
-
+/* Mise en page de la date et de l'icon communauté dans le panneau */
 .date_icon {float: right;}
-
-.icons_tag { margin-left: 10px;margin-right: 10px;}
-
-/* The CSS */
-select {
-    padding:3px;
-    margin-bottom: 10px !important;
-    color:#13191c;
-    border:3px solid black;
-    outline:none;
-    background-color: #F9BB07;
-    display: inline-block;
-    -webkit-appearance:none;
-    -moz-appearance:none;
-    appearance:none;
-    cursor:pointer;
-    text-transform: uppercase;
-    margin-bottom: ;
-    overflow: hidden !important;
-    font-weight: bold;
-}
-
-option {
-    text-transform: uppercase;
-    font-weight: bold;}
-
-/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    select {padding-right:18px}
-}
-
-
-
-
-/*label {position:relative}
-label:after {
-    content:'<>';
-    font:11px "Consolas", monospace;
-    color:#aaa;
-    background-color: #fbba3e ;
-    -webkit-transform:rotate(90deg);
-    -moz-transform:rotate(90deg);
-    -ms-transform:rotate(90deg);
-    transform:rotate(90deg);
-    right:8px; top:2px;
-    padding:0 0 2px;
-    border-bottom:1px solid #ddd;
-    position:absolute;
-    pointer-events:none;
-}
-label:before {
-    content:'';
-    right:6px; top:0px;
-    width:20px; height:20px;
-    position:absolute;
-    pointer-events:none;
-    display:block;
-}*/
