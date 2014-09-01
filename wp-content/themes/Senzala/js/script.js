@@ -1,3 +1,4 @@
+ /* UTILISÉ POUR LA PAGE LA CAPOEIRA ET GRUPO SENZALA DU SITE (CAPOEIRASENZALA78.FR)*/
 $(document).ready(function(){
 	
 	$('ul.tabs li').click(function(){

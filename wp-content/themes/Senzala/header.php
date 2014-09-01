@@ -51,7 +51,7 @@
 	<link rel="apple-touch-icon" href="http://localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/favicon_iphone.png">
 
 	<!-- Google Font - LATO -->
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
   <!-- Page Photo -->
     <script src="../wp-content/themes/Senzala/js/lightbox.js"></script>

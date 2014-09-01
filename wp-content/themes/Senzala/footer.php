@@ -39,7 +39,7 @@
                     	<div class="liens_hover">
                     		<p><a href="?p=49">Le groupe</a></p>
                     		<p><a href="?p=49">Les maîtres</a></p>
-                    		<!--<p><a href="?p=49">Les grades</a></p>-->
+                    		<p><a href="?p=49">Les grades</a></p>
                     	</div>
                 	</div>
             	</div>
@@ -66,7 +66,7 @@
                 	<div class="pre_footer_info">
                     	<h3>Contact</h3>
                     	<p><img src="//localhost:8888/CSenzala_01/wp-content/themes/Senzala/images/pre_footer/contact-dark.svg" style="width:30px" alt="Restez en contact avec les responsables de l'association Capoeira Senzala 78 !"></p>
-                    	<p class="title_prefooter">Contact</p>
+                    	<a href="?p=73"><p class="title_prefooter">Contact</p></a>
                     	<div class="liens_hover">
                     		<p><a href="?p=73">+ d'infos</a></p>
                     	</div>

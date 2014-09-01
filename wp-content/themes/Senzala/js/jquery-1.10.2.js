@@ -1,6 +1,7 @@
 /*!
  * jQuery JavaScript Library v1.10.2
  * http://jquery.com/
+ * UTILISÉ POUR LA PAGE OU PRATIQUER DU SITE (CAPOEIRASENZALA78.FR)
  *
  * Includes Sizzle.js
  * http://sizzlejs.com/

@@ -1,13 +1,13 @@
 /*
 Theme Name: Twenty Thirteen/Senzala
 Theme URI: http://wordpress.org/themes/twentythirteen
-Author: the WordPress team and Webcream Team
-Author URI: http://wordpress.org/ or http://capoeirasenzala78.fr/;
-Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Author: the WordPress team and Web cream Team
+Author URI: http://wordpress.org/;
+Description: The 2013 theme for Senzala WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
 Version: 1.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Tags: black, capoeira, senzala, 78, webcream, yellow, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
 Text Domain: twentythirteen/Senzala
 
 This theme, like WordPress, is licensed under the GPL.
@@ -65,7 +65,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 em{
-	font-size: 13px;
+	/*font-size: 13px;*/
 }
 
 article,
@@ -4053,6 +4053,7 @@ a.lien_presse{
 .wrap_presse_texte{
     width: 40%;
     display: inline-block;
+    vertical-align: top;
 }
 
 .wrap_presse_video{
@@ -4331,10 +4332,6 @@ ul.text-tarif{
 	padding-left: 10px;
 	font-weight: 400;
 	vertical-align: middle;
-}
-
-.text-cours-push-oupratiquer-yellow{
-	color: #F9BB07;
 }
 
 .push-oupratiquer{
@@ -4644,10 +4641,10 @@ ul.tabs li{
 ul.tabs li.current{
     background: none;
     font-weight: 700;
-    color: #FDB92D;
+    color: #F9BB07;
     text-transform: uppercase;
     opacity: 1.0;
-    border-bottom: 4px solid #FDB92D;
+    border-bottom: 4px solid #F9BB07;
     width: 317px;
     text-align: center;
 
@@ -4658,7 +4655,6 @@ ul.tabs li.current{
     background: #2b3033;
     padding: 25px;
     padding-top: 25px;
-    color: #fff;
 }
 
 .tab-content.current{
@@ -4667,12 +4663,12 @@ ul.tabs li.current{
 
 /*CSS FIN TAB*/
 
-/*HISTOIRE*/
+/* HISTOIRE / La Capoeira - HISTOIRE*/
 
 .titre_2 h2 {
 	color: #fff;
-	font-weight: 100;
-	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	font-family: 'Lato', Arial, sans-serif;
 	font-size: 45px;
 	text-transform: uppercase;
 	text-align: center;
@@ -4688,9 +4684,9 @@ ul.tabs li.current{
 }
 
 .la_capoeira_histoire_citation_h2 { 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', Arial, sans-serif;
 	color: #D0D0D0;
-	font-weight: 400;
+	font-weight: 300;
 	text-transform: none;
 	text-align: center;
 	font-size: 25px;
@@ -4700,7 +4696,7 @@ ul.tabs li.current{
 .la_capoeira_histoire_citation_h3 { 
 	font-size: 20px;
 	color: #D0D0D0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', Arial, sans-serif;
 	text-align: center;
 }
 
@@ -4742,7 +4738,7 @@ ul.tabs li.current{
 	color: #D0D0D0;
 	text-align: center;
 	line-height: 1.0;
-	font-family: 'Lato',Arial, sans-serif;
+	font-family: 'Lato', Arial, sans-serif;
 	font-size: 40px;
 	font-weight: 700;
 	opacity: 1;
@@ -4753,7 +4749,7 @@ ul.tabs li.current{
     text-transform: uppercase;
     text-align: center;
 	color: #D0D0D0;
-	font-family: 'Lato',Arial, sans-serif;
+	font-family: 'Lato', Arial, sans-serif;
 	font-size: 20px;
 }
 
@@ -4817,9 +4813,9 @@ img.zoomEffect:hover {
     transform: scale(2.0);
 }
 
-/*FIN HISTOIRE*/
+/*FIN HISTOIRE / La Capoeira - HISTOIRE*/
 
-/*FOLKORE*/
+/* HISTOIRE / La Capoeira - FOLKORE*/
 
 .folklore_capoeira div {
     margin-bottom: 35px;
@@ -4839,15 +4835,15 @@ img.zoomEffect:hover {
 }
 
 .folklore_capoeira p {
-    border-top: solid 3px #FDB92D;
+    border-top: solid 3px #F9BB07;
     padding-top: 15px;
     width: 450px;
     text-align: justify;
 }
 
-/*FIN FOLKLORE*/
+/*FIN HISTOIRE / La Capoeira - FOLKLORE*/
 
-/*MUSIQUE*/
+/* HISTOIRE / La Capoeira - MUSIQUE*/
 
 .musique_capoeira_container{
 	padding-left: 15px;
@@ -4944,8 +4940,7 @@ img.zoomEffect:hover {
 .musique_agogo h2 {
     margin-top: 80px;
     text-transform: uppercase;
-    font-weight: 800;
-    font-style: bold;
+    font-weight: 700;
     font-size: 55px;
 }
 
@@ -4979,8 +4974,7 @@ img.zoomEffect:hover {
 .musique_recoreco h2 {
     margin-top: 80px;
     text-transform: uppercase;
-    font-weight: 800;
-    font-style: bold;
+    font-weight: 700;
     font-size: 55px;
 }
 
@@ -5019,8 +5013,7 @@ img.zoomEffect:hover {
 .musique_atabaque h2 {
     margin-top: 75px;
     text-transform: uppercase;
-    font-weight: 800;
-    font-style: bold;
+    font-weight: 700;
     font-size: 55px;
 }
 
@@ -5066,7 +5059,7 @@ img.zoomEffect:hover {
 .lecteur4{
 	height: 40px;
 	display: inline-block;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	margin-top: 0px;
 	width: 420px;
 	padding: 0px;
@@ -5083,27 +5076,27 @@ audio {
     width: 100%;
     padding-bottom: 0px;
 }
-/*FIN MUSIQUE*/
+/*FIN HISTOIRE / La Capoeira - MUSIQUE*/
 
-/****** FIN HISTOIRE ******/
+/****** FIN HISTOIRE / La Capoeira ******/
 
 /******* Page GRUPO SENZALA **********/
 
-/*INTERNATIONAL / FR*/
+/* Page GRUPO SENZALA - INTERNATIONAL / FR*/
 
 .grupo_international p{
 			text-align: justify;
 		}
 
-.grupo_international_img img{
+.grupo_international_img{
 	float: left;
-	margin-bottom: 15px;
 	margin-left: 40px;
-	margin-top: 10px;
+	margin-top: 35px;
 }
 
-.grupo_international img {
-	margin-bottom: 25px;
+.grupo-senzala-img{
+	width: 910px;
+	margin-bottom: 15px;
 }
 
 .grupo_international_txt {
@@ -5114,13 +5107,12 @@ audio {
 
 .grupo_international_txt h1 {
 	font-size: 45px;
-	font-weight: 200;
-	color: #FDB92D;
+	font-weight: 100;
+	color: #F9BB07;
 }
 
 .grupo_international_txt h2 {
-	color: #fff;
-	opacity: 0.6;
+	color: #D0D0D0;
 }
 
 .grupo_international_txt p {
@@ -5129,14 +5121,15 @@ audio {
 	border-bottom: 4px solid #F9BB07;
 }
 
-/* FIN INTERNATIONAL / FR*/
+/* FIN Page GRUPO SENZALA - INTERNATIONAL / FR*/
 
-/* MAÎTRE */
+/* Page GRUPO SENZALA - MAÎTRES */
 		.banana , .elias {
 			text-align: center;
 			width: 400px;
 			display: inline-block;
 			text-align: justify;
+			vertical-align: top;
 		}
 
 		.banana , .elias {
@@ -5145,12 +5138,12 @@ audio {
 
 		.banana h2 , .elias h2 {
 			text-transform: uppercase;
-			color: #FDB92D;
-			border-bottom: 4px solid #FDB92D;
+			color: #F9BB07;
+			border-bottom: 4px solid #F9BB07;
 		}
 
 		.banana a , .elias a {
-			color: #FDB92D;
+			color: #F9BB07;
 			margin: 15px;
 			text-decoration: none;
 		}
@@ -5172,14 +5165,20 @@ audio {
 		.portrait {
 			margin-top: 330px;
 			padding-left: 15px;
-			font-weight: 200;
-			color: #2b3033;
+			background-color: #F9BB07;
+		}
+
+		.portrait h3 {
+			font-weight: 400;
+			font-size: 18px;
+			vertical-align: middle;
+			color: #2B3033;
 			text-transform: uppercase;
-			background-color: #FDB92D;
+			padding: 5px;
 		}
 
 		.mestre_banana h1 , .mestre_elias h1 {
-			color: #FDB92D;
+			color: #F9BB07;
 			padding-left: 25px;
 			line-height: 0.9;
 			font-size: 45px;
@@ -5201,6 +5200,7 @@ audio {
 
 		.mestre_reseaux_sociaux{
 			margin: 200px 15px 0px 35px;
+			text-align: center;
 		}
 	
 
@@ -5217,9 +5217,14 @@ audio {
 		}
 
 		.list_mestre ul {
-			color: #d0d0d0;
-			border-top: 4px solid #FDB92D;
+			color: #D0D0D0;
+			border-top: 4px solid #F9BB07;
 			padding-top: 35px;
+		}
+
+		.content-masters{
+			display: inline-block;
+			width: 49%;
 		}
 /* FIN MAÎTRE*/
 
@@ -5288,7 +5293,7 @@ audio {
 /* Interaction Cues
 ----------------------------------*/
 .ui-state-disabled {
-    cursor: default !important;
+    cursor: pointer !important;
 }
 
 

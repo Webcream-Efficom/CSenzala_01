@@ -1,6 +1,7 @@
 /**
  * Lightbox v2.7.1
  * by Lokesh Dhakar - http://lokeshdhakar.com/projects/lightbox2/
+ * UTILISÉ POUR LA PAGE PRESSE / PHOTO DU SITE (CAPOEIRASENZALA78.FR)
  *
  * @license http://creativecommons.org/licenses/by/2.5/
  * - Free for use in both personal and commercial projects

@@ -1,4 +1,5 @@
 /*! jQuery UI - v1.10.4 - 2014-06-15
+* UTILISÉ POUR LA PAGE OU PRATIQUER DU SITE (CAPOEIRASENZALA78.FR)
 * http://jqueryui.com
 * Includes: jquery.ui.core.js, jquery.ui.widget.js, jquery.ui.accordion.js
 * Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
