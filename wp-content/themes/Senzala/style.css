@@ -1217,7 +1217,7 @@ ul.nav-menu .focus > ul,
 
 .entry-content img.alignleft,
 .entry-content .wp-caption.alignleft {
-	margin-left: -60px;
+	/*margin-left: -60px;*/
 }
 
 .entry-content img.alignright,
@@ -1798,7 +1798,7 @@ footer.entry-meta {
  */
 
 .attachment .hentry {
-	background-color: #e8e5ce;
+	/*background-color: #e8e5ce;*/
 	margin: 0;
 	padding: 0;
 }
@@ -1858,7 +1858,7 @@ footer.entry-meta {
 }
 
 .attachment .entry-content {
-	background-color: #fff;
+	/*background-color: #fff;*/
 	max-width: 100%;
 	padding: 40px 0;
 }
@@ -4234,6 +4234,7 @@ ul.text-tarif{
 	margin: 0;
 	color: #13191C;
 	font-weight: lighter;
+	font-size: 25px;
 }
 
 .container-button-tarif-left{
@@ -5098,6 +5099,13 @@ audio {
 	width: 910px;
 	margin-bottom: 15px;
 }
+
+.grupo-senzala-img-50ans{
+	width: 88px;
+	float: right;
+	margin-left: 10px;
+}
+
 
 .grupo_international_txt {
 	display: inline-block;
