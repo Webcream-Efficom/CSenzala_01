@@ -5109,11 +5109,14 @@ audio {
 }
 
 .grupo-senzala-img-50ans{
-	width: 88px;
-	float: right;
-	margin-left: 10px;
+	width: 65px;
+	float: left;
+	margin-right: 10px;
 }
 
+.logos-grupo-senzala {
+    width: 80px;
+}
 
 .grupo_international_txt {
 	display: inline-block;
