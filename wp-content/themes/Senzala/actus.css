@@ -82,7 +82,7 @@ option {
     background-color: #F9BB07;
     width: 585px;                         
     height: 450px;
-    overflow:auto;
+    overflow:hidden;
     position:absolute; 
     color:#13191c;
 }
@@ -90,6 +90,13 @@ option {
 .summary a {
     color:#13191c!important;
     font-weight: bold;
+}
+
+.summary_cont{
+
+    height: 345px;
+    overflow:auto !important;
+    margin-top: -10px;
 }
 
 /*Fil actu avec effet*/

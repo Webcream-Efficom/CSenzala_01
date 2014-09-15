@@ -120,6 +120,7 @@
         
     </div><!-- fin div class listes_deroulantes -->
     <div class="barre_noire"> </div>
+    <div class="summary_cont">
     <?php /* loop des summary */ ?>
     <?php /* La requete est effectuee sur le AND des deux categories selectionnees et renvoyees dans l'URI */ ?>
     <?php $query = new WP_Query(array( 'post_status' => array( 'publish', 'future' ), 'category__and' => array( $annee, $mois ) )  ); ?><!--version categories-->
@@ -153,6 +154,7 @@
     <?php endif; ?>
     <?php /* Restore original Post Data */ ?>
     <?php wp_reset_postdata(); ?><!-- new query -->
+    </div>
 </div><!-- id boite1, class summary -->
 
 <?php /* loop des details : actus puis importants */ ?>
