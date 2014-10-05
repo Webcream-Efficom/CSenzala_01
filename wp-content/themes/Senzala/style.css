@@ -5089,9 +5089,10 @@ audio {
 
 /****** FIN HISTOIRE / La Capoeira ******/
 
+
 /******* Page GRUPO SENZALA **********/
 
-/* Page GRUPO SENZALA - INTERNATIONAL / FR*/
+/* Page GRUPO SENZALA - INTERNATIONAL / FR / Le GROUPE */
 
 .grupo_international p{
 	text-align: justify;
@@ -5140,112 +5141,244 @@ audio {
 	border-bottom: 4px solid #F9BB07;
 }
 
-/* FIN Page GRUPO SENZALA - INTERNATIONAL / FR*/
+/* FIN Page GRUPO SENZALA - INTERNATIONAL / FR /  Le Groupe */
 
 /* Page GRUPO SENZALA - MAÎTRES */
-		.banana , .elias {
-			text-align: center;
-			width: 400px;
-			display: inline-block;
-			text-align: justify;
-			vertical-align: top;
-		}
+.banana , .elias {
+	text-align: center;
+	width: 400px;
+	display: inline-block;
+	text-align: justify;
+	vertical-align: top;
+}
 
-		.banana , .elias {
-			margin-left: 35px;
-		}
+.banana , .elias {
+	margin-left: 35px;
+}
 
-		.banana h2 , .elias h2 {
-			text-transform: uppercase;
-			color: #F9BB07;
-			border-bottom: 4px solid #F9BB07;
-		}
+.banana h2 , .elias h2 {
+	text-transform: uppercase;
+	color: #F9BB07;
+	border-bottom: 4px solid #F9BB07;
+}
 
-		.banana a , .elias a {
-			color: #F9BB07;
-			margin: 15px;
-			text-decoration: none;
-		}
+.banana a , .elias a {
+	color: #F9BB07;
+	margin: 15px;
+	text-decoration: none;
+}
 
-		.mestre_banana {
-			width: 400px;
-			height:700px;
-			background-image: url(images/images-pages/gruposenzala/maitres/banana.jpg);
-			display: inline-block;
-		}
+.mestre_banana {
+	width: 400px;
+	height:700px;
+	background-image: url(images/images-pages/gruposenzala/maitres/banana.jpg);
+	display: inline-block;
+}
 
-		.mestre_elias {
-			width: 400px;
-			height:700px;
-			background-image: url(images/images-pages/gruposenzala/maitres/elias.jpg);
-			display: inline-block;
-		}
+.mestre_elias {
+	width: 400px;
+	height:700px;
+	background-image: url(images/images-pages/gruposenzala/maitres/elias.jpg);
+	display: inline-block;
+}
 
-		.portrait {
-			margin-top: 330px;
-			padding-left: 15px;
-			background-color: #F9BB07;
-		}
+.portrait {
+	margin-top: 330px;
+	padding-left: 15px;
+	background-color: #F9BB07;
+}
 
-		.portrait h3 {
-			font-weight: 400;
-			font-size: 18px;
-			vertical-align: middle;
-			color: #2B3033;
-			text-transform: uppercase;
-			padding: 5px;
-		}
+.portrait h3 {
+	font-weight: 400;
+	font-size: 18px;
+	vertical-align: middle;
+	color: #2B3033;
+	text-transform: uppercase;
+	padding: 5px;
+	text-align: left;
+}
 
-		.mestre_banana h1 , .mestre_elias h1 {
-			color: #F9BB07;
-			padding-left: 25px;
-			line-height: 0.9;
-			font-size: 45px;
-			text-transform: uppercase;
-			opacity: 0.7;
-		}
+.mestre_banana h1 , .mestre_elias h1 {
+	color: #F9BB07;
+	padding-left: 25px;
+	line-height: 0.9;
+	font-size: 45px;
+	text-transform: uppercase;
+	opacity: 0.7;
+	text-align: left;
+}
 
-		.mestre_banana a {
-			opacity: 0.0;
-		}
+.mestre_banana a {
+	opacity: 0.0;
+}
 
-		.mestre_elias a {
-			opacity: 0.0;
-		}
+.mestre_elias a {
+	opacity: 0.0;
+}
 
-		.mestre_elias:hover a {
-			opacity: 1.0;
-		}
+.mestre_elias:hover a {
+	opacity: 1.0;
+}
 
-		.mestre_reseaux_sociaux{
-			margin: 200px 15px 0px 35px;
-			text-align: center;
-		}
-	
+.mestre_reseaux_sociaux{
+	margin: 200px 15px 0px 35px;
+	text-align: center;
+}
 
-		.mestre_banana:hover a {
-			opacity: 1.0;
-		}
 
-		.mestre_banana:hover {
-			background-image: url(images/images-pages/gruposenzala/maitres/banana_noir.jpg);
-		}
+.mestre_banana:hover a {
+	opacity: 1.0;
+}
 
-		.mestre_elias:hover {
-			background-image: url(images/images-pages/gruposenzala/maitres/elias_noir.jpg);
-		}
+.mestre_banana:hover {
+	background-image: url(images/images-pages/gruposenzala/maitres/banana_noir.jpg);
+}
 
-		.list_mestre ul {
-			color: #D0D0D0;
-			border-top: 4px solid #F9BB07;
-			padding-top: 35px;
-		}
+.mestre_elias:hover {
+	background-image: url(images/images-pages/gruposenzala/maitres/elias_noir.jpg);
+}
 
-		.content-masters{
-			display: inline-block;
-			width: 49%;
-		}
+.list_mestre ul {
+	color: #D0D0D0;
+	border-top: 4px solid #F9BB07;
+	padding-top: 35px;
+	text-align: left;
+}
+
+.content-masters{
+	display: inline-block;
+	width: 49%;
+}
+
+#deroul_maitre td{
+	text-align:center !important;
+	border:none !important;
+	width: 330px;
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+}
+
+#deroul_maitre table{
+	border:none !important;
+}
+
+#deroul_maitre p{
+	text-align: justify;
+}
+
+#deroul_maitre h6{
+	color: #f9bb07;
+	cursor: pointer;
+    float: left;
+    font-family: "Lato",Arial,sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    margin-left: 24px;
+    margin-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    margin-right: -70px;
+
+}
+
+#deroul_maitre h6:hover{
+	text-decoration: underline;
+	font-style: normal;
+}
+
+#deroul_maitre h2 {
+	text-transform: uppercase;
+    color: #F9BB07;
+    border-bottom: 4px solid #F9BB07;
+    text-align: left;
+    width: 400px;
+    margin-left: 24px;
+    margin-top: 15px;
+    font-family: 'Lato', Arial,sans-serif;
+}
+
+.debut_presentation {
+    width:400px;
+    margin-left: 24px;
+}
+
+.suite_presentation {
+    width:400px;
+    margin-left: 24px;
+    margin-top: -10px;
+
+}
+
 /* FIN MAÎTRE*/
+
+/* Page Page GRUPO SENZALA - GRADUATION */
+
+.left-container-graduation{
+	width: 49%;
+	display: inline-block;
+	text-align: center;
+	margin-right: 15px;
+	vertical-align: top;
+}
+
+.right-container-graduation{
+	width: 49%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+
+.center-container-graduation{
+	width: 49%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.title-graduation{
+	margin-top: 5px;
+	color: #D0D0D0;
+	margin-bottom: 30px;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.sub-title-masters{
+	margin-top: -20px;
+	color: #D0D0D0;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.img-graduation{
+	width: 50%;
+}
+
+.sub-text-graduation{
+	text-align: justify;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.txt-intro-graduation{
+	text-align: center;
+}
+
+.graduation-container{
+
+}
+
+.testimonials ul li{
+    display: block;
+    margin-left: -40px;
+    margin-bottom: 30px;
+}
+
+/* Fin de Page GRUPO SENZALA - GRADUATION */
 
 /****** Fin de la page GRUPO SENZALA *******/
 

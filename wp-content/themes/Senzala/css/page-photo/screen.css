@@ -1,49 +1,38 @@
 /* code pour lightbox */
 
 /* position de la secton = img */
-section{border-top:2px solid #f2f2f2;text-align:center;padding:2rem 0}
-section:first-of-type{border-top:none}
 
-.example-image-link{
-	display:inline-block;
-	/*padding:4px;*/ /* taille du bord bleu hover */
-	/*margin:0 0.5rem 1rem 0.5rem;*/
-	margin-right: 45px;
-	line-height:0;
-	-webkit-transition:background
-	-color 0.1s ease-out;
-	-moz-transition:background
-	-color 0.1s ease-out;
-	-o-transition:background
-	-color 0.1s ease-out;
-	transition:background-color 0.1s ease-out;
-	-webkit-border-radius:6px;
-	-moz-border-radius:6px;
-	-ms-border-radius:6px;
-	-o-border-radius:6px;
-	border-radius:6px}
-
-
-.example-image-link:hover{ /* couleur du bord hover */
-	background-color:#F9BB07
+.example - image - link {
+    display: inline - block;
+    /*padding:4px;*/
+    /* taille du bord bleu hover */
+    /*margin:0 0.5rem 1rem 0.5rem;*/
+    margin - right: 45 px;
+    line - height: 0; - webkit - transition: background - color 0.1 s ease - out; - moz - transition: background - color 0.1 s ease - out; - o - transition: background - color 0.1 s ease - out;
+    transition: background - color 0.1 s ease - out; - webkit - border - radius: 6 px; - moz - border - radius: 6 px; - ms - border - radius: 6 px; - o - border - radius: 6 px;
+    border - radius: 6 px
 }
 
 
-.example-image{ /* taille de la vignette */
-	width:130px;
-	height: 97,5px;
+.example - image - link: hover { /* couleur du bord hover */
+    background - color: #F9BB07
 }
 
-.example-image-presse{ /* taille de la vignette dans la page Presse */
-	width: 75%;
-	padding-top: 5px;
+
+.example - image { /* taille de la vignette */
+    width: 130 px;
+    height: 97,
+    5 px;
 }
 
-.example-image-presse-2{ /* taille de la vignette dans la page Presse (image de chatou magazine)*/
-	width: 58%;
-	padding-top: 3px;
+.example - image - presse { /* taille de la vignette dans la page Presse */
+    width: 75 % ;
+    padding - top: 5 px;
+}
+
+.example - image - presse - 2 { /* taille de la vignette dans la page Presse (image de chatou magazine)*/
+    width: 58 % ;
+    padding - top: 3 px;
 }
 
 /* fin code pour lightbox */
-
-

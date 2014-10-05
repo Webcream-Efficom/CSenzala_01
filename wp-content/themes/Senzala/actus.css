@@ -18,8 +18,9 @@
 }
 
 .titre_page_actu {
-    width: 952px;
-    margin-left: 158px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 32px;
 }
 

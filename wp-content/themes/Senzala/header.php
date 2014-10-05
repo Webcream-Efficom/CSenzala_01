@@ -41,6 +41,13 @@
   <meta property="og:url" content="http://localhost:8888/CSenzala_01/" />
 	-->
 
+  <!-- Effets de la page (onglet) Graduation -->
+  <script type="text/javascript" src="../wp-content/themes/Senzala/js/graduation/jquery.js"></script>
+  <script type="text/javascript" src="../wp-content/themes/Senzala/js/graduation/fancybox.js"></script>
+  <script type="text/javascript" src="../wp-content/themes/Senzala/js/graduation/wow.js"></script>
+  <script type="text/javascript" src="../wp-content/themes/Senzala/js/graduation/main.js"></script>
+  <link rel="stylesheet" type="text/css" href="../wp-content/themes/Senzala/css/graduation/animate.css">
+
   <!-- Google Formulaire - Landing Page Inscription -->
   <link rel="stylesheet" type="text/css" href="../wp-content/themes/Senzala/css/googleform/stylegoogleform.css">
   <script type="text/javascript">

@@ -2935,7 +2935,7 @@ td.goog-date-picker-selected{
 
 .ss-gridnumbers{
 	text-align:center;
-	border-bottom:1px solid #d3d8d3
+	border-bottom:1px solid #13191C
 }
 
 .ss-gridnumber{
@@ -2945,8 +2945,7 @@ td.goog-date-picker-selected{
 
 .ss-gridrow{
 	text-align:center;
-	color:#666;
-	border-bottom:1px solid #d3d8d3;
+	border-bottom:1px solid #13191C;
 	padding:0
 }
 
@@ -2959,11 +2958,13 @@ td.goog-date-picker-selected{
 }
 
 .ss-grid-row-even{
-	background-color:#fff
+	background-color:#866a11;
+	color:#F9BB07;
 }
 
 .ss-grid-row-odd{
-	background-color:#f2f2f2
+	background-color:#F9BB07;
+	color: #13191C;
 }
 
 .ss-gridrow-leftlabel{
